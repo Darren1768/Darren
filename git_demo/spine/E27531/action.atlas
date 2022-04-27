@@ -1,0 +1,215 @@
+
+action.png
+size: 1022,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: true
+  xy: 613, 225
+  size: 181, 227
+  orig: 185, 240
+  offset: 0, 12
+  index: -1
+00
+  rotate: true
+  xy: 608, 42
+  size: 181, 240
+  orig: 185, 240
+  offset: 4, 0
+  index: -1
+b
+  rotate: true
+  xy: 608, 42
+  size: 181, 240
+  orig: 185, 240
+  offset: 4, 0
+  index: -1
+a
+  rotate: false
+  xy: 850, 12
+  size: 150, 150
+  orig: 720, 1280
+  offset: 285, 565
+  index: -1
+c_0002
+  rotate: false
+  xy: 411, 46
+  size: 195, 260
+  orig: 720, 720
+  offset: 262, 235
+  index: -1
+c_0003
+  rotate: false
+  xy: 613, 408
+  size: 197, 265
+  orig: 720, 720
+  offset: 259, 229
+  index: -1
+c_0004
+  rotate: false
+  xy: 812, 424
+  size: 197, 262
+  orig: 720, 720
+  offset: 259, 229
+  index: -1
+d_0000
+  rotate: false
+  xy: 233, 308
+  size: 186, 355
+  orig: 720, 1280
+  offset: 282, 459
+  index: -1
+d_0001
+  rotate: false
+  xy: 0, 665
+  size: 233, 356
+  orig: 720, 1280
+  offset: 234, 458
+  index: -1
+d_0002
+  rotate: false
+  xy: 235, 668
+  size: 235, 353
+  orig: 720, 1280
+  offset: 230, 460
+  index: -1
+d_0003
+  rotate: false
+  xy: 0, 313
+  size: 231, 350
+  orig: 720, 1280
+  offset: 231, 461
+  index: -1
+d_0004
+  rotate: false
+  xy: 472, 675
+  size: 224, 346
+  orig: 720, 1280
+  offset: 232, 463
+  index: -1
+d_0005
+  rotate: false
+  xy: 698, 688
+  size: 216, 333
+  orig: 720, 1280
+  offset: 233, 470
+  index: -1
+d_0006
+  rotate: false
+  xy: 0, 0
+  size: 204, 311
+  orig: 720, 1280
+  offset: 235, 481
+  index: -1
+d_0007
+  rotate: false
+  xy: 421, 383
+  size: 190, 283
+  orig: 720, 1280
+  offset: 237, 495
+  index: -1
+d_0008
+  rotate: false
+  xy: 850, 164
+  size: 172, 258
+  orig: 720, 1280
+  offset: 240, 504
+  index: -1
+d_0011
+  rotate: false
+  xy: 206, 22
+  size: 203, 284
+  orig: 720, 1280
+  offset: 267, 524
+  index: -1
+e
+  rotate: false
+  xy: 916, 860
+  size: 99, 161
+  orig: 720, 1280
+  offset: 311, 565
+  index: -1
+
+action2.png
+size: 965,569
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c_0000
+  rotate: true
+  xy: 249, 396
+  size: 173, 222
+  orig: 720, 720
+  offset: 274, 248
+  index: -1
+c_0001
+  rotate: true
+  xy: 0, 237
+  size: 186, 246
+  orig: 720, 720
+  offset: 268, 248
+  index: -1
+c_0005
+  rotate: true
+  xy: 493, 0
+  size: 192, 260
+  orig: 720, 720
+  offset: 261, 229
+  index: -1
+c_0006
+  rotate: true
+  xy: 235, 1
+  size: 191, 256
+  orig: 720, 720
+  offset: 262, 230
+  index: -1
+c_0007
+  rotate: true
+  xy: 477, 194
+  size: 190, 247
+  orig: 720, 720
+  offset: 264, 234
+  index: -1
+c_0008
+  rotate: true
+  xy: 726, 194
+  size: 190, 239
+  orig: 720, 720
+  offset: 266, 239
+  index: -1
+c_0009
+  rotate: true
+  xy: 248, 202
+  size: 187, 227
+  orig: 720, 720
+  offset: 267, 248
+  index: -1
+c_0010
+  rotate: true
+  xy: 700, 386
+  size: 183, 228
+  orig: 720, 720
+  offset: 269, 246
+  index: -1
+c_0011
+  rotate: true
+  xy: 473, 391
+  size: 178, 225
+  orig: 720, 720
+  offset: 272, 246
+  index: -1
+d_0009
+  rotate: true
+  xy: 0, 425
+  size: 144, 247
+  orig: 720, 1280
+  offset: 247, 512
+  index: -1
+d_0010
+  rotate: true
+  xy: 0, 24
+  size: 211, 233
+  orig: 720, 1280
+  offset: 256, 522
+  index: -1

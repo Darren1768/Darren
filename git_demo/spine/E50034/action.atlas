@@ -1,0 +1,146 @@
+
+action.png
+size: 631,631
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gongji0000
+  rotate: true
+  xy: 371, 351
+  size: 113, 82
+  orig: 260, 195
+  offset: 66, 49
+  index: -1
+gongji0001
+  rotate: false
+  xy: 501, 5
+  size: 130, 104
+  orig: 260, 195
+  offset: 58, 37
+  index: -1
+gongji0002
+  rotate: true
+  xy: 517, 218
+  size: 135, 107
+  orig: 260, 195
+  offset: 54, 38
+  index: -1
+gongji0004
+  rotate: true
+  xy: 291, 207
+  size: 137, 120
+  orig: 260, 195
+  offset: 35, 50
+  index: -1
+gongji0006
+  rotate: true
+  xy: 175, 200
+  size: 144, 116
+  orig: 260, 195
+  offset: 30, 56
+  index: -1
+gongji0007
+  rotate: false
+  xy: 0, 487
+  size: 233, 144
+  orig: 260, 195
+  offset: 19, 22
+  index: -1
+gongji0008
+  rotate: false
+  xy: 0, 361
+  size: 186, 126
+  orig: 260, 195
+  offset: 53, 42
+  index: -1
+gongji0010
+  rotate: false
+  xy: 453, 353
+  size: 135, 111
+  orig: 260, 195
+  offset: 55, 55
+  index: -1
+gongji0011
+  rotate: false
+  xy: 186, 344
+  size: 185, 135
+  orig: 260, 195
+  offset: 28, 31
+  index: -1
+gongji0012
+  rotate: false
+  xy: 233, 479
+  size: 194, 152
+  orig: 260, 195
+  offset: 37, 14
+  index: -1
+gongji0013
+  rotate: true
+  xy: 290, 43
+  size: 157, 129
+  orig: 260, 195
+  offset: 72, 23
+  index: -1
+gongji0015
+  rotate: false
+  xy: 517, 125
+  size: 107, 93
+  orig: 260, 195
+  offset: 75, 41
+  index: -1
+gongji0016
+  rotate: true
+  xy: 419, 2
+  size: 107, 82
+  orig: 260, 195
+  offset: 74, 45
+  index: -1
+shouji0000
+  rotate: false
+  xy: 419, 109
+  size: 95, 91
+  orig: 195, 195
+  offset: 47, 53
+  index: -1
+shouji0001
+  rotate: false
+  xy: 0, 41
+  size: 155, 158
+  orig: 195, 195
+  offset: 18, 21
+  index: -1
+shouji0002
+  rotate: true
+  xy: 0, 199
+  size: 162, 175
+  orig: 195, 195
+  offset: 15, 13
+  index: -1
+shouji0003
+  rotate: true
+  xy: 427, 464
+  size: 167, 191
+  orig: 195, 195
+  offset: 11, 4
+  index: -1
+shouji0004
+  rotate: true
+  xy: 155, 42
+  size: 157, 135
+  orig: 195, 195
+  offset: 17, 51
+  index: -1
+shouji0005
+  rotate: true
+  xy: 411, 200
+  size: 151, 106
+  orig: 195, 195
+  offset: 20, 49
+  index: -1
+shouji0006
+  rotate: true
+  xy: 618, 482
+  size: 149, 10
+  orig: 195, 195
+  offset: 15, 144
+  index: -1

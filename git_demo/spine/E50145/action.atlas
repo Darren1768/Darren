@@ -1,0 +1,146 @@
+
+action.png
+size: 719,573
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_0000
+  rotate: true
+  xy: 0, 429
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0002
+  rotate: true
+  xy: 0, 283
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0004
+  rotate: true
+  xy: 0, 137
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0006
+  rotate: false
+  xy: 0, 0
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0008
+  rotate: true
+  xy: 137, 429
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0010
+  rotate: true
+  xy: 137, 283
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0012
+  rotate: true
+  xy: 137, 137
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0014
+  rotate: false
+  xy: 146, 0
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0016
+  rotate: true
+  xy: 274, 429
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0018
+  rotate: true
+  xy: 274, 283
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0020
+  rotate: true
+  xy: 274, 137
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0022
+  rotate: false
+  xy: 292, 0
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0024
+  rotate: false
+  xy: 411, 438
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0026
+  rotate: true
+  xy: 411, 292
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0028
+  rotate: true
+  xy: 411, 146
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0030
+  rotate: true
+  xy: 438, 0
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0032
+  rotate: false
+  xy: 548, 301
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0034
+  rotate: false
+  xy: 557, 438
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0036
+  rotate: true
+  xy: 548, 155
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1
+buff_0038
+  rotate: false
+  xy: 575, 18
+  size: 144, 135
+  orig: 317, 317
+  offset: 103, 73
+  index: -1

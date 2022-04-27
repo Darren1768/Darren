@@ -1,0 +1,153 @@
+
+action.png
+size: 717,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiaa_0000
+  rotate: false
+  xy: 318, 384
+  size: 158, 135
+  orig: 720, 720
+  offset: 279, 313
+  index: -1
+jiab_0010
+  rotate: false
+  xy: 497, 17
+  size: 61, 14
+  orig: 720, 720
+  offset: 344, 317
+  index: -1
+jiab_0012
+  rotate: true
+  xy: 308, 1
+  size: 123, 41
+  orig: 720, 720
+  offset: 300, 314
+  index: -1
+jiab_0014
+  rotate: false
+  xy: 463, 178
+  size: 136, 59
+  orig: 720, 720
+  offset: 292, 314
+  index: -1
+jiab_0016
+  rotate: false
+  xy: 1, 4
+  size: 143, 81
+  orig: 720, 720
+  offset: 287, 314
+  index: -1
+jiab_0018
+  rotate: true
+  xy: 617, 231
+  size: 147, 99
+  orig: 720, 720
+  offset: 285, 315
+  index: -1
+jiab_0020
+  rotate: false
+  xy: 160, 126
+  size: 148, 110
+  orig: 720, 720
+  offset: 284, 318
+  index: -1
+jiab_0022
+  rotate: false
+  xy: 159, 18
+  size: 147, 106
+  orig: 720, 720
+  offset: 284, 330
+  index: -1
+jiab_0024
+  rotate: false
+  xy: 318, 145
+  size: 143, 94
+  orig: 720, 720
+  offset: 286, 345
+  index: -1
+jiab_0026
+  rotate: true
+  xy: 632, 380
+  size: 139, 76
+  orig: 720, 720
+  offset: 288, 364
+  index: -1
+jiab_0028
+  rotate: true
+  xy: 640, 101
+  size: 128, 56
+  orig: 720, 720
+  offset: 292, 384
+  index: -1
+liu_0000
+  rotate: false
+  xy: 471, 239
+  size: 144, 140
+  orig: 720, 720
+  offset: 283, 308
+  index: -1
+liu_0001
+  rotate: true
+  xy: 497, 33
+  size: 143, 141
+  orig: 720, 720
+  offset: 285, 307
+  index: -1
+liu_0002
+  rotate: false
+  xy: 478, 381
+  size: 152, 138
+  orig: 720, 720
+  offset: 280, 307
+  index: -1
+liu_0003
+  rotate: false
+  xy: 160, 238
+  size: 156, 137
+  orig: 720, 720
+  offset: 280, 307
+  index: -1
+liu_0004
+  rotate: false
+  xy: 160, 377
+  size: 156, 142
+  orig: 720, 720
+  offset: 280, 307
+  index: -1
+liu_0005
+  rotate: false
+  xy: 1, 231
+  size: 157, 142
+  orig: 720, 720
+  offset: 280, 306
+  index: -1
+liu_0006
+  rotate: false
+  xy: 1, 375
+  size: 157, 144
+  orig: 720, 720
+  offset: 281, 305
+  index: -1
+liu_0007
+  rotate: false
+  xy: 1, 87
+  size: 156, 142
+  orig: 720, 720
+  offset: 281, 308
+  index: -1
+liu_0008
+  rotate: false
+  xy: 318, 241
+  size: 151, 141
+  orig: 720, 720
+  offset: 280, 308
+  index: -1
+liu_0009
+  rotate: false
+  xy: 351, 1
+  size: 144, 142
+  orig: 720, 720
+  offset: 281, 307
+  index: -1

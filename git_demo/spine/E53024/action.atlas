@@ -1,0 +1,118 @@
+
+action.png
+size: 621,362
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zidana_0000
+  rotate: false
+  xy: 539, 220
+  size: 68, 141
+  orig: 232, 261
+  offset: 75, 77
+  index: -1
+zidana_0001
+  rotate: true
+  xy: 474, 39
+  size: 75, 141
+  orig: 232, 261
+  offset: 75, 77
+  index: -1
+zidana_0002
+  rotate: false
+  xy: 384, 26
+  size: 88, 148
+  orig: 232, 261
+  offset: 70, 70
+  index: -1
+zidana_0003
+  rotate: false
+  xy: 141, 1
+  size: 101, 166
+  orig: 232, 261
+  offset: 63, 52
+  index: -1
+zidana_0004
+  rotate: false
+  xy: 281, 176
+  size: 116, 185
+  orig: 232, 261
+  offset: 56, 33
+  index: -1
+zidana_0005
+  rotate: false
+  xy: 1, 158
+  size: 68, 203
+  orig: 232, 261
+  offset: 75, 15
+  index: -1
+zidana_0006
+  rotate: false
+  xy: 71, 163
+  size: 68, 198
+  orig: 232, 261
+  offset: 75, 20
+  index: -1
+zidana_0007
+  rotate: false
+  xy: 141, 169
+  size: 68, 192
+  orig: 232, 261
+  offset: 75, 26
+  index: -1
+zidana_0008
+  rotate: false
+  xy: 211, 175
+  size: 68, 186
+  orig: 232, 261
+  offset: 75, 32
+  index: -1
+zidana_0009
+  rotate: false
+  xy: 399, 180
+  size: 68, 181
+  orig: 232, 261
+  offset: 75, 37
+  index: -1
+zidana_0010
+  rotate: false
+  xy: 469, 186
+  size: 68, 175
+  orig: 232, 261
+  offset: 75, 43
+  index: -1
+zidana_0011
+  rotate: false
+  xy: 244, 4
+  size: 68, 169
+  orig: 232, 261
+  offset: 75, 49
+  index: -1
+zidana_0012
+  rotate: false
+  xy: 314, 11
+  size: 68, 163
+  orig: 232, 261
+  offset: 75, 55
+  index: -1
+zidana_0013
+  rotate: false
+  xy: 71, 3
+  size: 68, 158
+  orig: 232, 261
+  offset: 75, 60
+  index: -1
+zidana_0014
+  rotate: false
+  xy: 1, 4
+  size: 68, 152
+  orig: 232, 261
+  offset: 75, 66
+  index: -1
+zidana_0015
+  rotate: true
+  xy: 474, 116
+  size: 68, 146
+  orig: 232, 261
+  offset: 75, 72
+  index: -1

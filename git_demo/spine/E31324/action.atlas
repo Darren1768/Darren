@@ -1,0 +1,153 @@
+
+action.png
+size: 340,265
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 206, 137
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 122, 141
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+12
+  rotate: true
+  xy: 195, 173
+  size: 92, 60
+  orig: 92, 60
+  offset: 0, 0
+  index: -1
+122
+  rotate: false
+  xy: 257, 230
+  size: 83, 35
+  orig: 83, 35
+  offset: 0, 0
+  index: -1
+13
+  rotate: true
+  xy: 122, 171
+  size: 94, 71
+  orig: 94, 71
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 167, 141
+  size: 37, 28
+  orig: 37, 28
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 260, 6
+  size: 64, 52
+  orig: 64, 52
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 257, 162
+  size: 76, 66
+  orig: 76, 66
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 210, 52
+  size: 49, 38
+  orig: 49, 38
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 250, 60
+  size: 37, 49
+  orig: 37, 49
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 257, 99
+  size: 61, 67
+  orig: 61, 67
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 301, 69
+  size: 23, 28
+  orig: 23, 28
+  offset: 0, 0
+  index: -1
+a
+  rotate: true
+  xy: 0, 3
+  size: 99, 34
+  orig: 99, 34
+  offset: 0, 0
+  index: -1
+b
+  rotate: false
+  xy: 36, 0
+  size: 18, 8
+  orig: 18, 8
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 56, 2
+  size: 27, 6
+  orig: 27, 6
+  offset: 0, 0
+  index: -1
+d
+  rotate: true
+  xy: 231, 103
+  size: 68, 24
+  orig: 68, 24
+  offset: 0, 0
+  index: -1
+e2_0000
+  rotate: true
+  xy: 36, 10
+  size: 125, 83
+  orig: 500, 500
+  offset: 90, 218
+  index: -1
+e3
+  rotate: false
+  xy: 210, 0
+  size: 48, 50
+  orig: 720, 720
+  offset: 337, 334
+  index: -1
+e4
+  rotate: true
+  xy: 121, 11
+  size: 124, 87
+  orig: 500, 500
+  offset: 139, 207
+  index: -1
+e_light
+  rotate: true
+  xy: 36, 137
+  size: 128, 84
+  orig: 300, 300
+  offset: 86, 130
+  index: -1
+shadow2222
+  rotate: true
+  xy: 0, 104
+  size: 161, 34
+  orig: 161, 34
+  offset: 0, 0
+  index: -1

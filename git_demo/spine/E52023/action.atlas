@@ -1,0 +1,83 @@
+
+action.png
+size: 163,163
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dieeyes_0000
+  rotate: false
+  xy: 41, 116
+  size: 41, 47
+  orig: 216, 216
+  offset: 87, 111
+  index: -1
+dieeyes_0004
+  rotate: false
+  xy: 0, 20
+  size: 41, 47
+  orig: 216, 216
+  offset: 87, 112
+  index: -1
+dieeyes_0008
+  rotate: false
+  xy: 41, 69
+  size: 41, 47
+  orig: 216, 216
+  offset: 87, 112
+  index: -1
+dieeyes_0012
+  rotate: false
+  xy: 0, 115
+  size: 41, 48
+  orig: 216, 216
+  offset: 87, 110
+  index: -1
+dieeyes_0016
+  rotate: false
+  xy: 82, 116
+  size: 41, 47
+  orig: 216, 216
+  offset: 87, 112
+  index: -1
+dieeyes_0020
+  rotate: false
+  xy: 123, 116
+  size: 40, 47
+  orig: 216, 216
+  offset: 87, 112
+  index: -1
+dieeyes_0024
+  rotate: false
+  xy: 41, 22
+  size: 41, 47
+  orig: 216, 216
+  offset: 87, 112
+  index: -1
+dieeyes_0028
+  rotate: false
+  xy: 82, 69
+  size: 41, 47
+  orig: 216, 216
+  offset: 87, 111
+  index: -1
+dieeyes_0032
+  rotate: false
+  xy: 82, 23
+  size: 41, 46
+  orig: 216, 216
+  offset: 87, 112
+  index: -1
+dieeyes_0036
+  rotate: false
+  xy: 123, 69
+  size: 40, 47
+  orig: 216, 216
+  offset: 87, 112
+  index: -1
+dieeyes_0039
+  rotate: false
+  xy: 0, 67
+  size: 41, 48
+  orig: 216, 216
+  offset: 87, 110
+  index: -1

@@ -1,0 +1,104 @@
+
+action.png
+size: 1008,643
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoquana_0000
+  rotate: false
+  xy: 731, 527
+  size: 267, 116
+  orig: 400, 320
+  offset: 71, 92
+  index: -1
+baoquanb_0000
+  rotate: true
+  xy: 567, 18
+  size: 278, 121
+  orig: 400, 319
+  offset: 64, 86
+  index: -1
+dizhena_0000
+  rotate: false
+  xy: 0, 12
+  size: 335, 146
+  orig: 450, 243
+  offset: 60, 35
+  index: -1
+dizhenb_0001
+  rotate: true
+  xy: 0, 160
+  size: 483, 294
+  orig: 996, 539
+  offset: 254, 120
+  index: -1
+xuanwoju_0000
+  rotate: true
+  xy: 587, 302
+  size: 341, 142
+  orig: 500, 399
+  offset: 86, 54
+  index: -1
+xuanwoju_0003
+  rotate: true
+  xy: 442, 298
+  size: 345, 143
+  orig: 500, 399
+  offset: 73, 50
+  index: -1
+xuanwoju_0006
+  rotate: true
+  xy: 296, 297
+  size: 346, 144
+  orig: 500, 399
+  offset: 83, 52
+  index: -1
+xuanwoju_0009
+  rotate: false
+  xy: 296, 164
+  size: 269, 131
+  orig: 500, 399
+  offset: 108, 60
+  index: -1
+xuanwoju_0012
+  rotate: false
+  xy: 731, 421
+  size: 253, 104
+  orig: 500, 399
+  offset: 124, 77
+  index: -1
+xuanwoju_0015
+  rotate: false
+  xy: 731, 321
+  size: 239, 98
+  orig: 500, 399
+  offset: 141, 79
+  index: -1
+xuanwoju_0018
+  rotate: false
+  xy: 337, 68
+  size: 228, 94
+  orig: 500, 399
+  offset: 148, 82
+  index: -1
+xuanwoju_0021
+  rotate: false
+  xy: 731, 219
+  size: 226, 100
+  orig: 500, 399
+  offset: 147, 78
+  index: -1
+xuanwoju_0024
+  rotate: true
+  xy: 690, 0
+  size: 217, 101
+  orig: 500, 399
+  offset: 152, 76
+  index: -1
+xuanwoju_0027
+  rotate: false
+  xy: 793, 116
+  size: 215, 101
+  orig: 500, 399
+  offset: 158, 75
+  index: -1

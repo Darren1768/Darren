@@ -1,0 +1,160 @@
+
+action.png
+size: 902,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dimian0000
+  rotate: true
+  xy: 747, 179
+  size: 68, 38
+  orig: 263, 158
+  offset: 96, 55
+  index: -1
+dimian0001
+  rotate: false
+  xy: 421, 320
+  size: 178, 99
+  orig: 263, 158
+  offset: 41, 20
+  index: -1
+dimian0002
+  rotate: true
+  xy: 1, 263
+  size: 260, 138
+  orig: 263, 158
+  offset: 0, 0
+  index: -1
+dimian0003
+  rotate: true
+  xy: 1, 1
+  size: 260, 138
+  orig: 263, 158
+  offset: 0, 0
+  index: -1
+dimian0004
+  rotate: true
+  xy: 141, 263
+  size: 260, 138
+  orig: 263, 158
+  offset: 0, 0
+  index: -1
+dimian0006
+  rotate: true
+  xy: 141, 1
+  size: 260, 138
+  orig: 263, 158
+  offset: 0, 0
+  index: -1
+dimian0008
+  rotate: true
+  xy: 281, 263
+  size: 260, 138
+  orig: 263, 158
+  offset: 0, 0
+  index: -1
+dimian0010
+  rotate: true
+  xy: 281, 5
+  size: 256, 138
+  orig: 263, 158
+  offset: 2, 0
+  index: -1
+dimian0012
+  rotate: false
+  xy: 421, 421
+  size: 203, 102
+  orig: 263, 158
+  offset: 26, 29
+  index: -1
+dimian0014
+  rotate: false
+  xy: 626, 421
+  size: 203, 102
+  orig: 263, 158
+  offset: 26, 29
+  index: -1
+dimian0016
+  rotate: true
+  xy: 813, 227
+  size: 187, 84
+  orig: 263, 158
+  offset: 42, 29
+  index: -1
+liuti0000
+  rotate: false
+  xy: 831, 416
+  size: 70, 107
+  orig: 158, 210
+  offset: 35, 9
+  index: -1
+liuti0001
+  rotate: true
+  xy: 421, 216
+  size: 102, 162
+  orig: 158, 210
+  offset: 32, 5
+  index: -1
+liuti0002
+  rotate: true
+  xy: 601, 316
+  size: 103, 161
+  orig: 158, 210
+  offset: 31, 10
+  index: -1
+liuti0003
+  rotate: false
+  xy: 787, 67
+  size: 103, 158
+  orig: 158, 210
+  offset: 31, 15
+  index: -1
+liuti0004
+  rotate: true
+  xy: 421, 8
+  size: 103, 155
+  orig: 158, 210
+  offset: 30, 20
+  index: -1
+liuti0005
+  rotate: false
+  xy: 583, 47
+  size: 98, 163
+  orig: 158, 210
+  offset: 29, 14
+  index: -1
+liuti0007
+  rotate: true
+  xy: 421, 113
+  size: 101, 160
+  orig: 158, 210
+  offset: 28, 21
+  index: -1
+liuti0009
+  rotate: true
+  xy: 585, 212
+  size: 102, 160
+  orig: 158, 210
+  offset: 27, 24
+  index: -1
+liuti0011
+  rotate: false
+  xy: 683, 19
+  size: 87, 158
+  orig: 158, 210
+  offset: 27, 30
+  index: -1
+liuti0013
+  rotate: true
+  xy: 764, 335
+  size: 84, 47
+  orig: 158, 210
+  offset: 29, 85
+  index: -1
+liuti0015
+  rotate: true
+  xy: 764, 249
+  size: 84, 47
+  orig: 158, 210
+  offset: 29, 87
+  index: -1

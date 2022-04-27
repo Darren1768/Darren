@@ -1,0 +1,27 @@
+
+action.png
+size: 282,99
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bu
+  rotate: true
+  xy: 1, 1
+  size: 97, 94
+  orig: 97, 94
+  offset: 0, 0
+  index: -1
+jiandao
+  rotate: false
+  xy: 97, 2
+  size: 93, 96
+  orig: 93, 96
+  offset: 0, 0
+  index: -1
+stong
+  rotate: true
+  xy: 192, 4
+  size: 94, 89
+  orig: 94, 89
+  offset: 0, 0
+  index: -1

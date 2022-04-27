@@ -1,0 +1,174 @@
+
+action.png
+size: 977,722
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhuahena_0000
+  rotate: false
+  xy: 593, 179
+  size: 85, 85
+  orig: 315, 315
+  offset: 15, 147
+  index: -1
+zhuahena_0001
+  rotate: true
+  xy: 283, 235
+  size: 241, 135
+  orig: 315, 315
+  offset: 26, 98
+  index: -1
+zhuahena_0002
+  rotate: true
+  xy: 222, 478
+  size: 242, 167
+  orig: 315, 315
+  offset: 30, 67
+  index: -1
+zhuahena_0003
+  rotate: true
+  xy: 567, 497
+  size: 223, 167
+  orig: 315, 315
+  offset: 52, 64
+  index: -1
+zhuahena_0004
+  rotate: false
+  xy: 544, 2
+  size: 191, 164
+  orig: 315, 315
+  offset: 92, 68
+  index: -1
+zhuahena_0005
+  rotate: true
+  xy: 626, 301
+  size: 194, 154
+  orig: 315, 315
+  offset: 95, 71
+  index: -1
+zhuahena_0006
+  rotate: false
+  xy: 112, 11
+  size: 202, 111
+  orig: 315, 315
+  offset: 92, 73
+  index: -1
+zhuahena_0007
+  rotate: false
+  xy: 807, 106
+  size: 168, 79
+  orig: 315, 315
+  offset: 130, 73
+  index: -1
+zhuahena_0008
+  rotate: false
+  xy: 283, 125
+  size: 159, 108
+  orig: 315, 315
+  offset: 127, 74
+  index: -1
+zhuahenb_0000
+  rotate: true
+  xy: 316, 20
+  size: 103, 76
+  orig: 315, 315
+  offset: 33, 187
+  index: -1
+zhuahenb_0001
+  rotate: true
+  xy: 391, 491
+  size: 229, 174
+  orig: 315, 315
+  offset: 40, 86
+  index: -1
+zhuahenb_0002
+  rotate: true
+  xy: 420, 266
+  size: 223, 204
+  orig: 315, 315
+  offset: 43, 60
+  index: -1
+zhuahenb_0003
+  rotate: false
+  xy: 736, 529
+  size: 204, 191
+  orig: 315, 315
+  offset: 67, 58
+  index: -1
+zhuahenb_0004
+  rotate: true
+  xy: 782, 361
+  size: 166, 181
+  orig: 315, 315
+  offset: 113, 63
+  index: -1
+zhuahenb_0005
+  rotate: true
+  xy: 782, 187
+  size: 172, 178
+  orig: 315, 315
+  offset: 115, 63
+  index: -1
+zhuahenb_0006
+  rotate: false
+  xy: 394, 21
+  size: 148, 102
+  orig: 315, 315
+  offset: 147, 63
+  index: -1
+zhuahenb_0007
+  rotate: false
+  xy: 807, 23
+  size: 152, 81
+  orig: 315, 315
+  offset: 147, 63
+  index: -1
+zhuahenb_0008
+  rotate: false
+  xy: 444, 168
+  size: 147, 96
+  orig: 315, 315
+  offset: 130, 63
+  index: -1
+zhuahenc_0000
+  rotate: true
+  xy: 737, 14
+  size: 171, 68
+  orig: 350, 175
+  offset: 0, 66
+  index: -1
+zhuahenc_0002
+  rotate: true
+  xy: 2, 384
+  size: 336, 105
+  orig: 350, 175
+  offset: 12, 39
+  index: -1
+zhuahenc_0003
+  rotate: true
+  xy: 2, 57
+  size: 325, 108
+  orig: 350, 175
+  offset: 25, 42
+  index: -1
+zhuahenc_0004
+  rotate: true
+  xy: 109, 416
+  size: 304, 111
+  orig: 350, 175
+  offset: 40, 43
+  index: -1
+zhuahenc_0005
+  rotate: true
+  xy: 112, 124
+  size: 290, 106
+  orig: 350, 175
+  offset: 53, 43
+  index: -1
+zhuahenc_0006
+  rotate: true
+  xy: 220, 147
+  size: 267, 61
+  orig: 350, 175
+  offset: 71, 64
+  index: -1

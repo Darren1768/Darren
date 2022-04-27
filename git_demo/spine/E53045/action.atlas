@@ -1,0 +1,90 @@
+
+action.png
+size: 1010,913
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuichongji_0000
+  rotate: false
+  xy: 774, 333
+  size: 235, 242
+  orig: 420, 420
+  offset: 52, 79
+  index: -1
+shuichongji_0001
+  rotate: true
+  xy: 532, 37
+  size: 279, 255
+  orig: 420, 420
+  offset: 48, 74
+  index: -1
+shuichongji_0002
+  rotate: true
+  xy: 274, 318
+  size: 275, 260
+  orig: 420, 420
+  offset: 69, 80
+  index: -1
+shuichongji_0003
+  rotate: true
+  xy: 267, 8
+  size: 279, 263
+  orig: 420, 420
+  offset: 73, 80
+  index: -1
+shuichongji_0004
+  rotate: true
+  xy: 1, 1
+  size: 286, 264
+  orig: 420, 420
+  offset: 70, 82
+  index: -1
+shuichongji_0005
+  rotate: true
+  xy: 1, 289
+  size: 304, 271
+  orig: 420, 420
+  offset: 68, 79
+  index: -1
+shuichongji_0006
+  rotate: true
+  xy: 1, 595
+  size: 317, 273
+  orig: 420, 420
+  offset: 68, 77
+  index: -1
+shuichongji_0007
+  rotate: true
+  xy: 536, 649
+  size: 263, 243
+  orig: 420, 420
+  offset: 66, 78
+  index: -1
+shuichongji_0008
+  rotate: false
+  xy: 276, 669
+  size: 253, 243
+  orig: 420, 420
+  offset: 68, 80
+  index: -1
+shuichongji_0010
+  rotate: true
+  xy: 789, 674
+  size: 238, 215
+  orig: 420, 420
+  offset: 69, 77
+  index: -1
+shuichongji_0012
+  rotate: true
+  xy: 536, 390
+  size: 257, 236
+  orig: 420, 420
+  offset: 52, 78
+  index: -1
+shuichongji_0014
+  rotate: false
+  xy: 781, 577
+  size: 193, 95
+  orig: 420, 420
+  offset: 84, 144
+  index: -1

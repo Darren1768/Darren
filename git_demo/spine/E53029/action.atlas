@@ -1,0 +1,131 @@
+
+action.png
+size: 1022,1022
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bingchongji_0000
+  rotate: true
+  xy: 444, 294
+  size: 343, 443
+  orig: 900, 1200
+  offset: 336, 409
+  index: -1
+bingchongji_0002
+  rotate: false
+  xy: 0, 42
+  size: 432, 464
+  orig: 900, 1200
+  offset: 299, 458
+  index: -1
+bingchongji_0003
+  rotate: false
+  xy: 867, 734
+  size: 147, 288
+  orig: 900, 1200
+  offset: 427, 528
+  index: -1
+bingchongji_0004
+  rotate: true
+  xy: 867, 677
+  size: 55, 143
+  orig: 900, 1200
+  offset: 529, 723
+  index: -1
+bingchongji_0005
+  rotate: false
+  xy: 1016, 895
+  size: 6, 127
+  orig: 900, 1200
+  offset: 573, 785
+  index: -1
+bingjiana_0000
+  rotate: true
+  xy: 0, 0
+  size: 37, 267
+  orig: 100, 340
+  offset: 31, 45
+  index: -1
+xuli1_0003
+  rotate: false
+  xy: 444, 639
+  size: 421, 383
+  orig: 720, 1280
+  offset: 97, 541
+  index: -1
+xuli1_0005
+  rotate: false
+  xy: 727, 39
+  size: 280, 253
+  orig: 720, 1280
+  offset: 224, 667
+  index: -1
+xuli1_0007
+  rotate: true
+  xy: 434, 42
+  size: 250, 291
+  orig: 720, 1280
+  offset: 255, 640
+  index: -1
+xuli2
+  rotate: false
+  xy: 0, 508
+  size: 442, 514
+  orig: 720, 1280
+  offset: 177, 605
+  index: -1
+
+action2.png
+size: 916,641
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bingchongji_0001
+  rotate: false
+  xy: 0, 234
+  size: 362, 355
+  orig: 900, 1200
+  offset: 334, 484
+  index: -1
+icejian_0001
+  rotate: true
+  xy: 0, 591
+  size: 50, 718
+  orig: 400, 1000
+  offset: 176, 142
+  index: -1
+xuli1_0004
+  rotate: true
+  xy: 364, 245
+  size: 344, 311
+  orig: 720, 1280
+  offset: 168, 611
+  index: -1
+xuli1_0006
+  rotate: false
+  xy: 364, 0
+  size: 255, 243
+  orig: 720, 1280
+  offset: 245, 690
+  index: -1
+xuli1_0008
+  rotate: true
+  xy: 621, 0
+  size: 243, 246
+  orig: 720, 1280
+  offset: 260, 682
+  index: -1
+xuli1_0009
+  rotate: false
+  xy: 677, 341
+  size: 239, 248
+  orig: 720, 1280
+  offset: 261, 682
+  index: -1
+xuli1_0010
+  rotate: true
+  xy: 0, 3
+  size: 229, 243
+  orig: 720, 1280
+  offset: 270, 684
+  index: -1

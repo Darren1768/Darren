@@ -1,0 +1,90 @@
+
+action.png
+size: 457,301
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuixi_0000
+  rotate: true
+  xy: 98, 78
+  size: 113, 62
+  orig: 288, 312
+  offset: 92, 110
+  index: -1
+shuixi_0002
+  rotate: false
+  xy: 106, 0
+  size: 111, 76
+  orig: 288, 312
+  offset: 92, 110
+  index: -1
+shuixi_0004
+  rotate: true
+  xy: 375, 94
+  size: 107, 82
+  orig: 288, 312
+  offset: 93, 111
+  index: -1
+shuixi_0006
+  rotate: false
+  xy: 219, 6
+  size: 105, 87
+  orig: 288, 312
+  offset: 93, 113
+  index: -1
+shuixi_0008
+  rotate: false
+  xy: 242, 203
+  size: 112, 98
+  orig: 288, 312
+  offset: 85, 106
+  index: -1
+shuixi_0010
+  rotate: false
+  xy: 356, 203
+  size: 99, 98
+  orig: 288, 312
+  offset: 85, 110
+  index: -1
+shuixi_0012
+  rotate: true
+  xy: 0, 70
+  size: 121, 96
+  orig: 288, 312
+  offset: 86, 116
+  index: -1
+shuixi_0014
+  rotate: false
+  xy: 119, 209
+  size: 121, 92
+  orig: 288, 312
+  offset: 87, 120
+  index: -1
+shuixi_0016
+  rotate: false
+  xy: 0, 193
+  size: 117, 108
+  orig: 288, 312
+  offset: 89, 100
+  index: -1
+shuixi_0018
+  rotate: false
+  xy: 162, 95
+  size: 106, 106
+  orig: 288, 312
+  offset: 100, 101
+  index: -1
+shuixi_0020
+  rotate: false
+  xy: 270, 97
+  size: 103, 104
+  orig: 288, 312
+  offset: 102, 103
+  index: -1
+shuixi_0022
+  rotate: false
+  xy: 0, 2
+  size: 104, 66
+  orig: 288, 312
+  offset: 96, 106
+  index: -1

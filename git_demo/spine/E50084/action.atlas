@@ -1,0 +1,97 @@
+
+action.png
+size: 370,549
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+julizi_0000
+  rotate: false
+  xy: 284, 150
+  size: 84, 122
+  orig: 612, 578
+  offset: 261, 200
+  index: -1
+julizi_0001
+  rotate: true
+  xy: 134, 178
+  size: 82, 125
+  orig: 612, 578
+  offset: 262, 196
+  index: -1
+julizi_0002
+  rotate: true
+  xy: 1, 1
+  size: 103, 121
+  orig: 612, 578
+  offset: 265, 199
+  index: -1
+julizi_0003
+  rotate: true
+  xy: 224, 50
+  size: 98, 122
+  orig: 612, 578
+  offset: 269, 195
+  index: -1
+julizi_0004
+  rotate: true
+  xy: 207, 458
+  size: 90, 154
+  orig: 612, 578
+  offset: 273, 198
+  index: -1
+julizi_0005
+  rotate: true
+  xy: 207, 371
+  size: 85, 147
+  orig: 612, 578
+  offset: 276, 203
+  index: -1
+julizi_0006
+  rotate: true
+  xy: 1, 299
+  size: 78, 142
+  orig: 612, 578
+  offset: 279, 207
+  index: -1
+julizi_0007
+  rotate: true
+  xy: 145, 262
+  size: 107, 137
+  orig: 612, 578
+  offset: 247, 211
+  index: -1
+julizi_0008
+  rotate: true
+  xy: 1, 199
+  size: 98, 131
+  orig: 612, 578
+  offset: 251, 215
+  index: -1
+julizi_0009
+  rotate: true
+  xy: 1, 106
+  size: 91, 124
+  orig: 612, 578
+  offset: 256, 220
+  index: -1
+men
+  rotate: true
+  xy: 1, 379
+  size: 169, 204
+  orig: 612, 612
+  offset: 216, 210
+  index: -1
+sheguang_0000
+  rotate: false
+  xy: 284, 274
+  size: 85, 95
+  orig: 612, 578
+  offset: 265, 232
+  index: -1
+touying
+  rotate: true
+  xy: 124, 5
+  size: 99, 98
+  orig: 128, 128
+  offset: 14, 14
+  index: -1

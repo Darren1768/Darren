@@ -1,0 +1,20 @@
+
+action.png
+size: 42,24
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big_snow
+  rotate: false
+  xy: 0, 0
+  size: 25, 24
+  orig: 400, 400
+  offset: 187, 188
+  index: -1
+snow
+  rotate: false
+  xy: 27, 11
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1

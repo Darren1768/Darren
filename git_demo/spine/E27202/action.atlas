@@ -1,0 +1,27 @@
+
+action.png
+size: 505,219
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qianban
+  rotate: false
+  xy: 0, 0
+  size: 409, 219
+  orig: 409, 219
+  offset: 0, 0
+  index: -1
+qiu1
+  rotate: false
+  xy: 411, 59
+  size: 64, 64
+  orig: 720, 1280
+  offset: 328, 608
+  index: -1
+qiu2
+  rotate: false
+  xy: 411, 125
+  size: 94, 94
+  orig: 720, 1280
+  offset: 313, 593
+  index: -1

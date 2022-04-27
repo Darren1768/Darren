@@ -1,0 +1,41 @@
+
+action.png
+size: 247,247
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blood_00027
+  rotate: false
+  xy: 172, 67
+  size: 74, 76
+  orig: 125, 125
+  offset: 6, 5
+  index: -1
+Blood_00028
+  rotate: false
+  xy: 85, 44
+  size: 85, 93
+  orig: 125, 125
+  offset: 9, 0
+  index: -1
+Blood_00029
+  rotate: false
+  xy: 100, 145
+  size: 92, 101
+  orig: 125, 125
+  offset: 15, 0
+  index: -1
+Blood_00030
+  rotate: false
+  xy: 1, 139
+  size: 97, 107
+  orig: 125, 125
+  offset: 22, 0
+  index: -1
+Blood_00031
+  rotate: false
+  xy: 1, 18
+  size: 82, 119
+  orig: 125, 125
+  offset: 40, 5
+  index: -1

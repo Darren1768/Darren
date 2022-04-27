@@ -1,0 +1,69 @@
+
+action.png
+size: 403,344
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shouji_0000
+  rotate: true
+  xy: 2, 10
+  size: 164, 163
+  orig: 210, 210
+  offset: 22, 34
+  index: -1
+shouji_0001
+  rotate: true
+  xy: 249, 232
+  size: 110, 152
+  orig: 210, 210
+  offset: 51, 17
+  index: -1
+shouji_0002
+  rotate: false
+  xy: 249, 2
+  size: 64, 139
+  orig: 210, 210
+  offset: 77, 17
+  index: -1
+shouji_0003
+  rotate: false
+  xy: 315, 16
+  size: 76, 125
+  orig: 210, 210
+  offset: 71, 41
+  index: -1
+shouji_0004
+  rotate: true
+  xy: 249, 143
+  size: 87, 144
+  orig: 210, 210
+  offset: 66, 31
+  index: -1
+shouji_0005
+  rotate: false
+  xy: 91, 179
+  size: 94, 163
+  orig: 210, 210
+  offset: 64, 20
+  index: -1
+shouji_0006
+  rotate: false
+  xy: 2, 176
+  size: 87, 166
+  orig: 210, 210
+  offset: 66, 27
+  index: -1
+shouji_0007
+  rotate: false
+  xy: 167, 15
+  size: 80, 162
+  orig: 210, 210
+  offset: 71, 28
+  index: -1
+shouji_0008
+  rotate: false
+  xy: 187, 222
+  size: 37, 120
+  orig: 210, 210
+  offset: 75, 69
+  index: -1

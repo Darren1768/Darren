@@ -1,0 +1,83 @@
+
+action.png
+size: 325,76
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0huoyan_0000
+  rotate: false
+  xy: 200, 35
+  size: 29, 41
+  orig: 64, 128
+  offset: 13, 27
+  index: -1
+0huoyan_0001
+  rotate: false
+  xy: 168, 35
+  size: 30, 41
+  orig: 64, 128
+  offset: 13, 28
+  index: -1
+0huoyan_0002
+  rotate: true
+  xy: 168, 3
+  size: 30, 40
+  orig: 64, 128
+  offset: 13, 28
+  index: -1
+0huoyan_0003
+  rotate: false
+  xy: 296, 37
+  size: 29, 39
+  orig: 64, 128
+  offset: 13, 28
+  index: -1
+0huoyan_0004
+  rotate: true
+  xy: 249, 6
+  size: 29, 38
+  orig: 64, 128
+  offset: 14, 28
+  index: -1
+0huoyan_0005
+  rotate: true
+  xy: 210, 3
+  size: 30, 37
+  orig: 64, 128
+  offset: 13, 28
+  index: -1
+0huoyan_0006
+  rotate: false
+  xy: 231, 37
+  size: 31, 39
+  orig: 64, 128
+  offset: 12, 28
+  index: -1
+0huoyan_0007
+  rotate: false
+  xy: 264, 37
+  size: 30, 39
+  orig: 64, 128
+  offset: 12, 28
+  index: -1
+0xx
+  rotate: false
+  xy: 89, 0
+  size: 77, 76
+  orig: 260, 190
+  offset: 92, 59
+  index: -1
+lv1
+  rotate: true
+  xy: 289, 6
+  size: 29, 31
+  orig: 87, 67
+  offset: 27, 30
+  index: -1
+t_1
+  rotate: false
+  xy: 0, 9
+  size: 87, 67
+  orig: 87, 67
+  offset: 0, 0
+  index: -1

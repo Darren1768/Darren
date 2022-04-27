@@ -1,0 +1,125 @@
+
+action.png
+size: 400,539
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shui
+  rotate: false
+  xy: 211, 340
+  size: 169, 197
+  orig: 500, 500
+  offset: 146, 151
+  index: -1
+shuikuanga_0025
+  rotate: false
+  xy: 2, 253
+  size: 207, 284
+  orig: 720, 1280
+  offset: 169, 304
+  index: -1
+shuikuangb_0025
+  rotate: true
+  xy: 2, 55
+  size: 196, 269
+  orig: 720, 1280
+  offset: 174, 299
+  index: -1
+shuiliuti_0000
+  rotate: false
+  xy: 211, 286
+  size: 62, 52
+  orig: 500, 500
+  offset: 207, 235
+  index: -1
+shuiliuti_0002
+  rotate: false
+  xy: 275, 286
+  size: 62, 52
+  orig: 500, 500
+  offset: 207, 235
+  index: -1
+shuiliuti_0004
+  rotate: true
+  xy: 339, 277
+  size: 61, 52
+  orig: 500, 500
+  offset: 208, 235
+  index: -1
+shuiliuti_0006
+  rotate: false
+  xy: 337, 223
+  size: 61, 52
+  orig: 500, 500
+  offset: 208, 235
+  index: -1
+shuiliuti_0008
+  rotate: false
+  xy: 337, 169
+  size: 61, 52
+  orig: 500, 500
+  offset: 208, 235
+  index: -1
+shuiliuti_0010
+  rotate: false
+  xy: 337, 115
+  size: 61, 52
+  orig: 500, 500
+  offset: 208, 235
+  index: -1
+shuiliuti_0012
+  rotate: false
+  xy: 337, 61
+  size: 61, 52
+  orig: 500, 500
+  offset: 208, 235
+  index: -1
+shuiliuti_0014
+  rotate: false
+  xy: 273, 16
+  size: 61, 52
+  orig: 500, 500
+  offset: 208, 235
+  index: -1
+shuiliuti_0016
+  rotate: false
+  xy: 336, 7
+  size: 61, 52
+  orig: 500, 500
+  offset: 208, 235
+  index: -1
+shuiliuti_0018
+  rotate: false
+  xy: 273, 232
+  size: 62, 52
+  orig: 500, 500
+  offset: 207, 235
+  index: -1
+shuiliuti_0020
+  rotate: false
+  xy: 273, 178
+  size: 62, 52
+  orig: 500, 500
+  offset: 207, 235
+  index: -1
+shuiliuti_0022
+  rotate: false
+  xy: 273, 124
+  size: 62, 52
+  orig: 500, 500
+  offset: 207, 235
+  index: -1
+shuiliuti_0024
+  rotate: false
+  xy: 273, 70
+  size: 62, 52
+  orig: 500, 500
+  offset: 207, 235
+  index: -1
+shuilogo_0025
+  rotate: true
+  xy: 2, 2
+  size: 51, 61
+  orig: 500, 500
+  offset: 211, 236
+  index: -1

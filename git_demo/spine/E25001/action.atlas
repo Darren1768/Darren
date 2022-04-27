@@ -1,0 +1,90 @@
+
+action.png
+size: 867,910
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuixi_0000
+  rotate: false
+  xy: 531, 233
+  size: 283, 154
+  orig: 720, 780
+  offset: 230, 275
+  index: -1
+shuixi_0002
+  rotate: false
+  xy: 262, 0
+  size: 277, 192
+  orig: 720, 780
+  offset: 231, 274
+  index: -1
+shuixi_0004
+  rotate: false
+  xy: 541, 26
+  size: 266, 205
+  orig: 720, 780
+  offset: 232, 277
+  index: -1
+shuixi_0006
+  rotate: false
+  xy: 0, 175
+  size: 260, 218
+  orig: 720, 780
+  offset: 233, 283
+  index: -1
+shuixi_0008
+  rotate: false
+  xy: 0, 395
+  size: 279, 243
+  orig: 720, 780
+  offset: 212, 266
+  index: -1
+shuixi_0010
+  rotate: false
+  xy: 281, 194
+  size: 248, 244
+  orig: 720, 780
+  offset: 212, 275
+  index: -1
+shuixi_0012
+  rotate: false
+  xy: 296, 672
+  size: 303, 238
+  orig: 720, 780
+  offset: 214, 291
+  index: -1
+shuixi_0014
+  rotate: false
+  xy: 296, 440
+  size: 302, 230
+  orig: 720, 780
+  offset: 217, 300
+  index: -1
+shuixi_0016
+  rotate: false
+  xy: 0, 640
+  size: 294, 270
+  orig: 720, 780
+  offset: 222, 250
+  index: -1
+shuixi_0018
+  rotate: true
+  xy: 601, 647
+  size: 263, 266
+  orig: 720, 780
+  offset: 252, 252
+  index: -1
+shuixi_0020
+  rotate: true
+  xy: 600, 389
+  size: 256, 259
+  orig: 720, 780
+  offset: 256, 258
+  index: -1
+shuixi_0022
+  rotate: false
+  xy: 0, 9
+  size: 260, 164
+  orig: 720, 780
+  offset: 241, 266
+  index: -1

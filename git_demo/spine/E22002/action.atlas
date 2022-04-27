@@ -1,0 +1,132 @@
+
+action.png
+size: 910,848
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: false
+  xy: 366, 651
+  size: 117, 197
+  orig: 117, 197
+  offset: 0, 0
+  index: -1
+L_hair
+  rotate: false
+  xy: 601, 20
+  size: 42, 81
+  orig: 42, 81
+  offset: 0, 0
+  index: -1
+L_weapon
+  rotate: true
+  xy: 0, 8
+  size: 287, 309
+  orig: 287, 309
+  offset: 0, 0
+  index: -1
+L_wing
+  rotate: false
+  xy: 508, 461
+  size: 402, 387
+  orig: 402, 387
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: false
+  xy: 366, 303
+  size: 127, 192
+  orig: 127, 192
+  offset: 0, 0
+  index: -1
+R_hair
+  rotate: true
+  xy: 448, 9
+  size: 23, 58
+  orig: 23, 58
+  offset: 0, 0
+  index: -1
+R_hair_2
+  rotate: true
+  xy: 377, 1
+  size: 31, 51
+  orig: 31, 51
+  offset: 0, 0
+  index: -1
+R_weapon
+  rotate: false
+  xy: 311, 34
+  size: 173, 261
+  orig: 173, 261
+  offset: 0, 0
+  index: -1
+R_wing
+  rotate: false
+  xy: 508, 103
+  size: 400, 356
+  orig: 400, 356
+  offset: 0, 0
+  index: -1
+big_snow
+  rotate: false
+  xy: 430, 7
+  size: 16, 25
+  orig: 17, 25
+  offset: 1, 0
+  index: -1
+body
+  rotate: false
+  xy: 0, 297
+  size: 364, 551
+  orig: 364, 551
+  offset: 0, 0
+  index: -1
+cloud_a
+  rotate: true
+  xy: 645, 49
+  size: 52, 49
+  orig: 56, 50
+  offset: 2, 1
+  index: -1
+cloud_b
+  rotate: true
+  xy: 645, 8
+  size: 39, 36
+  orig: 40, 37
+  offset: 0, 1
+  index: -1
+eye
+  rotate: true
+  xy: 486, 811
+  size: 37, 13
+  orig: 37, 13
+  offset: 0, 0
+  index: -1
+hair_umder
+  rotate: false
+  xy: 366, 507
+  size: 132, 142
+  orig: 132, 142
+  offset: 0, 0
+  index: -1
+item
+  rotate: true
+  xy: 311, 0
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: false
+  xy: 508, 7
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+snow
+  rotate: false
+  xy: 486, 497
+  size: 8, 8
+  orig: 18, 18
+  offset: 4, 4
+  index: -1

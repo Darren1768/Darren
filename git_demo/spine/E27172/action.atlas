@@ -1,0 +1,34 @@
+
+action.png
+size: 159,104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuijing_25
+  rotate: true
+  xy: 76, 8
+  size: 45, 79
+  orig: 49, 100
+  offset: 1, 11
+  index: -1
+shuijing_26
+  rotate: false
+  xy: 0, 35
+  size: 74, 69
+  orig: 1080, 1280
+  offset: 797, 739
+  index: -1
+t_24
+  rotate: false
+  xy: 76, 55
+  size: 83, 49
+  orig: 83, 49
+  offset: 0, 0
+  index: -1
+t_25
+  rotate: true
+  xy: 0, 0
+  size: 33, 68
+  orig: 33, 68
+  offset: 0, 0
+  index: -1

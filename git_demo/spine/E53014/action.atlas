@@ -1,0 +1,132 @@
+
+action.png
+size: 735,735
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huxian_0000
+  rotate: true
+  xy: 240, 208
+  size: 293, 142
+  orig: 390, 358
+  offset: 15, 16
+  index: -1
+huxian_0002
+  rotate: false
+  xy: 0, 501
+  size: 293, 234
+  orig: 390, 358
+  offset: 15, 45
+  index: -1
+huxian_0004
+  rotate: false
+  xy: 0, 258
+  size: 240, 243
+  orig: 390, 358
+  offset: 68, 56
+  index: -1
+huxian_0006
+  rotate: false
+  xy: 293, 505
+  size: 227, 230
+  orig: 390, 358
+  offset: 81, 70
+  index: -1
+huxian_0008
+  rotate: false
+  xy: 0, 31
+  size: 226, 227
+  orig: 390, 358
+  offset: 82, 70
+  index: -1
+huxian_0010
+  rotate: false
+  xy: 520, 526
+  size: 215, 209
+  orig: 390, 358
+  offset: 94, 76
+  index: -1
+huxian_0012
+  rotate: true
+  xy: 382, 295
+  size: 210, 152
+  orig: 390, 358
+  offset: 99, 111
+  index: -1
+huxian_0014
+  rotate: false
+  xy: 375, 12
+  size: 131, 65
+  orig: 390, 358
+  offset: 98, 198
+  index: -1
+shouji_0001
+  rotate: false
+  xy: 678, 435
+  size: 53, 91
+  orig: 260, 260
+  offset: 104, 83
+  index: -1
+shouji_0002
+  rotate: false
+  xy: 226, 24
+  size: 149, 184
+  orig: 260, 260
+  offset: 54, 37
+  index: -1
+shouji_0003
+  rotate: false
+  xy: 534, 344
+  size: 144, 182
+  orig: 260, 260
+  offset: 53, 38
+  index: -1
+shouji_0004
+  rotate: true
+  xy: 382, 159
+  size: 136, 180
+  orig: 260, 260
+  offset: 65, 39
+  index: -1
+shouji_0006
+  rotate: true
+  xy: 375, 77
+  size: 82, 172
+  orig: 260, 260
+  offset: 89, 44
+  index: -1
+shouji_0008
+  rotate: false
+  xy: 678, 358
+  size: 52, 77
+  orig: 260, 260
+  offset: 103, 96
+  index: -1
+shouji_0010
+  rotate: false
+  xy: 633, 252
+  size: 62, 92
+  orig: 260, 260
+  offset: 98, 89
+  index: -1
+shouji_0012
+  rotate: false
+  xy: 562, 143
+  size: 69, 100
+  orig: 260, 260
+  offset: 94, 85
+  index: -1
+shouji_0014
+  rotate: false
+  xy: 562, 243
+  size: 71, 101
+  orig: 260, 260
+  offset: 94, 83
+  index: -1
+shouji_0016
+  rotate: false
+  xy: 547, 87
+  size: 67, 56
+  orig: 260, 260
+  offset: 97, 112
+  index: -1

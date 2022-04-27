@@ -1,0 +1,125 @@
+
+action.png
+size: 942,612
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fazhen_0000
+  rotate: false
+  xy: 1, 357
+  size: 247, 254
+  orig: 360, 360
+  offset: 54, 49
+  index: -1
+jingmian_0000
+  rotate: true
+  xy: 1, 107
+  size: 248, 242
+  orig: 360, 360
+  offset: 56, 54
+  index: -1
+liutia_0000
+  rotate: false
+  xy: 245, 1
+  size: 175, 150
+  orig: 360, 390
+  offset: 92, 122
+  index: -1
+liutia_0001
+  rotate: false
+  xy: 610, 459
+  size: 177, 152
+  orig: 360, 390
+  offset: 91, 122
+  index: -1
+liutia_0002
+  rotate: true
+  xy: 789, 434
+  size: 177, 152
+  orig: 360, 390
+  offset: 91, 122
+  index: -1
+liutia_0003
+  rotate: false
+  xy: 250, 306
+  size: 178, 150
+  orig: 360, 390
+  offset: 90, 122
+  index: -1
+liutia_0004
+  rotate: false
+  xy: 250, 458
+  size: 178, 153
+  orig: 360, 390
+  offset: 90, 122
+  index: -1
+liutia_0005
+  rotate: false
+  xy: 430, 458
+  size: 178, 153
+  orig: 360, 390
+  offset: 90, 122
+  index: -1
+liutia_0006
+  rotate: false
+  xy: 609, 165
+  size: 178, 145
+  orig: 360, 390
+  offset: 90, 122
+  index: -1
+liutia_0007
+  rotate: false
+  xy: 602, 18
+  size: 174, 145
+  orig: 360, 390
+  offset: 94, 122
+  index: -1
+liutia_0008
+  rotate: false
+  xy: 424, 9
+  size: 174, 144
+  orig: 360, 390
+  offset: 94, 122
+  index: -1
+liutia_0009
+  rotate: true
+  xy: 789, 78
+  size: 175, 147
+  orig: 360, 390
+  offset: 93, 122
+  index: -1
+liutia_0010
+  rotate: false
+  xy: 424, 155
+  size: 176, 149
+  orig: 360, 390
+  offset: 92, 122
+  index: -1
+liutia_0011
+  rotate: false
+  xy: 430, 306
+  size: 177, 150
+  orig: 360, 390
+  offset: 91, 122
+  index: -1
+liutia_0012
+  rotate: false
+  xy: 610, 312
+  size: 177, 145
+  orig: 360, 390
+  offset: 91, 122
+  index: -1
+liutia_0013
+  rotate: true
+  xy: 789, 255
+  size: 177, 148
+  orig: 360, 390
+  offset: 91, 122
+  index: -1
+liutia_0014
+  rotate: false
+  xy: 245, 153
+  size: 177, 151
+  orig: 360, 390
+  offset: 91, 122
+  index: -1

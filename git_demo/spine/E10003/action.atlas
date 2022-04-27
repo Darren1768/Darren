@@ -1,0 +1,244 @@
+
+action.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Electricity_00004
+  rotate: true
+  xy: 511, 176
+  size: 115, 74
+  orig: 250, 250
+  offset: 5, 85
+  index: -1
+images/Electricity_00006
+  rotate: true
+  xy: 502, 54
+  size: 120, 74
+  orig: 250, 250
+  offset: 5, 83
+  index: -1
+images/Electricity_00008
+  rotate: true
+  xy: 266, 131
+  size: 176, 77
+  orig: 250, 250
+  offset: 7, 82
+  index: -1
+images/Electricity_00010
+  rotate: false
+  xy: 397, 293
+  size: 182, 80
+  orig: 250, 250
+  offset: 5, 80
+  index: -1
+images/Electricity_00012
+  rotate: false
+  xy: 419, 466
+  size: 199, 82
+  orig: 250, 250
+  offset: 4, 79
+  index: -1
+images/Electricity_00014
+  rotate: true
+  xy: 314, 313
+  size: 207, 81
+  orig: 250, 250
+  offset: 2, 80
+  index: -1
+images/Electricity_00016
+  rotate: true
+  xy: 181, 88
+  size: 211, 83
+  orig: 250, 250
+  offset: 3, 79
+  index: -1
+images/Electricity_00018
+  rotate: false
+  xy: 677, 845
+  size: 220, 86
+  orig: 250, 250
+  offset: 0, 80
+  index: -1
+images/Electricity_00020
+  rotate: true
+  xy: 94, 63
+  size: 229, 85
+  orig: 250, 250
+  offset: 4, 79
+  index: -1
+images/Electricity_00021
+  rotate: true
+  xy: 175, 523
+  size: 241, 86
+  orig: 250, 250
+  offset: 1, 78
+  index: -1
+images/Electricity_00023
+  rotate: false
+  xy: 677, 933
+  size: 245, 89
+  orig: 250, 250
+  offset: 3, 78
+  index: -1
+images/Electricity_00025
+  rotate: false
+  xy: 431, 930
+  size: 244, 92
+  orig: 250, 250
+  offset: 5, 75
+  index: -1
+images/Electricity_00027
+  rotate: true
+  xy: 2, 47
+  size: 245, 90
+  orig: 250, 250
+  offset: 3, 76
+  index: -1
+images/Electricity_00029
+  rotate: false
+  xy: 431, 836
+  size: 236, 92
+  orig: 250, 250
+  offset: 11, 75
+  index: -1
+images/Electricity_00031
+  rotate: false
+  xy: 431, 740
+  size: 224, 94
+  orig: 250, 250
+  offset: 21, 74
+  index: -1
+images/Electricity_00033
+  rotate: false
+  xy: 396, 645
+  size: 214, 93
+  orig: 250, 250
+  offset: 29, 75
+  index: -1
+images/Electricity_00035
+  rotate: false
+  xy: 419, 550
+  size: 197, 93
+  orig: 250, 250
+  offset: 46, 75
+  index: -1
+images/Electricity_00037
+  rotate: false
+  xy: 397, 375
+  size: 194, 89
+  orig: 250, 250
+  offset: 50, 77
+  index: -1
+images/Electricity_00039
+  rotate: false
+  xy: 181, 2
+  size: 179, 84
+  orig: 250, 250
+  offset: 63, 79
+  index: -1
+images/Electricity_00042
+  rotate: false
+  xy: 345, 211
+  size: 164, 80
+  orig: 250, 250
+  offset: 84, 81
+  index: -1
+images/Electricity_00044
+  rotate: false
+  xy: 345, 131
+  size: 151, 78
+  orig: 250, 250
+  offset: 95, 82
+  index: -1
+images/Electricity_00046
+  rotate: false
+  xy: 924, 944
+  size: 87, 78
+  orig: 250, 250
+  offset: 159, 82
+  index: -1
+images/Electricity_00048
+  rotate: false
+  xy: 612, 669
+  size: 67, 69
+  orig: 250, 250
+  offset: 177, 86
+  index: -1
+images/d1
+  rotate: false
+  xy: 2, 766
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/d2
+  rotate: true
+  xy: 2, 500
+  size: 264, 171
+  orig: 264, 171
+  offset: 0, 0
+  index: -1
+images/shandian1
+  rotate: false
+  xy: 578, 52
+  size: 49, 122
+  orig: 256, 256
+  offset: 135, 130
+  index: -1
+images/shandian2
+  rotate: false
+  xy: 158, 301
+  size: 61, 197
+  orig: 256, 256
+  offset: 114, 53
+  index: -1
+images/shandian3
+  rotate: false
+  xy: 221, 309
+  size: 91, 211
+  orig: 256, 256
+  offset: 87, 34
+  index: -1
+images/shandian4
+  rotate: false
+  xy: 2, 294
+  size: 154, 204
+  orig: 256, 256
+  offset: 46, 34
+  index: -1
+images/shandian5
+  rotate: false
+  xy: 260, 824
+  size: 169, 198
+  orig: 256, 256
+  offset: 42, 30
+  index: -1
+images/shandian6
+  rotate: true
+  xy: 593, 359
+  size: 105, 56
+  orig: 256, 256
+  offset: 77, 27
+  index: -1
+images/shandian7
+  rotate: false
+  xy: 263, 629
+  size: 131, 193
+  orig: 256, 256
+  offset: 62, 17
+  index: -1
+images/shandian8
+  rotate: true
+  xy: 263, 522
+  size: 105, 154
+  orig: 256, 256
+  offset: 64, 28
+  index: -1
+images/zi
+  rotate: false
+  xy: 362, 52
+  size: 138, 77
+  orig: 138, 77
+  offset: 0, 0
+  index: -1

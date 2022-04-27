@@ -1,0 +1,55 @@
+
+action.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huangka_0000
+  rotate: false
+  xy: 256, 242
+  size: 78, 124
+  orig: 166, 166
+  offset: 44, 21
+  index: -1
+huangkuang_0000
+  rotate: false
+  xy: 256, 368
+  size: 84, 130
+  orig: 166, 166
+  offset: 41, 18
+  index: -1
+huangmian_0000
+  rotate: false
+  xy: 158, 356
+  size: 96, 142
+  orig: 166, 166
+  offset: 35, 12
+  index: -1
+kuang01
+  rotate: false
+  xy: 1, 1
+  size: 155, 497
+  orig: 662, 662
+  offset: 176, 92
+  index: -1
+lanka_0000
+  rotate: false
+  xy: 342, 375
+  size: 78, 123
+  orig: 166, 166
+  offset: 44, 21
+  index: -1
+lankuang_0000
+  rotate: false
+  xy: 158, 80
+  size: 84, 130
+  orig: 166, 166
+  offset: 41, 18
+  index: -1
+lanmian_0000
+  rotate: false
+  xy: 158, 212
+  size: 96, 142
+  orig: 166, 166
+  offset: 35, 12
+  index: -1

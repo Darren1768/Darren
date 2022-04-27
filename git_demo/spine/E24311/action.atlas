@@ -1,0 +1,89 @@
+
+action.png
+size: 998,1000
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijing0000
+  rotate: false
+  xy: 934, 936
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+door
+  rotate: true
+  xy: 0, 305
+  size: 250, 701
+  orig: 250, 701
+  offset: 0, 0
+  index: -1
+glass
+  rotate: false
+  xy: 722, 229
+  size: 143, 369
+  orig: 143, 369
+  offset: 0, 0
+  index: -1
+handle
+  rotate: false
+  xy: 692, 112
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+handle2
+  rotate: false
+  xy: 867, 565
+  size: 21, 33
+  orig: 21, 33
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 722, 115
+  size: 120, 112
+  orig: 120, 112
+  offset: 0, 0
+  index: -1
+sheguang0000
+  rotate: false
+  xy: 722, 600
+  size: 210, 400
+  orig: 400, 400
+  offset: 190, 0
+  index: -1
+y_0
+  rotate: false
+  xy: 0, 142
+  size: 720, 161
+  orig: 720, 161
+  offset: 0, 0
+  index: -1
+y_1
+  rotate: false
+  xy: 0, 557
+  size: 720, 443
+  orig: 720, 443
+  offset: 0, 0
+  index: -1
+y_3
+  rotate: true
+  xy: 0, 0
+  size: 140, 690
+  orig: 140, 690
+  offset: 0, 0
+  index: -1
+
+action2.png
+size: 136,690
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+y_2
+  rotate: false
+  xy: 0, 0
+  size: 136, 690
+  orig: 136, 690
+  offset: 0, 0
+  index: -1

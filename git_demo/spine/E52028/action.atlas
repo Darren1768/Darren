@@ -1,0 +1,90 @@
+
+action.png
+size: 778,219
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fangyu_0001
+  rotate: false
+  xy: 202, 60
+  size: 16, 33
+  orig: 306, 306
+  offset: 209, 87
+  index: -1
+fangyu_0003
+  rotate: false
+  xy: 121, 1
+  size: 79, 91
+  orig: 306, 306
+  offset: 150, 72
+  index: -1
+fangyu_0005
+  rotate: false
+  xy: 522, 1
+  size: 113, 100
+  orig: 306, 306
+  offset: 114, 71
+  index: -1
+fangyu_0007
+  rotate: false
+  xy: 523, 105
+  size: 125, 113
+  orig: 306, 306
+  offset: 105, 70
+  index: -1
+fangyu_0009
+  rotate: false
+  xy: 650, 107
+  size: 126, 111
+  orig: 306, 306
+  offset: 105, 70
+  index: -1
+fangyu_0011
+  rotate: false
+  xy: 1, 94
+  size: 129, 124
+  orig: 306, 306
+  offset: 102, 70
+  index: -1
+fangyu_0013
+  rotate: false
+  xy: 393, 103
+  size: 128, 115
+  orig: 306, 306
+  offset: 102, 70
+  index: -1
+fangyu_0015
+  rotate: false
+  xy: 263, 98
+  size: 128, 120
+  orig: 306, 306
+  offset: 103, 71
+  index: -1
+fangyu_0017
+  rotate: false
+  xy: 132, 95
+  size: 129, 123
+  orig: 306, 306
+  offset: 102, 72
+  index: -1
+fangyu_0019
+  rotate: false
+  xy: 393, 1
+  size: 127, 100
+  orig: 306, 306
+  offset: 102, 71
+  index: -1
+fangyu_0021
+  rotate: false
+  xy: 650, 7
+  size: 127, 98
+  orig: 306, 306
+  offset: 102, 72
+  index: -1
+fangyu_0023
+  rotate: false
+  xy: 1, 1
+  size: 118, 91
+  orig: 306, 306
+  offset: 109, 79
+  index: -1

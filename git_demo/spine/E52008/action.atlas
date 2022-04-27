@@ -1,0 +1,13 @@
+
+action.png
+size: 31,22
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+E50011
+  rotate: false
+  xy: 1, 1
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+action.png
+size: 684,684
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit_0000
+  rotate: false
+  xy: 494, 206
+  size: 130, 117
+  orig: 338, 338
+  offset: 94, 113
+  index: -1
+hit_0001
+  rotate: false
+  xy: 0, 465
+  size: 239, 219
+  orig: 338, 338
+  offset: 40, 63
+  index: -1
+hit_0002
+  rotate: false
+  xy: 0, 249
+  size: 239, 216
+  orig: 338, 338
+  offset: 40, 64
+  index: -1
+hit_0003
+  rotate: false
+  xy: 239, 309
+  size: 203, 182
+  orig: 338, 338
+  offset: 73, 95
+  index: -1
+hit_0004
+  rotate: false
+  xy: 0, 61
+  size: 212, 188
+  orig: 338, 338
+  offset: 64, 89
+  index: -1
+hit_0005
+  rotate: false
+  xy: 239, 491
+  size: 218, 193
+  orig: 338, 338
+  offset: 57, 84
+  index: -1
+hit_0006
+  rotate: false
+  xy: 442, 323
+  size: 157, 152
+  orig: 338, 338
+  offset: 51, 79
+  index: -1
+hit_0007
+  rotate: false
+  xy: 457, 521
+  size: 168, 163
+  orig: 338, 338
+  offset: 45, 74
+  index: -1
+hit_0008
+  rotate: true
+  xy: 426, 0
+  size: 131, 135
+  orig: 338, 338
+  offset: 40, 69
+  index: -1
+hit_0009
+  rotate: false
+  xy: 561, 51
+  size: 59, 80
+  orig: 338, 338
+  offset: 86, 100
+  index: -1
+huxianb_0000
+  rotate: false
+  xy: 212, 2
+  size: 200, 74
+  orig: 338, 156
+  offset: 44, 52
+  index: -1
+huxianb_0001
+  rotate: false
+  xy: 239, 229
+  size: 255, 80
+  orig: 338, 156
+  offset: 45, 41
+  index: -1
+huxianb_0002
+  rotate: false
+  xy: 212, 151
+  size: 242, 78
+  orig: 338, 156
+  offset: 64, 43
+  index: -1
+huxianb_0003
+  rotate: false
+  xy: 212, 76
+  size: 214, 75
+  orig: 338, 156
+  offset: 91, 53
+  index: -1
+huxianb_0004
+  rotate: false
+  xy: 454, 131
+  size: 197, 75
+  orig: 338, 156
+  offset: 95, 53
+  index: -1
+huxianb_0005
+  rotate: false
+  xy: 0, 6
+  size: 181, 55
+  orig: 338, 156
+  offset: 110, 53
+  index: -1
+huxianb_0006
+  rotate: true
+  xy: 625, 507
+  size: 177, 53
+  orig: 338, 156
+  offset: 113, 53
+  index: -1
+huxianb_0007
+  rotate: false
+  xy: 457, 475
+  size: 165, 46
+  orig: 338, 156
+  offset: 117, 56
+  index: -1

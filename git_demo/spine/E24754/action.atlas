@@ -1,0 +1,160 @@
+
+action.png
+size: 976,582
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huoyan_0000
+  rotate: false
+  xy: 258, 365
+  size: 197, 217
+  orig: 417, 417
+  offset: 122, 86
+  index: -1
+huoyan_0001
+  rotate: false
+  xy: 0, 120
+  size: 197, 228
+  orig: 417, 417
+  offset: 120, 84
+  index: -1
+huoyan_0002
+  rotate: false
+  xy: 457, 383
+  size: 194, 199
+  orig: 417, 417
+  offset: 120, 84
+  index: -1
+huoyan_0003
+  rotate: false
+  xy: 653, 390
+  size: 190, 192
+  orig: 417, 417
+  offset: 123, 93
+  index: -1
+huoyan_0004
+  rotate: true
+  xy: 748, 203
+  size: 185, 182
+  orig: 417, 417
+  offset: 129, 101
+  index: -1
+huoyan_0005
+  rotate: true
+  xy: 575, 4
+  size: 187, 175
+  orig: 417, 417
+  offset: 128, 109
+  index: -1
+huoyan_0006
+  rotate: true
+  xy: 571, 193
+  size: 188, 175
+  orig: 417, 417
+  offset: 126, 117
+  index: -1
+huoyan_0007
+  rotate: false
+  xy: 387, 5
+  size: 186, 166
+  orig: 417, 417
+  offset: 124, 108
+  index: -1
+huoyan_0008
+  rotate: true
+  xy: 752, 22
+  size: 179, 159
+  orig: 417, 417
+  offset: 132, 112
+  index: -1
+huoyan_0009
+  rotate: false
+  xy: 199, 0
+  size: 186, 155
+  orig: 417, 417
+  offset: 129, 118
+  index: -1
+huoyan_0010
+  rotate: true
+  xy: 199, 157
+  size: 191, 185
+  orig: 417, 417
+  offset: 127, 89
+  index: -1
+huoyan_0011
+  rotate: true
+  xy: 386, 173
+  size: 190, 183
+  orig: 417, 417
+  offset: 127, 92
+  index: -1
+huoyan_0012
+  rotate: false
+  xy: 0, 12
+  size: 60, 106
+  orig: 417, 417
+  offset: 178, 170
+  index: -1
+huoyan_0013
+  rotate: false
+  xy: 62, 19
+  size: 51, 99
+  orig: 417, 417
+  offset: 179, 178
+  index: -1
+huoyan_0014
+  rotate: false
+  xy: 115, 19
+  size: 49, 99
+  orig: 417, 417
+  offset: 180, 179
+  index: -1
+huoyan_0015
+  rotate: false
+  xy: 913, 88
+  size: 48, 64
+  orig: 417, 417
+  offset: 180, 215
+  index: -1
+huoyan_0016
+  rotate: true
+  xy: 913, 154
+  size: 47, 63
+  orig: 417, 417
+  offset: 181, 217
+  index: -1
+huoyan_0017
+  rotate: false
+  xy: 932, 362
+  size: 44, 61
+  orig: 417, 417
+  offset: 183, 219
+  index: -1
+huoyan_0018
+  rotate: false
+  xy: 932, 301
+  size: 40, 59
+  orig: 417, 417
+  offset: 186, 222
+  index: -1
+huoyan_0019
+  rotate: true
+  xy: 845, 390
+  size: 33, 52
+  orig: 417, 417
+  offset: 192, 229
+  index: -1
+xiyou
+  rotate: true
+  xy: 845, 425
+  size: 157, 131
+  orig: 500, 500
+  offset: 171, 192
+  index: -1
+yinzhanga_0000
+  rotate: false
+  xy: 0, 350
+  size: 256, 232
+  orig: 720, 720
+  offset: 233, 255
+  index: -1

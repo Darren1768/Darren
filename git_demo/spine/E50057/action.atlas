@@ -1,0 +1,279 @@
+
+action.png
+size: 1024,1014
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoqi_0012
+  rotate: false
+  xy: 813, 26
+  size: 126, 63
+  orig: 634, 634
+  offset: 298, 320
+  index: -1
+baoqi_0013
+  rotate: false
+  xy: 811, 231
+  size: 128, 67
+  orig: 634, 634
+  offset: 298, 317
+  index: -1
+baoqi_0014
+  rotate: false
+  xy: 681, 52
+  size: 130, 71
+  orig: 634, 634
+  offset: 298, 312
+  index: -1
+baoqi_0015
+  rotate: false
+  xy: 798, 159
+  size: 128, 70
+  orig: 634, 634
+  offset: 298, 310
+  index: -1
+baoqi_0016
+  rotate: false
+  xy: 813, 91
+  size: 126, 66
+  orig: 634, 634
+  offset: 298, 316
+  index: -1
+baoqi_0017
+  rotate: false
+  xy: 697, 286
+  size: 112, 58
+  orig: 634, 634
+  offset: 305, 323
+  index: -1
+bingbao_0009
+  rotate: true
+  xy: 353, 402
+  size: 189, 83
+  orig: 634, 634
+  offset: 240, 243
+  index: -1
+bingbao_0010
+  rotate: true
+  xy: 504, 823
+  size: 189, 199
+  orig: 634, 634
+  offset: 240, 243
+  index: -1
+bingbao_0011
+  rotate: true
+  xy: 705, 823
+  size: 189, 197
+  orig: 634, 634
+  offset: 240, 243
+  index: -1
+bingbao_0012
+  rotate: false
+  xy: 811, 300
+  size: 192, 166
+  orig: 634, 634
+  offset: 237, 243
+  index: -1
+bingbao_0013
+  rotate: false
+  xy: 555, 346
+  size: 193, 166
+  orig: 634, 634
+  offset: 239, 243
+  index: -1
+bingbao_0014
+  rotate: false
+  xy: 2, 358
+  size: 211, 232
+  orig: 634, 634
+  offset: 240, 225
+  index: -1
+bingbao_0015
+  rotate: false
+  xy: 231, 593
+  size: 209, 220
+  orig: 634, 634
+  offset: 238, 225
+  index: -1
+bingbao_0016
+  rotate: false
+  xy: 2, 592
+  size: 227, 221
+  orig: 634, 634
+  offset: 220, 225
+  index: -1
+bingbao_0017
+  rotate: true
+  xy: 2, 126
+  size: 230, 197
+  orig: 634, 634
+  offset: 229, 234
+  index: -1
+bingbao_0018
+  rotate: false
+  xy: 2, 815
+  size: 253, 197
+  orig: 634, 634
+  offset: 220, 236
+  index: -1
+bingbao_0019
+  rotate: false
+  xy: 257, 815
+  size: 245, 197
+  orig: 634, 634
+  offset: 241, 234
+  index: -1
+bingzhen_0000
+  rotate: false
+  xy: 592, 651
+  size: 196, 170
+  orig: 634, 634
+  offset: 243, 225
+  index: -1
+hanqi_0000
+  rotate: true
+  xy: 750, 350
+  size: 162, 59
+  orig: 634, 634
+  offset: 265, 260
+  index: -1
+hanqi_0001
+  rotate: true
+  xy: 359, 240
+  size: 160, 62
+  orig: 634, 634
+  offset: 265, 257
+  index: -1
+hanqi_0002
+  rotate: true
+  xy: 201, 190
+  size: 166, 73
+  orig: 634, 634
+  offset: 261, 254
+  index: -1
+hanqi_0003
+  rotate: true
+  xy: 276, 213
+  size: 166, 81
+  orig: 634, 634
+  offset: 260, 253
+  index: -1
+hanqi_0004
+  rotate: false
+  xy: 532, 146
+  size: 164, 91
+  orig: 634, 634
+  offset: 261, 249
+  index: -1
+hanqi_0005
+  rotate: true
+  xy: 698, 125
+  size: 159, 98
+  orig: 634, 634
+  offset: 264, 247
+  index: -1
+hanqi_0006
+  rotate: false
+  xy: 518, 42
+  size: 161, 102
+  orig: 634, 634
+  offset: 266, 247
+  index: -1
+hanqi_0007
+  rotate: false
+  xy: 532, 239
+  size: 163, 105
+  orig: 634, 634
+  offset: 265, 246
+  index: -1
+hanqi_0008
+  rotate: true
+  xy: 303, 49
+  size: 162, 106
+  orig: 634, 634
+  offset: 265, 246
+  index: -1
+hanqi_0009
+  rotate: true
+  xy: 411, 72
+  size: 159, 105
+  orig: 634, 634
+  offset: 266, 247
+  index: -1
+hanqi_0010
+  rotate: true
+  xy: 423, 233
+  size: 160, 107
+  orig: 634, 634
+  offset: 264, 246
+  index: -1
+hanqi_0011
+  rotate: true
+  xy: 790, 652
+  size: 169, 109
+  orig: 634, 634
+  offset: 262, 244
+  index: -1
+hanqi_0012
+  rotate: true
+  xy: 901, 623
+  size: 181, 115
+  orig: 634, 634
+  offset: 258, 241
+  index: -1
+hanqi_0013
+  rotate: true
+  xy: 438, 395
+  size: 193, 115
+  orig: 634, 634
+  offset: 252, 241
+  index: -1
+hanqi_0014
+  rotate: true
+  xy: 904, 806
+  size: 206, 117
+  orig: 634, 634
+  offset: 243, 240
+  index: -1
+hanqi_0015
+  rotate: false
+  xy: 2, 2
+  size: 213, 122
+  orig: 634, 634
+  offset: 241, 239
+  index: -1
+hanqi_0016
+  rotate: false
+  xy: 592, 514
+  size: 217, 135
+  orig: 634, 634
+  offset: 243, 231
+  index: -1
+hanqi_0017
+  rotate: true
+  xy: 442, 590
+  size: 223, 148
+  orig: 634, 634
+  offset: 241, 221
+  index: -1
+hanqi_0018
+  rotate: false
+  xy: 811, 468
+  size: 211, 153
+  orig: 634, 634
+  offset: 248, 219
+  index: -1
+hanqi_0019
+  rotate: true
+  xy: 215, 381
+  size: 209, 136
+  orig: 634, 634
+  offset: 244, 236
+  index: -1
+hanqi_0020
+  rotate: true
+  xy: 217, 24
+  size: 164, 84
+  orig: 634, 634
+  offset: 265, 276
+  index: -1

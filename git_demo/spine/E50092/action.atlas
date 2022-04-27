@@ -1,0 +1,146 @@
+
+action.png
+size: 901,777
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoguang_0000
+  rotate: false
+  xy: 1, 356
+  size: 424, 420
+  orig: 720, 720
+  offset: 148, 150
+  index: -1
+baoguanga_0000
+  rotate: true
+  xy: 427, 293
+  size: 238, 249
+  orig: 720, 720
+  offset: 234, 231
+  index: -1
+juguanga_0000
+  rotate: false
+  xy: 678, 297
+  size: 83, 77
+  orig: 260, 340
+  offset: 35, 134
+  index: -1
+juguanga_0001
+  rotate: false
+  xy: 766, 533
+  size: 108, 99
+  orig: 260, 340
+  offset: 22, 123
+  index: -1
+juguanga_0002
+  rotate: false
+  xy: 735, 122
+  size: 132, 123
+  orig: 260, 340
+  offset: 10, 111
+  index: -1
+juguanga_0003
+  rotate: false
+  xy: 763, 247
+  size: 137, 127
+  orig: 260, 340
+  offset: 7, 109
+  index: -1
+juguanga_0004
+  rotate: true
+  xy: 766, 634
+  size: 142, 132
+  orig: 260, 340
+  offset: 5, 106
+  index: -1
+juguanga_0005
+  rotate: true
+  xy: 596, 144
+  size: 147, 137
+  orig: 260, 340
+  offset: 2, 104
+  index: -1
+juguanga_0006
+  rotate: false
+  xy: 442, 149
+  size: 152, 142
+  orig: 260, 340
+  offset: 0, 101
+  index: -1
+juguanga_0007
+  rotate: true
+  xy: 580, 1
+  size: 141, 132
+  orig: 260, 340
+  offset: 5, 106
+  index: -1
+juguanga_0008
+  rotate: true
+  xy: 442, 1
+  size: 146, 136
+  orig: 260, 340
+  offset: 2, 104
+  index: -1
+juguanga_0009
+  rotate: true
+  xy: 319, 84
+  size: 153, 121
+  orig: 260, 340
+  offset: 10, 112
+  index: -1
+juguanga_0010
+  rotate: true
+  xy: 678, 376
+  size: 155, 108
+  orig: 260, 340
+  offset: 28, 122
+  index: -1
+juguanga_0011
+  rotate: true
+  xy: 788, 401
+  size: 130, 108
+  orig: 260, 340
+  offset: 54, 122
+  index: -1
+juguanga_0012
+  rotate: true
+  xy: 319, 239
+  size: 115, 79
+  orig: 260, 340
+  offset: 68, 151
+  index: -1
+juguanga_0013
+  rotate: false
+  xy: 319, 11
+  size: 93, 71
+  orig: 260, 340
+  offset: 90, 158
+  index: -1
+juguanga_0014
+  rotate: false
+  xy: 714, 68
+  size: 65, 52
+  orig: 260, 340
+  offset: 118, 175
+  index: -1
+juguanga_0015
+  rotate: false
+  xy: 714, 34
+  size: 37, 32
+  orig: 260, 340
+  offset: 146, 192
+  index: -1
+xingchen_0000
+  rotate: false
+  xy: 1, 8
+  size: 316, 346
+  orig: 340, 435
+  offset: 9, 77
+  index: -1
+xingzuo_0013
+  rotate: false
+  xy: 427, 533
+  size: 337, 243
+  orig: 360, 390
+  offset: 23, 62
+  index: -1

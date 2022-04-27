@@ -1,0 +1,111 @@
+
+action.png
+size: 140,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bishou_00000
+  rotate: true
+  xy: 73, 167
+  size: 68, 67
+  orig: 186, 166
+  offset: 60, 49
+  index: -1
+bishou_00002
+  rotate: true
+  xy: 0, 58
+  size: 68, 70
+  orig: 186, 166
+  offset: 60, 47
+  index: -1
+bishou_00004
+  rotate: false
+  xy: 73, 237
+  size: 67, 69
+  orig: 186, 166
+  offset: 61, 49
+  index: -1
+bishou_00006
+  rotate: true
+  xy: 74, 308
+  size: 67, 60
+  orig: 186, 166
+  offset: 61, 58
+  index: -1
+bishou_00008
+  rotate: false
+  xy: 72, 46
+  size: 68, 59
+  orig: 186, 166
+  offset: 61, 59
+  index: -1
+bishou_00010
+  rotate: true
+  xy: 77, 448
+  size: 72, 60
+  orig: 186, 166
+  offset: 57, 59
+  index: -1
+bishou_00012
+  rotate: false
+  xy: 73, 107
+  size: 67, 58
+  orig: 186, 166
+  offset: 62, 59
+  index: -1
+bishou_00014
+  rotate: true
+  xy: 74, 377
+  size: 69, 60
+  orig: 186, 166
+  offset: 60, 59
+  index: -1
+bishou_00016
+  rotate: false
+  xy: 0, 382
+  size: 72, 68
+  orig: 186, 166
+  offset: 57, 51
+  index: -1
+bishou_00018
+  rotate: false
+  xy: 0, 185
+  size: 71, 55
+  orig: 186, 166
+  offset: 58, 58
+  index: -1
+bishou_00020
+  rotate: false
+  xy: 0, 128
+  size: 71, 55
+  orig: 186, 166
+  offset: 58, 59
+  index: -1
+bishou_00022
+  rotate: false
+  xy: 0, 0
+  size: 68, 56
+  orig: 186, 166
+  offset: 60, 59
+  index: -1
+bishou_00024
+  rotate: true
+  xy: 0, 452
+  size: 68, 75
+  orig: 186, 166
+  offset: 60, 42
+  index: -1
+bishou_00026
+  rotate: true
+  xy: 0, 312
+  size: 68, 72
+  orig: 186, 166
+  offset: 60, 44
+  index: -1
+bishou_00028
+  rotate: true
+  xy: 0, 242
+  size: 68, 71
+  orig: 186, 166
+  offset: 60, 46
+  index: -1

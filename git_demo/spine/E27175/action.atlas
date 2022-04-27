@@ -1,0 +1,139 @@
+
+action.png
+size: 368,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0lizi_0000
+  rotate: true
+  xy: 208, 110
+  size: 30, 86
+  orig: 226, 226
+  offset: 100, 5
+  index: -1
+0lizi_0001
+  rotate: true
+  xy: 106, 71
+  size: 39, 84
+  orig: 226, 226
+  offset: 90, 8
+  index: -1
+0lizi_0002
+  rotate: true
+  xy: 192, 68
+  size: 40, 82
+  orig: 226, 226
+  offset: 89, 10
+  index: -1
+0lizi_0003
+  rotate: true
+  xy: 275, 25
+  size: 37, 80
+  orig: 226, 226
+  offset: 90, 13
+  index: -1
+0lizi_0004
+  rotate: true
+  xy: 188, 0
+  size: 31, 82
+  orig: 226, 226
+  offset: 90, 12
+  index: -1
+0lizi_0005
+  rotate: true
+  xy: 0, 1
+  size: 26, 76
+  orig: 226, 226
+  offset: 92, 14
+  index: -1
+0lizi_0006
+  rotate: true
+  xy: 296, 86
+  size: 23, 64
+  orig: 226, 226
+  offset: 94, 16
+  index: -1
+0lizi_0007
+  rotate: true
+  xy: 296, 111
+  size: 29, 63
+  orig: 226, 226
+  offset: 94, 19
+  index: -1
+0lizi_0008
+  rotate: false
+  xy: 157, 8
+  size: 29, 61
+  orig: 226, 226
+  offset: 95, 26
+  index: -1
+0lizi_0009
+  rotate: true
+  xy: 188, 33
+  size: 33, 85
+  orig: 226, 226
+  offset: 96, 5
+  index: -1
+e_shuijing1
+  rotate: false
+  xy: 106, 0
+  size: 49, 69
+  orig: 59, 120
+  offset: 6, 38
+  index: -1
+e_shuijing2
+  rotate: false
+  xy: 0, 29
+  size: 59, 111
+  orig: 59, 120
+  offset: 0, 4
+  index: -1
+e_shuijing3
+  rotate: true
+  xy: 61, 31
+  size: 19, 25
+  orig: 59, 120
+  offset: 20, 48
+  index: -1
+e_shuijing4
+  rotate: false
+  xy: 276, 64
+  size: 92, 20
+  orig: 120, 34
+  offset: 11, 6
+  index: -1
+e_shuijing5
+  rotate: true
+  xy: 272, 0
+  size: 23, 33
+  orig: 59, 120
+  offset: 18, 44
+  index: -1
+t_18
+  rotate: true
+  xy: 276, 96
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1
+t_19
+  rotate: true
+  xy: 307, 8
+  size: 15, 26
+  orig: 15, 26
+  offset: 0, 0
+  index: -1
+t_20
+  rotate: false
+  xy: 106, 112
+  size: 100, 28
+  orig: 100, 28
+  offset: 0, 0
+  index: -1
+t_21
+  rotate: false
+  xy: 61, 52
+  size: 43, 88
+  orig: 43, 88
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,125 @@
+
+action.png
+size: 1002,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuansonga_0000
+  rotate: false
+  xy: 1, 14
+  size: 152, 166
+  orig: 432, 432
+  offset: 140, 75
+  index: -1
+chuansonga_0001
+  rotate: false
+  xy: 1, 746
+  size: 268, 277
+  orig: 432, 432
+  offset: 83, 65
+  index: -1
+chuansonga_0002
+  rotate: false
+  xy: 1, 467
+  size: 251, 277
+  orig: 432, 432
+  offset: 92, 65
+  index: -1
+chuansonga_0003
+  rotate: false
+  xy: 271, 746
+  size: 234, 277
+  orig: 432, 432
+  offset: 100, 65
+  index: -1
+chuansonga_0004
+  rotate: false
+  xy: 254, 467
+  size: 216, 277
+  orig: 432, 432
+  offset: 109, 65
+  index: -1
+chuansonga_0005
+  rotate: true
+  xy: 724, 824
+  size: 199, 277
+  orig: 432, 432
+  offset: 117, 65
+  index: -1
+chuansonga_0006
+  rotate: true
+  xy: 724, 639
+  size: 183, 274
+  orig: 432, 432
+  offset: 125, 66
+  index: -1
+chuansonga_0007
+  rotate: false
+  xy: 472, 470
+  size: 173, 274
+  orig: 432, 432
+  offset: 129, 66
+  index: -1
+chuansonga_0008
+  rotate: true
+  xy: 218, 1
+  size: 195, 279
+  orig: 432, 432
+  offset: 118, 61
+  index: -1
+chuansonga_0009
+  rotate: false
+  xy: 1, 182
+  size: 215, 283
+  orig: 432, 432
+  offset: 108, 55
+  index: -1
+chuansonga_0010
+  rotate: false
+  xy: 507, 754
+  size: 215, 269
+  orig: 432, 432
+  offset: 108, 55
+  index: -1
+chuansonga_0011
+  rotate: false
+  xy: 218, 198
+  size: 215, 267
+  orig: 432, 432
+  offset: 108, 55
+  index: -1
+chuansonga_0012
+  rotate: true
+  xy: 647, 428
+  size: 209, 265
+  orig: 432, 432
+  offset: 111, 57
+  index: -1
+chuansonga_0013
+  rotate: false
+  xy: 435, 201
+  size: 209, 264
+  orig: 432, 432
+  offset: 111, 57
+  index: -1
+chuansonga_0014
+  rotate: true
+  xy: 646, 225
+  size: 201, 258
+  orig: 432, 432
+  offset: 115, 60
+  index: -1
+guangyun_0000
+  rotate: false
+  xy: 744, 89
+  size: 250, 134
+  orig: 720, 720
+  offset: 234, 125
+  index: -1
+suduxian_0000
+  rotate: true
+  xy: 499, 46
+  size: 153, 243
+  orig: 720, 720
+  offset: 284, 158
+  index: -1

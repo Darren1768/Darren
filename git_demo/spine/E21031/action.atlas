@@ -1,0 +1,257 @@
+
+action.png
+size: 1017,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anzhu_0000
+  rotate: false
+  xy: 791, 337
+  size: 121, 312
+  orig: 500, 500
+  offset: 193, 94
+  index: -1
+baoquan_0000
+  rotate: true
+  xy: 970, 280
+  size: 98, 47
+  orig: 500, 500
+  offset: 193, 198
+  index: -1
+baoquan_0009
+  rotate: false
+  xy: 872, 0
+  size: 115, 85
+  orig: 500, 500
+  offset: 179, 222
+  index: -1
+chuizi_0000
+  rotate: false
+  xy: 424, 653
+  size: 290, 368
+  orig: 500, 500
+  offset: 102, 39
+  index: -1
+chuizi_0004
+  rotate: true
+  xy: 503, 29
+  size: 255, 367
+  orig: 500, 500
+  offset: 121, 40
+  index: -1
+chuizi_0012
+  rotate: false
+  xy: 503, 286
+  size: 286, 363
+  orig: 500, 500
+  offset: 102, 45
+  index: -1
+chuizi_0032
+  rotate: false
+  xy: 225, 226
+  size: 276, 374
+  orig: 500, 500
+  offset: 109, 38
+  index: -1
+chuizi_0036
+  rotate: false
+  xy: 716, 651
+  size: 286, 370
+  orig: 500, 500
+  offset: 103, 41
+  index: -1
+dilie_0021
+  rotate: true
+  xy: 0, 117
+  size: 483, 223
+  orig: 1000, 1000
+  offset: 440, 92
+  index: -1
+heidian_0003
+  rotate: true
+  xy: 225, 137
+  size: 87, 264
+  orig: 400, 400
+  offset: 167, 88
+  index: -1
+heidian_0006
+  rotate: true
+  xy: 0, 1
+  size: 114, 238
+  orig: 400, 400
+  offset: 151, 88
+  index: -1
+heidian_0007
+  rotate: false
+  xy: 872, 87
+  size: 96, 248
+  orig: 400, 400
+  offset: 155, 88
+  index: -1
+heidian_0008
+  rotate: true
+  xy: 240, 14
+  size: 121, 242
+  orig: 400, 400
+  offset: 156, 90
+  index: -1
+heidian_0011
+  rotate: false
+  xy: 914, 380
+  size: 69, 269
+  orig: 400, 400
+  offset: 168, 94
+  index: -1
+heishizi_0000
+  rotate: false
+  xy: 0, 602
+  size: 422, 419
+  orig: 500, 500
+  offset: 42, 38
+  index: -1
+
+action2.png
+size: 1006,787
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoquan_0001
+  rotate: false
+  xy: 853, 12
+  size: 125, 91
+  orig: 500, 500
+  offset: 163, 198
+  index: -1
+baoquan_0002
+  rotate: true
+  xy: 736, 7
+  size: 143, 115
+  orig: 500, 500
+  offset: 152, 198
+  index: -1
+baoquan_0003
+  rotate: false
+  xy: 766, 196
+  size: 154, 120
+  orig: 500, 500
+  offset: 152, 198
+  index: -1
+baoquan_0004
+  rotate: false
+  xy: 771, 431
+  size: 156, 114
+  orig: 500, 500
+  offset: 152, 205
+  index: -1
+baoquan_0005
+  rotate: false
+  xy: 771, 318
+  size: 156, 111
+  orig: 500, 500
+  offset: 152, 208
+  index: -1
+baoquan_0006
+  rotate: true
+  xy: 521, 0
+  size: 150, 110
+  orig: 500, 500
+  offset: 158, 209
+  index: -1
+baoquan_0007
+  rotate: true
+  xy: 633, 3
+  size: 147, 101
+  orig: 500, 500
+  offset: 160, 217
+  index: -1
+baoquan_0008
+  rotate: false
+  xy: 853, 105
+  size: 128, 89
+  orig: 500, 500
+  offset: 177, 218
+  index: -1
+chuizi_0008
+  rotate: false
+  xy: 248, 422
+  size: 261, 365
+  orig: 500, 500
+  offset: 117, 42
+  index: -1
+chuizi_0016
+  rotate: false
+  xy: 0, 46
+  size: 263, 368
+  orig: 500, 500
+  offset: 117, 43
+  index: -1
+chuizi_0020
+  rotate: false
+  xy: 265, 56
+  size: 254, 364
+  orig: 500, 500
+  offset: 125, 43
+  index: -1
+chuizi_0024
+  rotate: false
+  xy: 0, 416
+  size: 246, 371
+  orig: 500, 500
+  offset: 128, 36
+  index: -1
+chuizi_0028
+  rotate: false
+  xy: 511, 424
+  size: 258, 363
+  orig: 500, 500
+  offset: 120, 44
+  index: -1
+heidian_0004
+  rotate: true
+  xy: 521, 152
+  size: 87, 242
+  orig: 400, 400
+  offset: 174, 96
+  index: -1
+heidian_0005
+  rotate: true
+  xy: 521, 319
+  size: 103, 246
+  orig: 400, 400
+  offset: 157, 88
+  index: -1
+heidian_0010
+  rotate: false
+  xy: 937, 469
+  size: 61, 242
+  orig: 400, 400
+  offset: 174, 96
+  index: -1
+heidian_0012
+  rotate: true
+  xy: 521, 241
+  size: 76, 243
+  orig: 400, 400
+  offset: 165, 90
+  index: -1
+heidian_0014
+  rotate: false
+  xy: 929, 228
+  size: 77, 239
+  orig: 400, 400
+  offset: 166, 93
+  index: -1
+heidian_0015
+  rotate: true
+  xy: 771, 713
+  size: 74, 233
+  orig: 400, 400
+  offset: 168, 93
+  index: -1
+heiquan_0000
+  rotate: false
+  xy: 771, 547
+  size: 164, 164
+  orig: 250, 250
+  offset: 43, 43
+  index: -1

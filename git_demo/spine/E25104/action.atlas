@@ -1,0 +1,90 @@
+
+action.png
+size: 737,224
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangxi_0000
+  rotate: false
+  xy: 397, 36
+  size: 117, 78
+  orig: 288, 312
+  offset: 90, 102
+  index: -1
+guangxi_0002
+  rotate: false
+  xy: 270, 17
+  size: 125, 92
+  orig: 288, 312
+  offset: 90, 90
+  index: -1
+guangxi_0004
+  rotate: true
+  xy: 642, 99
+  size: 125, 94
+  orig: 288, 312
+  offset: 86, 94
+  index: -1
+guangxi_0006
+  rotate: true
+  xy: 519, 0
+  size: 119, 100
+  orig: 288, 312
+  offset: 88, 96
+  index: -1
+guangxi_0008
+  rotate: false
+  xy: 519, 121
+  size: 121, 103
+  orig: 288, 312
+  offset: 83, 96
+  index: -1
+guangxi_0010
+  rotate: false
+  xy: 0, 0
+  size: 120, 109
+  orig: 288, 312
+  offset: 83, 96
+  index: -1
+guangxi_0012
+  rotate: false
+  xy: 0, 111
+  size: 134, 113
+  orig: 288, 312
+  offset: 83, 94
+  index: -1
+guangxi_0014
+  rotate: false
+  xy: 136, 109
+  size: 132, 115
+  orig: 288, 312
+  offset: 84, 93
+  index: -1
+guangxi_0016
+  rotate: false
+  xy: 270, 111
+  size: 125, 113
+  orig: 288, 312
+  offset: 87, 93
+  index: -1
+guangxi_0018
+  rotate: false
+  xy: 397, 116
+  size: 120, 108
+  orig: 288, 312
+  offset: 91, 93
+  index: -1
+guangxi_0020
+  rotate: false
+  xy: 122, 0
+  size: 118, 107
+  orig: 288, 312
+  offset: 92, 93
+  index: -1
+guangxi_0022
+  rotate: false
+  xy: 621, 4
+  size: 116, 93
+  orig: 288, 312
+  offset: 92, 95
+  index: -1

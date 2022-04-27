@@ -1,0 +1,62 @@
+
+action.png
+size: 446,446
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoguanga_0000
+  rotate: true
+  xy: 207, 353
+  size: 93, 206
+  orig: 130, 208
+  offset: 18, 2
+  index: -1
+lvchongji_0000
+  rotate: false
+  xy: 0, 269
+  size: 207, 177
+  orig: 338, 253
+  offset: 55, 33
+  index: -1
+lvchongji_0001
+  rotate: false
+  xy: 262, 69
+  size: 173, 154
+  orig: 338, 253
+  offset: 57, 49
+  index: -1
+lvchongji_0002
+  rotate: false
+  xy: 0, 128
+  size: 175, 141
+  orig: 338, 253
+  offset: 58, 44
+  index: -1
+lvchongji_0003
+  rotate: false
+  xy: 207, 223
+  size: 184, 130
+  orig: 338, 253
+  offset: 58, 49
+  index: -1
+lvchongji_0004
+  rotate: true
+  xy: 127, 11
+  size: 117, 135
+  orig: 338, 253
+  offset: 135, 50
+  index: -1
+lvchongji_0005
+  rotate: false
+  xy: 0, 0
+  size: 127, 128
+  orig: 338, 253
+  offset: 135, 51
+  index: -1
+lvjiana_0001
+  rotate: false
+  xy: 413, 272
+  size: 24, 174
+  orig: 98, 195
+  offset: 37, 10
+  index: -1

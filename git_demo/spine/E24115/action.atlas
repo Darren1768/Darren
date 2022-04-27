@@ -1,0 +1,125 @@
+
+action.png
+size: 847,262
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huo
+  rotate: true
+  xy: 578, 91
+  size: 169, 197
+  orig: 500, 500
+  offset: 169, 151
+  index: -1
+huokuanga_0025
+  rotate: true
+  xy: 2, 57
+  size: 203, 294
+  orig: 720, 1280
+  offset: 350, 304
+  index: -1
+huokuangb_0025
+  rotate: true
+  xy: 298, 64
+  size: 196, 278
+  orig: 720, 1280
+  offset: 353, 299
+  index: -1
+huoliuti_0000
+  rotate: false
+  xy: 368, 2
+  size: 64, 60
+  orig: 500, 500
+  offset: 215, 235
+  index: -1
+huoliuti_0002
+  rotate: false
+  xy: 777, 126
+  size: 68, 65
+  orig: 500, 500
+  offset: 216, 235
+  index: -1
+huoliuti_0004
+  rotate: false
+  xy: 434, 4
+  size: 68, 58
+  orig: 500, 500
+  offset: 216, 235
+  index: -1
+huoliuti_0006
+  rotate: false
+  xy: 777, 60
+  size: 68, 64
+  orig: 500, 500
+  offset: 216, 235
+  index: -1
+huoliuti_0008
+  rotate: false
+  xy: 777, 193
+  size: 68, 67
+  orig: 500, 500
+  offset: 216, 236
+  index: -1
+huoliuti_0010
+  rotate: false
+  xy: 2, 2
+  size: 68, 53
+  orig: 500, 500
+  offset: 216, 235
+  index: -1
+huoliuti_0012
+  rotate: false
+  xy: 143, 6
+  size: 68, 49
+  orig: 500, 500
+  offset: 216, 235
+  index: -1
+huoliuti_0014
+  rotate: false
+  xy: 72, 4
+  size: 69, 51
+  orig: 500, 500
+  offset: 216, 235
+  index: -1
+huoliuti_0016
+  rotate: false
+  xy: 504, 7
+  size: 69, 55
+  orig: 500, 500
+  offset: 216, 235
+  index: -1
+huoliuti_0018
+  rotate: false
+  xy: 298, 2
+  size: 68, 60
+  orig: 500, 500
+  offset: 216, 235
+  index: -1
+huoliuti_0020
+  rotate: false
+  xy: 578, 27
+  size: 68, 62
+  orig: 500, 500
+  offset: 216, 236
+  index: -1
+huoliuti_0022
+  rotate: false
+  xy: 648, 25
+  size: 67, 64
+  orig: 500, 500
+  offset: 216, 235
+  index: -1
+huoliuti_0024
+  rotate: true
+  xy: 717, 22
+  size: 67, 55
+  orig: 500, 500
+  offset: 215, 236
+  index: -1
+huologo_0025
+  rotate: false
+  xy: 774, 3
+  size: 57, 55
+  orig: 500, 500
+  offset: 219, 241
+  index: -1

@@ -1,0 +1,90 @@
+
+action.png
+size: 472,472
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heiying_0000
+  rotate: false
+  xy: 0, 0
+  size: 164, 42
+  orig: 455, 182
+  offset: 13, 72
+  index: -1
+heiying_0001
+  rotate: true
+  xy: 413, 26
+  size: 273, 51
+  orig: 455, 182
+  offset: 14, 67
+  index: -1
+heiying_0002
+  rotate: false
+  xy: 0, 408
+  size: 445, 64
+  orig: 455, 182
+  offset: 10, 61
+  index: -1
+heiying_0003
+  rotate: false
+  xy: 0, 352
+  size: 424, 56
+  orig: 455, 182
+  offset: 12, 62
+  index: -1
+heiying_0004
+  rotate: false
+  xy: 0, 299
+  size: 416, 53
+  orig: 455, 182
+  offset: 16, 63
+  index: -1
+heiying_0005
+  rotate: false
+  xy: 0, 251
+  size: 413, 48
+  orig: 455, 182
+  offset: 16, 67
+  index: -1
+heiying_0006
+  rotate: false
+  xy: 0, 208
+  size: 413, 43
+  orig: 455, 182
+  offset: 16, 71
+  index: -1
+heiying_0007
+  rotate: false
+  xy: 0, 165
+  size: 412, 43
+  orig: 455, 182
+  offset: 17, 71
+  index: -1
+heiying_0008
+  rotate: false
+  xy: 0, 122
+  size: 388, 43
+  orig: 455, 182
+  offset: 20, 71
+  index: -1
+heiying_0009
+  rotate: false
+  xy: 0, 79
+  size: 323, 43
+  orig: 455, 182
+  offset: 81, 71
+  index: -1
+heiying_0010
+  rotate: false
+  xy: 0, 42
+  size: 288, 37
+  orig: 455, 182
+  offset: 86, 73
+  index: -1
+heiying_0011
+  rotate: false
+  xy: 164, 31
+  size: 198, 11
+  orig: 455, 182
+  offset: 131, 86
+  index: -1

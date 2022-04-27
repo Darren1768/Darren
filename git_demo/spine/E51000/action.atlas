@@ -1,0 +1,132 @@
+
+action.png
+size: 1010,995
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baidi_0000
+  rotate: true
+  xy: 732, 206
+  size: 100, 178
+  orig: 100, 178
+  offset: 0, 0
+  index: -1
+caiguanga_0000
+  rotate: true
+  xy: 896, 95
+  size: 109, 106
+  orig: 250, 250
+  offset: 62, 67
+  index: -1
+caihong0000_z
+  rotate: true
+  xy: 718, 672
+  size: 322, 270
+  orig: 329, 283
+  offset: 7, 10
+  index: -1
+dizhena_0000
+  rotate: false
+  xy: 1, 639
+  size: 351, 355
+  orig: 500, 500
+  offset: 75, 69
+  index: -1
+dizhenb_0000
+  rotate: false
+  xy: 732, 308
+  size: 150, 150
+  orig: 300, 300
+  offset: 74, 75
+  index: -1
+dizhenc_0000
+  rotate: false
+  xy: 718, 460
+  size: 210, 210
+  orig: 300, 300
+  offset: 46, 44
+  index: -1
+dizhend_0000
+  rotate: false
+  xy: 243, 5
+  size: 195, 195
+  orig: 195, 195
+  offset: 0, 0
+  index: -1
+glow0000
+  rotate: true
+  xy: 599, 202
+  size: 245, 131
+  orig: 263, 148
+  offset: 8, 11
+  index: -1
+glow0001
+  rotate: false
+  xy: 768, 76
+  size: 126, 128
+  orig: 128, 128
+  offset: 2, 0
+  index: -1
+guangquana_0000
+  rotate: false
+  xy: 440, 24
+  size: 176, 176
+  orig: 200, 200
+  offset: 17, 10
+  index: -1
+guangxian0002
+  rotate: true
+  xy: 618, 3
+  size: 197, 148
+  orig: 197, 148
+  offset: 0, 0
+  index: -1
+guangyuna_0001
+  rotate: false
+  xy: 884, 333
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+guangyunb_0001
+  rotate: true
+  xy: 1, 1
+  size: 272, 240
+  orig: 300, 300
+  offset: 0, 30
+  index: -1
+juqi_0002
+  rotate: true
+  xy: 1, 275
+  size: 362, 343
+  orig: 500, 500
+  offset: 40, 43
+  index: -1
+juqi_0003
+  rotate: false
+  xy: 354, 651
+  size: 362, 343
+  orig: 500, 500
+  offset: 40, 43
+  index: -1
+shanguanga_0000
+  rotate: false
+  xy: 768, 3
+  size: 125, 71
+  orig: 125, 125
+  offset: 0, 27
+  index: -1
+xingchen_0001
+  rotate: true
+  xy: 354, 449
+  size: 200, 345
+  orig: 200, 356
+  offset: 0, 5
+  index: -1
+xuanwoa_0000
+  rotate: true
+  xy: 346, 202
+  size: 245, 251
+  orig: 300, 300
+  offset: 27, 24
+  index: -1
