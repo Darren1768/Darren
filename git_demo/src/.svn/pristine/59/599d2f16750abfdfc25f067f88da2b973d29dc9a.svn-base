@@ -1,0 +1,302 @@
+-- --------------------------------------------------------------------
+-- 这里填写简要说明(必填),
+--
+-- @description:
+--      这里填写详细说明,主要填写该模块的功能简要
+-- --------------------------------------------------------------------
+LeagueExploreController = LeagueExploreController or BaseClass(BaseController)
+
+function LeagueExploreController:config()
+    self.dispather = EventManager:getInstance()
+    self.model = LeagueExploreModel.New(self)
+
+    self.allRedDatas = {}
+end
+
+function LeagueExploreController:registerEvents()
+end
+
+function LeagueExploreController:registerProtocals()
+end
+
+function LeagueExploreController:getModel()
+    return self.model
+end
+
+----------- @ 界面相关
+-- 打开区场景
+function LeagueExploreController:openMainScene(status, data)
+    if status == true then
+        if not self.area_scene_wnd then
+            self.area_scene_wnd = LeagueExploreMainWindow.New(data)
+        end
+        if self.area_scene_wnd:isOpen() == false then
+            self.area_scene_wnd:open()
+        end
+    else
+        if self.area_scene_wnd then
+            self.area_scene_wnd:close()
+            self.area_scene_wnd = nil
+        end
+    end
+end
+
+-- 引导需要
+function LeagueExploreController:getGhostdomSceneRoot(  )
+    if self.area_scene_wnd then
+        return self.area_scene_wnd.root_wnd
+    end
+end
+
+
+
+--红点数据保存住，
+
+function LeagueExploreController:setBuildRedStatus( build_id, red_data )
+
+    local selfRedData = self.allRedDatas[build_id]
+    if red_data then
+        selfRedData = selfRedData or {}
+        local is_have = false
+
+        if red_data.bid ~= nil then
+            for _,n in pairs(selfRedData) do
+                if n.bid == red_data.bid then
+                    n.status = red_data.status
+                    is_have = true
+                    break
+                end
+            end
+        else
+            for i,data in pairs(red_data) do
+                for _,n in pairs(selfRedData) do
+                    if n.bid == data.bid then
+                        n.status = data.status
+                        is_have = true
+                        break
+                    end
+                end
+            end
+        end
+        if not is_have then
+            table.insert( selfRedData, red_data )
+        end
+    else
+        selfRedData = {}
+    end
+
+    self.allRedDatas[build_id] = selfRedData
+
+    if self.area_scene_wnd then
+        self.area_scene_wnd:setBuildRedStatus(build_id)
+    end
+
+    for i,v in pairs(self.allRedDatas) do
+        local is_lock,desc = RoleController:getInstance():checkEnterIsLock(i)
+        if not is_lock then
+            for j,data in pairs(v) do
+                if data.status == true then
+                    MainuiController:getInstance():setBtnRedPoint(MainuiConst.btn_index.ghostdom, true)
+                    return
+                end
+            end
+        end
+    end
+
+
+    MainuiController:getInstance():setBtnRedPoint(MainuiConst.btn_index.ghostdom, false)           
+end
+
+function LeagueExploreController:updateRedData( build_id, red_data )
+    self.allRedDatas[build_id] = red_data
+end
+
+function LeagueExploreController:getRedData( build_id )
+    return self.allRedDatas[build_id]
+end
+
+-- 管理界面
+function LeagueExploreController:openLeagueExploreManagerWindow(status)
+    if status == true then
+        if not self.league_explore_manager_window then
+            self.league_explore_manager_window = LeagueExploreManagerWindow.New()
+        end
+        if self.league_explore_manager_window and self.league_explore_manager_window:isOpen() == false then
+            self.league_explore_manager_window:open()
+        end
+    else
+        if self.league_explore_manager_window then
+            self.league_explore_manager_window:close()
+            self.league_explore_manager_window = nil
+        end
+    end
+end
+--  打开报名界面
+function LeagueExploreController:openLeagueExploreSignWindow(status)
+    if status == true then
+        if not self.league_explore_sign_window then
+            self.league_explore_sign_window = LeagueExploreSignWindow.New()
+        end
+        if self.league_explore_sign_window and self.league_explore_sign_window:isOpen() == false then
+            self.league_explore_sign_window:open()
+        end
+    else
+        if self.league_explore_sign_window then
+            self.league_explore_sign_window:close()
+            self.league_explore_sign_window = nil
+        end
+    end
+end
+
+-- 打开领取界面
+function LeagueExploreController:openReceiveExploreWindow(status)
+    if status == true then
+        if not self.league_explore_receive_window then
+            self.league_explore_receive_window = LeagueExploreReceiveWindow.New()
+        end
+        if self.league_explore_receive_window and self.league_explore_receive_window:isOpen() == false then
+            self.league_explore_receive_window:open()
+        end
+    else
+        if self.league_explore_receive_window then
+            self.league_explore_receive_window:close()
+            self.league_explore_receive_window = nil
+        end
+    end
+end
+
+
+-- 打开布阵界面
+function LeagueExploreController:openTeamExploreWindow(status)
+    if status == true then
+        if not self.league_explore_team_window then
+            self.league_explore_team_window = LeagueExploreTeamWindow.New()
+        end
+        if self.league_explore_team_window and self.league_explore_team_window:isOpen() == false then
+            self.league_explore_team_window:open()
+        end
+    else
+        if self.league_explore_team_window then
+            self.league_explore_team_window:close()
+            self.league_explore_team_window = nil
+        end
+    end
+end
+
+--普通tips
+--@is_middle 是否居中显示
+function LeagueExploreController:openTeamSelectPanel(tips, point, font_size,delay, width, is_middle)
+    if self.team_select_panel ~= nil then
+       self.team_select_panel:close()
+       self.team_select_panel = nil
+    end
+    width = width or 449
+    self.team_select_panel = LeagueExploreTeamSelectPanel.New(delay)
+    self.team_select_panel:open()
+    self:adjustTipsPosition(self.team_select_panel, point, nil, false)
+    table.insert({}, self.team_select_panel)
+    return self.team_select_panel
+end
+
+
+function LeagueExploreController:closeTeamSelectPanel()
+    self.team_select_panel:close()
+
+end
+
+-- 结果界面
+function LeagueExploreController:openLeagueExploreResultWindow(status)
+    if status == true then
+        if not self.league_explore_result_window then
+            self.league_explore_result_window = LeagueExploreResultWindow.New()
+        end
+        if self.league_explore_result_window and self.league_explore_result_window:isOpen() == false then
+            self.league_explore_result_window:open()
+        end
+    else
+        if self.league_explore_result_window then
+            self.league_explore_result_window:close()
+            self.league_explore_result_window = nil
+        end
+    end
+end
+
+-------------- 主页面--------start-------------------
+--点击区场景建筑(bid对应Config.city_data中的bid)
+function LeagueExploreController:onClickLeagueExploreBuildById(area_type, bid)
+   
+    if bid == 1 then     
+
+    end
+
+end
+
+
+-------------- 主页面--------end-------------------
+
+
+--位置调整(现在某认为显示的tips的anchorPoint的为cc.p(0, 1)自己主动的去设)
+function LeagueExploreController:adjustTipsPosition(target, point, view_size, is_middle)
+    local win_size = cc.size(SCREEN_WIDTH,SCREEN_HEIGHT)                 -- 父节点的尺寸
+    local temp_size = cc.size(449,654)      -- 对象的除此你,这里的对象都是0,0的锚点
+    local size = cc.size(temp_size.width, temp_size.height)
+    local offset_height = 10                                             -- 偏移值
+
+    local parent = ViewManager:getInstance():getLayerByTag(ViewMgrTag.MSG_TAG)
+    local local_pos = parent:convertToNodeSpace(point)
+    local start_x = local_pos.x
+    local start_y = local_pos.y
+
+    if start_x + size.width > win_size.width then
+        print("-----------------1------------------",start_x)
+        start_x = win_size.width - size.width
+        -- start_x = win_size.width - start_x
+
+    elseif start_x < size.width then
+        print("-----------------2------------------",start_x)
+
+        start_x = start_x + 20
+    end
+    if is_middle then
+        start_x = (win_size.width - size.width)/2
+    end
+
+    if start_y > win_size.height then
+        start_y = win_size.height 
+    elseif start_y < size.height then
+        start_y = start_y + size.height + 20- 200
+    else 
+        start_y = start_y +200
+    end
+    target:setPosition(start_x, start_y-display.getBottom())
+--    if point.x + size.width + offset_height >= 0 then -- 显示左边
+--         if point.y + size.height + offset_height > win_size.height then -- 显示下边
+--             if point.y - offset_height - size.height > 0 then
+--                 target:setPosition(point.x - size.width - offset_height , point.y - offset_height)
+--             else --超出屏幕
+--                 target:setPosition(point.x - size.width - offset_height , point.y - offset_height + math.abs(point.y - offset_height - size.height))
+--             end
+--         else
+--             target:setPosition(point.x - size.width - offset_height , point.y + size.height + offset_height)
+--         end
+--    else  -- 显示右边
+--        if point.y + size.height + offset_height > win_size.height then -- 显示下边
+--            if point.y - offset_height - size.height > SCREEN_WIDTH then
+--                target:setPosition(point.x + offset_height , point.y - offset_height)
+--            else --超出屏幕
+--               local posy =  point.y - offset_height + math.abs(point.y - offset_height - size.height)
+--               if posy + size.height > display.height then
+--                 target:setPosition(point.x + offset_height , posy-(math.abs(point.y - offset_height - size.height)))
+--               else 
+--                 target:setPosition(point.x + offset_height , point.y - offset_height + math.abs(point.y - offset_height - size.height))
+--               end
+               
+--            end
+--        else
+--            target:setPosition(point.x + offset_height , point.y + size.height + offset_height)
+--        end
+--    end
+end
+function LeagueExploreController:__delete()
+    self.allRedDatas = {}
+end

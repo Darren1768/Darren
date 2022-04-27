@@ -1,0 +1,23 @@
+----------------------------------------------------
+-- 此文件由数据工具生成
+-- 关系配置数据--relation_data.xml
+--------------------------------------
+
+Config = Config or {} 
+Config.RelationData = Config.RelationData or {}
+
+-- -------------------appoint_num_start-------------------
+Config.RelationData.data_appoint_num_length = 3
+Config.RelationData.data_appoint_num = {
+	[1] = {id=1, lev=1, num=1},
+	[2] = {id=2, lev=60, num=2},
+	[3] = {id=3, lev=90, num=3}
+}
+Config.RelationData.data_appoint_num_fun = function(key)
+	local data=Config.RelationData.data_appoint_num[key]
+	if DATA_DEBUG and data == nil then
+		print('(Config.RelationData.data_appoint_num['..key..'])not found') return
+	end
+	return data
+end
+-- -------------------appoint_num_end---------------------

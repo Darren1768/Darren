@@ -1,0 +1,24 @@
+OrganizeConst = OrganizeConst or {}
+
+
+OrganizeConst.Type = {
+    MyTeam = 1,
+    AddTeam = 2,
+  
+    GetTeam  = 3,
+}
+
+OrganizeConst.OrganizeTeamGroupType =
+{
+    my_team  = 1,         --我的队伍
+    add_team = 2,   --加入队伍
+    get_team = 3,     --招募队伍
+}
+
+OrganizeConst.OrganizeTeamGroupName = 
+{
+	[1] = "我的队伍",
+	[2] = "加入队伍",
+	[3] = "招募队伍",
+}
+

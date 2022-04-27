@@ -1,0 +1,283 @@
+----------------------------------------------------
+-- 此文件由数据工具生成
+-- 伙伴装备配置数据--partner_artifact_data.xml
+--------------------------------------
+
+Config = Config or {} 
+Config.PartnerArtifactData = Config.PartnerArtifactData or {}
+
+-- -------------------artifact_const_start-------------------
+Config.PartnerArtifactData.data_artifact_const_length = 23
+Config.PartnerArtifactData.data_artifact_const = {
+	["recast_purple"] = {val=10430, desc="紫色重铸石"},
+	["recast_yellow"] = {val=10431, desc="橙色重铸石"},
+	["skill_score_1"] = {val=600, desc="低级技能评分"},
+	["skill_score_2"] = {val=1200, desc="中级技能评分"},
+	["skill_score_3"] = {val=1800, desc="高级技能评分"},
+	["skill_score_4"] = {val=1800, desc="特级技能评分"},
+	["skill_score_5"] = {val=1800, desc="神级技能评分"},
+	["artifact_rule"] = {val=1, desc="1.合成时只能使用同类符文，不同类的符文无法进行合成\n2.越高阶的符文合成，需要冒险者达到的等级越高\n3.每次合成至少需要2个同类符文\n4.符文合成有几率失败，失败后参与合成的符文将被分解成符文精华\n5.符文精华可用于符文重铸\n6.每次合成放入的符文数量越多，合成时的成功率越大\n7.每次合成失败都会获得熔炼值，当熔炼值达到1000时可获得1个橙色符文，同时扣除对应熔炼值"},
+	["change_condition"] = {val=1000, desc="熔炼值触发条件数值"},
+	["change_gift"] = {val={{10454,1}}, desc="熔炼值奖励"},
+	["recast_rule"] = {val=1, desc="1.符文重铸后，属性、技能和技能数量都有几率发生改变\n2.每次重铸都将消耗符文精华和金币，符文品质越高，消耗的重铸石和金币越多\n3.重铸彩虹符文和闪烁符文时，同类符文重铸次数达到指定次数，必定出现稀有高级技能\n4.分解符文可获得符文精华\n5.同类型的技能效果无法叠加，只按最高级别的生效"},
+	["recastskill_rule"] = {val=1, desc="1.此处列出了符文可能获得的所有技能类型\n2.符文品质越高，拥有的技能等级和数量越高\n3.可在背包中对符文进行重铸，进而更换符文的属性和技能\n4.同类型的技能效果无法叠加，只按最高级别的生效"},
+	["main_shenqi"] = {val=10451, desc="符文获取更多ID"},
+	["recast_tag"] = {val={700075,750202,750002}, desc="重铸界面【技能查看】中携带【稀有】标签的技能"},
+	["recast_power_tag"] = {val={700005,700015,700045,700055,700175,700205,700235,700245,700265,700275,700315,700325,750102,750402,700285,700365,700395,700405,700415,700425,700455}, desc="重铸界面【技能查看】中携带【强力】标签的技能"},
+	["lucky_item_id2"] = {val=10490, desc="高级幸运宝珠道具id"},
+	["lucky_artifact_ids2"] = {val={{10455,1}}, desc="允许幸运重铸的符文id和消耗道具数量"},
+	["lucky_item_id"] = {val=10470, desc="幸运宝珠道具id"},
+	["lucky_artifact_ids"] = {val={{10455,1}}, desc="允许幸运重铸的符文id和消耗道具数量"},
+	["lucky_artifact_skillids"] = {val={700005,700015,700045,700055,700075,700175,700205,700235,700245,700265,700275,700315,700325,750002,750102,750202,750402,700285,700365,700395,700405,700415,700425,700455}, desc="幸运重铸加成的技能列表"},
+	["lucky_artifact_add_pro"] = {val=1500, desc="幸运重铸增加概率千分比"},
+	["lucky_artifact_desc"] = {val=1, desc="1.勾选后触发幸运重铸，选择消耗<div fontcolor=#d95014>好运宝珠</div>，<div fontcolor=#d95014>强力和稀有技能</div>重铸出现概率提升50%\n2.选择消耗<div fontcolor=#d95014>高级好运宝珠</div>，本次重铸必定出现<div fontcolor=#d95014>双高级技能</div>\n3.每重铸一定次数必定出现稀有技能，此时幸运重铸<div fontcolor=#d95014>不可勾选</div>"},
+	["backpack_tips_count"] = {val=200, desc="符文合成提示的所需符文在背包中数量条件"}
+}
+Config.PartnerArtifactData.data_artifact_const_fun = function(key)
+	local data=Config.PartnerArtifactData.data_artifact_const[key]
+	if DATA_DEBUG and data == nil then
+		print('(Config.PartnerArtifactData.data_artifact_const['..key..'])not found') return
+	end
+	return data
+end
+-- -------------------artifact_const_end---------------------
+
+
+-- -------------------artifact_data_start-------------------
+Config.PartnerArtifactData.data_artifact_data_length = 5
+Config.PartnerArtifactData.data_artifact_data = {
+	[10451] = {id=10451, star=0, attr_num=1, skill_num=0, ref_expend={{10450,30},{1,20000}}, com_artifact=10452, limit_num=0, limit_lv=0, arrt_desc="", skill_desc="", next_attr_star=0, next_skill_star=0},
+	[10452] = {id=10452, star=0, attr_num=1, skill_num=1, ref_expend={{10450,150},{1,100000}}, com_artifact=10453, limit_num=2, limit_lv=30, arrt_desc="[攻击]、[生命]、[防御]、[速度]\n从以上基础属性中随机获得1种", skill_desc="1.[低级技能]\n \n随机获得1种低级被动技能", next_attr_star=0, next_skill_star=0},
+	[10453] = {id=10453, star=0, attr_num=1, skill_num=2, ref_expend={{10450,500},{1,250000}}, com_artifact=10454, limit_num=2, limit_lv=40, arrt_desc="[攻击]、[生命]、[防御]、[速度]\n从以上基础属性中随机获得1种", skill_desc="1.[低级技能]+[低级技能]\n2.[低级技能]+[中级技能]\n3.[中级技能]\n \n随机获得以上被动技能组合中的1种", next_attr_star=0, next_skill_star=0},
+	[10454] = {id=10454, star=0, attr_num=1, skill_num=2, ref_expend={{10450,1500},{1,750000}}, com_artifact=10455, limit_num=2, limit_lv=50, arrt_desc="[攻击]、[生命]、[防御]、[速度]\n从以上基础属性中随机获得1种", skill_desc="1.[高级技能]+[中级技能]\n2.[高级技能]+[低级技能]\n3.[中级技能]+[中级技能]\n4.[高级技能]\n \n随机获得以上被动技能组合中的1种", next_attr_star=0, next_skill_star=0},
+	[10455] = {id=10455, star=0, attr_num=2, skill_num=2, ref_expend={{10450,3750},{1,1500000}}, com_artifact=0, limit_num=2, limit_lv=60, arrt_desc="[攻击]、[生命]、[防御]、[速度]\n以上任意1种属性+任意1种百分比属性", skill_desc="1.[高级技能]+[高级技能]\n2.[高级技能]+[中级技能]\n \n随机获得以上被动技能组合中的1种", next_attr_star=0, next_skill_star=0}
+}
+Config.PartnerArtifactData.data_artifact_data_fun = function(key)
+	local data=Config.PartnerArtifactData.data_artifact_data[key]
+	if DATA_DEBUG and data == nil then
+		print('(Config.PartnerArtifactData.data_artifact_data['..key..'])not found') return
+	end
+	return data
+end
+-- -------------------artifact_data_end---------------------
+
+
+-- -------------------artifact_attr_start-------------------
+Config.PartnerArtifactData.data_artifact_attr_length = 5
+Config.PartnerArtifactData.data_artifact_attr = {
+	[10451] = {
+		['atk'] = 146,
+		['hp_max'] = 1476,
+		['def'] = 21,
+		['speed'] = 10,
+		['crit_rate'] = 10,
+		['crit_ratio'] = 20,
+		['atk_per'] = 5,
+		['hp_max_per'] = 10,
+		['def_per'] = 10,
+		['res'] = 10,
+		['tenacity'] = 10,
+		['dam'] = 10,
+	},
+	[10452] = {
+		['atk'] = 293,
+		['hp_max'] = 2953,
+		['def'] = 43,
+		['speed'] = 20,
+		['crit_rate'] = 20,
+		['crit_ratio'] = 40,
+		['atk_per'] = 10,
+		['hp_max_per'] = 20,
+		['def_per'] = 20,
+		['res'] = 20,
+		['tenacity'] = 20,
+		['dam'] = 20,
+	},
+	[10453] = {
+		['atk'] = 587,
+		['hp_max'] = 5907,
+		['def'] = 87,
+		['speed'] = 30,
+		['crit_rate'] = 30,
+		['crit_ratio'] = 60,
+		['atk_per'] = 15,
+		['hp_max_per'] = 30,
+		['def_per'] = 30,
+		['res'] = 30,
+		['tenacity'] = 30,
+		['dam'] = 30,
+	},
+	[10454] = {
+		['atk'] = 1174,
+		['hp_max'] = 11815,
+		['def'] = 175,
+		['speed'] = 40,
+		['crit_rate'] = 40,
+		['crit_ratio'] = 80,
+		['atk_per'] = 20,
+		['hp_max_per'] = 40,
+		['def_per'] = 40,
+		['res'] = 40,
+		['tenacity'] = 40,
+		['dam'] = 40,
+	},
+	[10455] = {
+		['atk'] = 2349,
+		['hp_max'] = 23631,
+		['def'] = 351,
+		['speed'] = 50,
+		['crit_rate'] = 50,
+		['crit_ratio'] = 100,
+		['atk_per'] = 30,
+		['hp_max_per'] = 50,
+		['def_per'] = 50,
+		['res'] = 50,
+		['tenacity'] = 50,
+		['dam'] = 50,
+	},
+}
+-- -------------------artifact_attr_end---------------------
+
+
+-- -------------------artifact_attr_score_start-------------------
+Config.PartnerArtifactData.data_artifact_attr_score_length = 5
+Config.PartnerArtifactData.data_artifact_attr_score = {
+	[10451] = {
+		['atk'] = 58,
+		['hp_max'] = 59,
+		['def'] = 55,
+		['speed'] = 128,
+		['crit_rate'] = 120,
+		['crit_ratio'] = 140,
+		['atk_per'] = 30,
+		['hp_max_per'] = 35,
+		['def_per'] = 33,
+		['res'] = 36,
+		['tenacity'] = 80,
+		['dam'] = 36,
+	},
+	[10452] = {
+		['atk'] = 117,
+		['hp_max'] = 118,
+		['def'] = 114,
+		['speed'] = 256,
+		['crit_rate'] = 240,
+		['crit_ratio'] = 280,
+		['atk_per'] = 60,
+		['hp_max_per'] = 70,
+		['def_per'] = 66,
+		['res'] = 72,
+		['tenacity'] = 160,
+		['dam'] = 72,
+	},
+	[10453] = {
+		['atk'] = 234,
+		['hp_max'] = 236,
+		['def'] = 231,
+		['speed'] = 384,
+		['crit_rate'] = 360,
+		['crit_ratio'] = 420,
+		['atk_per'] = 120,
+		['hp_max_per'] = 150,
+		['def_per'] = 132,
+		['res'] = 144,
+		['tenacity'] = 240,
+		['dam'] = 144,
+	},
+	[10454] = {
+		['atk'] = 469,
+		['hp_max'] = 472,
+		['def'] = 465,
+		['speed'] = 512,
+		['crit_rate'] = 480,
+		['crit_ratio'] = 560,
+		['atk_per'] = 400,
+		['hp_max_per'] = 450,
+		['def_per'] = 440,
+		['res'] = 480,
+		['tenacity'] = 320,
+		['dam'] = 480,
+	},
+	[10455] = {
+		['atk'] = 939,
+		['hp_max'] = 945,
+		['def'] = 933,
+		['speed'] = 640,
+		['crit_rate'] = 600,
+		['crit_ratio'] = 700,
+		['atk_per'] = 600,
+		['hp_max_per'] = 650,
+		['def_per'] = 660,
+		['res'] = 720,
+		['tenacity'] = 400,
+		['dam'] = 720,
+	},
+}
+-- -------------------artifact_attr_score_end---------------------
+
+
+-- -------------------artifact_compound_start-------------------
+Config.PartnerArtifactData.data_artifact_compound_length = 4
+Config.PartnerArtifactData.data_artifact_compound = {
+	[10452] = {
+		[2] = {id=10452, materials={10451}, cost_num=2, rate=200, award={{10450,60}}, add_num=4, other_expend={{1,20000}}},
+		[3] = {id=10452, materials={10451}, cost_num=3, rate=400, award={{10450,90}}, add_num=6, other_expend={{1,40000}}},
+		[4] = {id=10452, materials={10451}, cost_num=4, rate=700, award={{10450,120}}, add_num=8, other_expend={{1,60000}}},
+		[5] = {id=10452, materials={10451}, cost_num=5, rate=1000, award={{10450,150}}, add_num=10, other_expend={{1,80000}}},
+	},
+	[10453] = {
+		[2] = {id=10453, materials={10452}, cost_num=2, rate=200, award={{10450,300}}, add_num=20, other_expend={{1,100000}}},
+		[3] = {id=10453, materials={10452}, cost_num=3, rate=400, award={{10450,450}}, add_num=30, other_expend={{1,200000}}},
+		[4] = {id=10453, materials={10452}, cost_num=4, rate=700, award={{10450,600}}, add_num=40, other_expend={{1,300000}}},
+		[5] = {id=10453, materials={10452}, cost_num=5, rate=1000, award={{10450,750}}, add_num=50, other_expend={{1,400000}}},
+	},
+	[10454] = {
+		[2] = {id=10454, materials={10453}, cost_num=2, rate=200, award={{10450,1500}}, add_num=100, other_expend={{1,300000}}},
+		[3] = {id=10454, materials={10453}, cost_num=3, rate=400, award={{10450,2250}}, add_num=150, other_expend={{1,600000}}},
+		[4] = {id=10454, materials={10453}, cost_num=4, rate=700, award={{10450,3000}}, add_num=200, other_expend={{1,900000}}},
+		[5] = {id=10454, materials={10453}, cost_num=5, rate=1000, award={{10450,3750}}, add_num=250, other_expend={{1,1200000}}},
+	},
+	[10455] = {
+		[2] = {id=10455, materials={10454}, cost_num=2, rate=200, award={{10450,7500}}, add_num=500, other_expend={{1,500000}}},
+		[3] = {id=10455, materials={10454}, cost_num=3, rate=400, award={{10450,11250}}, add_num=750, other_expend={{1,1000000}}},
+		[4] = {id=10455, materials={10454}, cost_num=4, rate=700, award={{10450,15000}}, add_num=1000, other_expend={{1,1500000}}},
+		[5] = {id=10455, materials={10454}, cost_num=5, rate=1000, award={{10450,18750}}, add_num=1250, other_expend={{1,2000000}}},
+	},
+}
+-- -------------------artifact_compound_end---------------------
+
+
+-- -------------------artifact_resolve_start-------------------
+Config.PartnerArtifactData.data_artifact_resolve_length = 5
+Config.PartnerArtifactData.data_artifact_resolve = {
+	[10451] = {{10450,60}},
+	[10452] = {{10450,300}},
+	[10453] = {{10450,1500}},
+	[10454] = {{10450,7500}},
+	[10455] = {{10450,37500}}
+}
+Config.PartnerArtifactData.data_artifact_resolve_fun = function(key)
+	local data=Config.PartnerArtifactData.data_artifact_resolve[key]
+	if DATA_DEBUG and data == nil then
+		print('(Config.PartnerArtifactData.data_artifact_resolve['..key..'])not found') return
+	end
+	return data
+end
+-- -------------------artifact_resolve_end---------------------
+
+
+-- -------------------artifact_skill_start-------------------
+Config.PartnerArtifactData.data_artifact_skill_length = 3
+Config.PartnerArtifactData.data_artifact_skill = {
+	[1] = {700071,750200,750000,700001,700011,700021,700031,700041,700051,700061,700081,700091,700101,700111,700121,700131,700141,700151,700161,700171,700181,700191,700201,700211,700221,700231,700241,700251,700261,700271,700291,700301,700311,700321,750100,750400,700281,700361,700371,700381,700391,700401,700411,700421,700431,700441,700451},
+	[2] = {700073,750201,750001,700003,700013,700023,700033,700043,700053,700063,700083,700093,700103,700113,700123,700133,700143,700153,700163,700173,700183,700193,700203,700213,700223,700233,700243,700253,700263,700273,700293,700303,700313,700323,750101,750401,700283,700363,700373,700383,700393,700403,700413,700423,700433,700443,700453},
+	[3] = {700075,750202,750002,700005,700015,700025,700035,700045,700055,700065,700085,700095,700105,700115,700125,700135,700145,700155,700165,700175,700185,700195,700205,700215,700225,700235,700245,700255,700265,700275,700295,700305,700315,700325,750102,750402,700285,700365,700375,700385,700395,700405,700415,700425,700435,700445,700455}
+}
+Config.PartnerArtifactData.data_artifact_skill_fun = function(key)
+	local data=Config.PartnerArtifactData.data_artifact_skill[key]
+	if DATA_DEBUG and data == nil then
+		print('(Config.PartnerArtifactData.data_artifact_skill['..key..'])not found') return
+	end
+	return data
+end
+-- -------------------artifact_skill_end---------------------

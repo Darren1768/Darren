@@ -1,0 +1,18 @@
+--[[
+* 类注释写在这里-----------------
+* @author {AUTHOR}
+]]
+LeagueExploreModel = LeagueExploreModel or BaseClass()
+
+function LeagueExploreModel:__init(ctrl)
+    self.ctrl = ctrl
+    self:config()
+end
+
+function LeagueExploreModel:config()
+  
+end
+
+
+function LeagueExploreModel:__delete()
+end

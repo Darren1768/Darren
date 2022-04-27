@@ -1,0 +1,130 @@
+-- --------------------------------------------------------------------
+-- 这里填写简要说明(必填),
+--
+-- @description:
+--      这里填写详细说明,主要填写该模块的功能简要
+-- --------------------------------------------------------------------
+BattleBorderWarController = BattleBorderWarController or BaseClass(BaseController)
+
+function BattleBorderWarController:config()
+    self.dispather = EventManager:getInstance()
+    self.allRedDatas = {}
+end
+
+function BattleBorderWarController:registerEvents()
+end
+
+function BattleBorderWarController:registerProtocals()
+end
+
+----------- @ 界面相关
+-- 打开区场景
+function BattleBorderWarController:openHomeScene(status, data)
+    if status == true then
+        if not self.home_scene_wnd then
+            self.home_scene_wnd = BattleBorderWarHomeWindow.New(data)
+        end
+        if self.home_scene_wnd:isOpen() == false then
+            self.home_scene_wnd:open()
+        end
+    else
+        if self.home_scene_wnd then
+            self.home_scene_wnd:close()
+            self.home_scene_wnd = nil
+        end
+    end
+end
+function BattleBorderWarController:openEnemyScene(status, data)
+    if status == true then
+        if not self.enemy_scene_wnd then
+            self.enemy_scene_wnd = BattleBorderWarEnemyWindow.New(data)
+        end
+        if self.enemy_scene_wnd:isOpen() == false then
+            self.enemy_scene_wnd:open()
+        end
+    else
+        if self.enemy_scene_wnd then
+            self.enemy_scene_wnd:close()
+            self.enemy_scene_wnd = nil
+        end
+    end
+end
+-- 引导需要
+function BattleBorderWarController:getGhostdomSceneRoot(  )
+    if self.home_scene_wnd then
+        return self.home_scene_wnd.root_wnd
+    end
+end
+
+function BattleBorderWarController:onClickGhostdomBuildById(area_type, bid)
+  
+end
+
+--红点数据保存住，
+function BattleBorderWarController:setBuildRedStatus( build_id, red_data )
+
+    local selfRedData = self.allRedDatas[build_id]
+    if red_data then
+        selfRedData = selfRedData or {}
+        local is_have = false
+
+        if red_data.bid ~= nil then
+            for _,n in pairs(selfRedData) do
+                if n.bid == red_data.bid then
+                    n.status = red_data.status
+                    is_have = true
+                    break
+                end
+            end
+        else
+            for i,data in pairs(red_data) do
+                for _,n in pairs(selfRedData) do
+                    if n.bid == data.bid then
+                        n.status = data.status
+                        is_have = true
+                        break
+                    end
+                end
+            end
+        end
+        if not is_have then
+            table.insert( selfRedData, red_data )
+        end
+    else
+        selfRedData = {}
+    end
+
+    self.allRedDatas[build_id] = selfRedData
+
+    if self.area_scene_wnd then
+        self.area_scene_wnd:setBuildRedStatus(build_id)
+    end
+
+    for i,v in pairs(self.allRedDatas) do
+        local is_lock,desc = RoleController:getInstance():checkEnterIsLock(i)
+        if not is_lock then
+            for j,data in pairs(v) do
+                if data.status == true then
+                    MainuiController:getInstance():setBtnRedPoint(MainuiConst.btn_index.ghostdom, true)
+                    return
+                end
+            end
+        end
+    end
+
+    MainuiController:getInstance():setBtnRedPoint(MainuiConst.btn_index.ghostdom, false)           
+end
+
+function BattleBorderWarController:updateRedData( build_id, red_data )
+    self.allRedDatas[build_id] = red_data
+end
+
+function BattleBorderWarController:getRedData( build_id )
+    return self.allRedDatas[build_id]
+end
+
+
+
+function BattleBorderWarController:__delete()
+    self.allRedDatas = {}
+end

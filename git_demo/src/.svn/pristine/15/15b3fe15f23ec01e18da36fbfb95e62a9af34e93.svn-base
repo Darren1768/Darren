@@ -1,0 +1,52 @@
+return {
+	id=1
+	,res_id='dungeon'
+	,name='深渊地下'
+	,width=1600
+	,height=1280
+	,res_w=1600
+	,res_h=1280
+	,back_res_w=1920
+	,back_res_h=102
+	,building_list={
+		{bid=1 ,name='东土世界' ,x=464 ,y=822 ,name_x=72 ,name_y=-11 ,shadow=1 ,shadow_x=100 ,shadow_y=100,
+			dungeon_list={
+				{bid=1 ,name='卡达尔森林' ,type=1 ,mainlain=1 ,x=-123 ,y=-74 ,res=''},
+				{bid=2 ,name='维瑟斯山城' ,type=1 ,mainlain=1 ,x=44 ,y=-53 ,res=''},
+				{bid=3 ,name='达齐尔雪地' ,type=1 ,mainlain=1 ,x=100 ,y=123 ,res=''},
+				{bid=4 ,name='安格拉玛山' ,type=1 ,mainlain=1 ,x=218 ,y=-14 ,res=''},
+			}
+		},
+		{bid=4 ,name='先民遗迹' ,x=1142 ,y=536 ,name_x=41 ,name_y=71 ,shadow=1 ,shadow_x=100 ,shadow_y=100,
+			dungeon_list={
+				{bid=12 ,name='龙晶之谷' ,type=1 ,mainlain=4 ,x=-7 ,y=-59 ,res=''},
+				{bid=13 ,name='断弦山脉' ,type=1 ,mainlain=4 ,x=-36 ,y=86 ,res=''},
+				{bid=14 ,name='勇者之巅' ,type=1 ,mainlain=4 ,x=71 ,y=214 ,res=''},
+			}
+		},
+		{bid=3 ,name='努曼诺尔大陆' ,x=588 ,y=469 ,name_x=129 ,name_y=55 ,shadow=2 ,shadow_x=31 ,shadow_y=58,
+			dungeon_list={
+				{bid=9 ,name='旭日平原' ,type=1 ,mainlain=3 ,x=-28 ,y=100 ,res=''},
+				{bid=10 ,name='乌塔塔神庙' ,type=1 ,mainlain=3 ,x=49 ,y=-6 ,res=''},
+				{bid=11 ,name='彩虹岛' ,type=1 ,mainlain=3 ,x=220 ,y=82 ,res=''},
+			}
+		},
+		{bid=2 ,name='北境冰川' ,x=1029 ,y=931 ,name_x=51 ,name_y=5 ,shadow=2 ,shadow_x=25 ,shadow_y=-25,
+			dungeon_list={
+				{bid=5 ,name='波克利雪山' ,type=1 ,mainlain=2 ,x=-205 ,y=24 ,res=''},
+				{bid=6 ,name='乌尔黎森林' ,type=1 ,mainlain=2 ,x=-56 ,y=-6 ,res=''},
+				{bid=7 ,name='冰冠冰川' ,type=1 ,mainlain=2 ,x=67 ,y=98 ,res=''},
+				{bid=8 ,name='斐尼雪山' ,type=1 ,mainlain=2 ,x=179 ,y=45 ,res=''},
+			}
+		},
+		{bid=5 ,name='炼狱之地' ,x=1337 ,y=519 ,name_x=80 ,name_y=56 ,shadow=1 ,shadow_x=100 ,shadow_y=100,
+			dungeon_list={
+				{bid=15 ,name='雾黎之都' ,type=1 ,mainlain=2 ,x=12 ,y=-38 ,res=''},
+				{bid=16 ,name='地心熔炉' ,type=1 ,mainlain=2 ,x=94 ,y=141 ,res=''},
+			}
+		},
+	}
+	,effect_list={
+		{bid=999 ,res='E54501' ,x=0 ,y=0},
+	}
+}

@@ -1,0 +1,155 @@
+-- --------------------------------------------------------------------
+-- @description:
+--      灵身面板
+-- <br/> 2018年11月20日
+-- --------------------------------------------------------------------
+HeroMainTabBodyPanel = class("HeroMainTabBodyPanel", function()
+        return ccui.Widget:create()
+    end)
+
+local string_format = string.format
+local controller = HeroController:getInstance()
+local model = controller:getModel()
+local table_insert = table.insert
+local role_vo = RoleController:getInstance():getRoleVo()
+
+function HeroMainTabBodyPanel:ctor()
+
+    self:config()
+    self:layoutUI()
+    self:registerEvents()
+
+end
+
+function HeroMainTabBodyPanel:config()
+
+    --神器解锁条件
+    self.artifact_lock_list = model.artifact_lock_list
+
+end
+
+function HeroMainTabBodyPanel:layoutUI()
+    local csbPath = PathTool.getTargetCSB("hero/hero_main_tab_body_panel")
+    self.root_wnd = createCSBNote(csbPath)
+    self:addChild(self.root_wnd)
+
+    --读取文件的大小
+    self.size = self.root_wnd:getContentSize()
+    self:setContentSize(self.size)
+    self.tab_panel = self.root_wnd:getChildByName("tab_panel")
+    self.strong_panel = self.root_wnd:getChildByName("strong_panel")
+    self.star_panel = self.root_wnd:getChildByName("star_panel")
+    self.background = self.root_wnd:getChildByName("background")
+
+    self.tab_list = {}
+    local tab_btn_obj = self.root_wnd:getChildByName('tab_btn')
+    for i=1,3 do
+        local tab_btn = {}
+        local item = tab_btn_obj:getChildByName("tab_btn_"..i)
+        tab_btn.btn = item
+        tab_btn.index = i
+        tab_btn.select_bg = item:getChildByName("select_img")
+        tab_btn.select_bg:setVisible(false)
+
+        tab_btn.red_point = item:getChildByName("red_point")
+        tab_btn.red_point:setVisible(false)
+
+
+        self.tab_list[i] = tab_btn
+    end
+
+    self:changeTabType(1)
+end
+
+
+
+function HeroMainTabBodyPanel:updatePower()
+    self.fight_label:setNum(self.hero_vo.power)
+end
+
+-- @_type 参考 HeroConst.MainInfoTab 定义
+function HeroMainTabBodyPanel:changeTabType(index)
+
+    if self.cur_tab_index == index then return end
+
+    if self.cur_tab ~= nil then
+        self.cur_tab.select_bg:setVisible(false)
+    end
+    self.cur_tab_index = index
+
+    self.cur_tab = self.tab_list[self.cur_tab_index]
+
+    if self.cur_tab ~= nil then
+        self.cur_tab.select_bg:setVisible(true)
+    end
+
+    self.tab_panel:setVisible(false)
+    self.strong_panel:setVisible(false)
+    self.star_panel:setVisible(false)
+
+    if index ==1 then
+        self.tab_panel:setVisible(true)
+    elseif index == 2 then 
+        self.strong_panel:setVisible(true)
+    elseif index == 3 then
+        self.star_panel:setVisible(true)
+    end
+
+    --处理红点
+    --self:updatePageRedPoint()
+end
+
+--事件
+function HeroMainTabBodyPanel:registerEvents()
+
+    for index, tab_btn in ipairs(self.tab_list) do
+        registerButtonEventListener(tab_btn.btn, function() self:changeTabType(index) end ,false, 1) 
+    end
+
+end
+
+-- 更新一键穿戴/卸下按钮显示
+function HeroMainTabBodyPanel:updateOneKeyBtnStatus(  )
+end
+
+
+
+-- 一键卸下
+function HeroMainTabBodyPanel:onClickDischargeBtn(  )
+    if not self.hero_vo then return end
+    controller:sender11011(self.hero_vo.partner_id, 0)
+end
+
+
+function HeroMainTabBodyPanel:setData(hero_vo)
+    if not hero_vo then return end
+    self.hero_vo = hero_vo
+    self:updateInfo(hero_vo)
+    self:updateRedPoint()
+    self:updateOneKeyBtnStatus()
+end
+
+function HeroMainTabBodyPanel:updateRedPoint()
+    --按钮的红点
+end
+
+--更新每一个装备红点
+function HeroMainTabBodyPanel:updateEachEquipRedPoint(equip_type)
+    local equip_list = model:getHeroEquipList(self.hero_vo.partner_id)
+    local item = self.equip_item_list[equip_type]
+    local is_redpoint = HeroCalculate.checkSingleHeroEachPosEquipRedPoint(equip_type, equip_list[equip_type])
+    item:showRedPoint(is_redpoint)
+    return is_redpoint
+end
+
+function HeroMainTabBodyPanel:updateInfo(hero_vo)
+    if not hero_vo then return end
+end
+
+function HeroMainTabBodyPanel:setVisibleStatus(bool)
+    self:setVisible(bool)
+end
+--移除
+function HeroMainTabBodyPanel:DeleteMe()
+    EventManager:getInstance():UnBind(self)
+end

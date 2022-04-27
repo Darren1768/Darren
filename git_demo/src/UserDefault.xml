@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userDefaultRoot>
+    <local_srv_id>dev_1</local_srv_id>
+    <is_enter_try_srv>false</is_enter_try_srv>
+    <init_idfa>windows</init_idfa>
+    <gm_cmd>["获取符文"] = 4,
+["448月度礼包"] = 1,
+["648月度礼包"] = 1,
+["普通充值6"] = 1,
+["装备相关"] = 9,
+["充值相关"] = 10,
+["英雄相关"] = 40,
+["全部英雄"] = 4,
+["纯暗"] = 4,
+["328月度礼包"] = 2,
+["跳过新手"] = 31,
+["9星级养成"] = 1,
+["精灵系统"] = 2,
+["英雄星级"] = 5,
+</gm_cmd>
+</userDefaultRoot>

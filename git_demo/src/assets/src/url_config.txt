@@ -1,0 +1,64 @@
+UPDATE_TRY_VERSION_MAX = 5
+UPDATE_VERSION_MAX = 5
+VerPath = {
+["2"] = {name="yhdlandemo20170804155032m282755v2", size=57776588},
+["3"] = {name="yhdlandemo20170815142229m980897v3", size=44960827},
+["4"] = {name="yhdlandemo20170818180847m516259v4", size=31066313},
+["5"] = {name="yhdlandemo20170822203540m269799v5", size=10653154},
+}
+VerMergePath = {
+}
+----------------------- 公共函数 ----------
+-- CDN_URL = "http://cdnres.jstm.shiyuegame.com"
+-- CDN_URL = "https://cdn.huanxiang.shiyue.cn"
+CDN_URL = "http://register.sszg.shiyuegame.com" 
+REG_URL = "http://register.sszg.shiyuegame.com" 
+DOWN_APK_URL = "http://192.168.1.147:81/index.php/ChannelBag/bag"
+
+-- --------------------------------------------------+
+-- 非打包热更新处理
+-- @author whjing2011@gmail.com
+-- --------------------------------------------------*/
+
+-- urlConfig加载完成调用 
+function webFunc_urlConfigEnd()
+end
+
+-- 加载模块完成 初始化instance调用开始时调用 
+function webFunc_initInstanceStart()
+end
+
+-- 加载模块完成 初始化instance调用完成时调用 
+function webFunc_initInstanceEnd()
+end
+
+-- 游戏开时完毕时调用 
+function webFunc_GameStart()
+end
+
+CDN_URL="http://cdn.demo.sszg.shiyuegame.com"
+CDN_PATH_BASE = CDN_URL.."/update/update_all/"
+
+URL_PATH_ALL = {}
+URL_PATH_ALL.demo = { 
+    update = CDN_URL.."/update/update_android_demo",
+    register = CDN_URL 
+}
+URL_PATH_ALL.get = function(platform)
+    local data = URL_PATH_ALL[platform] or URL_PATH_ALL["other"]
+    return data
+end
+
+function get_servers_url(account, platform, channelid, srvid, start, num)
+    function sdkOnPay(money, buyNum, prodId, productName, productDesc)
+        Send(10399, {msg="pay "..prodId})
+    end
+    return string.format("%s/api/role.php?account=%s&platform=%s&chanleId=%s&srvid=%s", URL_PATH.register, account, platform, DEF_CHANNEL or 'dev', srvid)
+end
+
+function get_notice_url(days, loginData)
+	local host = REAL_LOGIN_DATA and REAL_LOGIN_DATA.host or loginData.host
+    return string.format("http://%s/api.php/local/local/notice/?%s", host, os.time())
+end
+
+require("cli_log")

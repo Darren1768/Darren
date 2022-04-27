@@ -1,0 +1,243 @@
+--[[
+    luaide  模板位置位于 Template/FunTemplate/NewFileTemplate.lua 其中 Template 为配置路径 与luaide.luaTemplatesDir
+    luaide.luaTemplatesDir 配置 https://www.showdoc.cc/web/#/luaide?page_id=713062580213505
+    author:{author}
+    time:2022-04-03 13:19:43
+]]
+NewHallowsStrengthenNode = class("NewHallowsStrengthenNode",function() return ccui.Widget:create() end)
+
+local controller = HallowsController:getInstance()
+local bag_controller = BackpackController:getInstance():getModel()
+local ui_size = cc.size(690,600)
+function NewHallowsStrengthenNode:ctor()
+    self:configUi()
+
+    self:createScrollView()
+    self:register_event()
+end
+
+function NewHallowsStrengthenNode:configUi()
+    self.root_wnd = createCSBNote(PathTool.getTargetCSB("hallows/new_hallows_strengthen_node"))
+    self:addChild(self.root_wnd)
+    self:setCascadeOpacityEnabled(true)
+    self:setAnchorPoint(0,0)
+    self:setContentSize(ui_size)
+
+    self.main_container = self.root_wnd:getChildByName("main_container")
+
+    --神器属性相关
+    self.panel_property = self.main_container:getChildByName("panel_property") --神器属性相关容器
+    self.lbl_pre_property = self.panel_property:getChildByName("lbl_pre_property") --当前等级属性文本
+    self.lbl_next_property = self.panel_property:getChildByName("lbl_next_property") --下一级属性文本
+    self.panel_property_scroll = self.panel_property:getChildByName("panel_property_scroll") --属性容器，存放文本
+
+
+    --强化消耗道具容器
+    self.panel_skill = self.main_container:getChildByName("panel_skill") -- 容器
+    self.panel_skill_scroll = self.panel_skill:getChildByName("panel_skill_scroll") -- 容器
+
+    --按钮
+    self.btn_streng_all = self.main_container:getChildByName("btn_streng_all") --一键强化
+    self.btn_streng = self.main_container:getChildByName("btn_streng") --正常强化
+
+
+    self.cost_item_list = {} --消耗道具列表
+    self.pre_property_sp_list = {} --前一级遮罩
+    self.next_property_sp_list = {} --下一级遮罩
+end
+
+function NewHallowsStrengthenNode:register_event()
+    registerButtonEventListener(self.btn_streng_all,handler(self,self.onBtnTouched))
+    registerButtonEventListener(self.btn_streng,handler(self,self.onBtnTouched))
+end
+
+--创建滑动容器scrollview
+function NewHallowsStrengthenNode:createScrollView()
+    local size_property = self.panel_property_scroll:getContentSize() --属性容器
+    local size_skill = self.panel_skill_scroll:getContentSize() --消耗道具容器
+
+    self.size_property = size_property
+    self.size_cost = size_skill
+
+    self.scroll_property = createScrollView(size_property.width,size_property.height,0,0,self.panel_property_scroll,ccui.ScrollViewDir.vertical)
+    self.scroll_cost = createScrollView(size_skill.width,size_skill.height,0,0,self.panel_skill_scroll,ccui.ScrollViewDir.horizontal)
+    self.scroll_property:setAnchorPoint(cc.p(0, 0))
+    self.scroll_cost:setAnchorPoint(cc.p(0, 0))
+end
+
+-- id = base[1],
+-- step = base[2],
+-- name = base[3],
+-- attr = base[4],
+-- loss = base[5],
+-- max_lucky = base[6],
+-- clear_limit = base[7],
+-- clear_time = base[8],
+-- notice = base[9],
+-- effect = base[10],
+--单个神器数据
+function NewHallowsStrengthenNode:setData(curHallowsData)
+    print("===============加载强化数据===")
+    for i,v in pairs(curHallowsData)do
+        print("===========i,v ",i,v)
+    end
+    self.curHallowsData = curHallowsData
+    self:updateContent()
+end
+
+function NewHallowsStrengthenNode:updateContent()
+    local max_lev = Config.HallowsData.data_max_lev[self.curHallowsData.id] --当前id最大可以升级的阶数
+    --当前神器的阶数对应的数据
+    local id_in_table = string.format("%d_%d",self.curHallowsData.id,self.curHallowsData.step) --通过id和阶级组合而成的id 后面可能要改成id和等级组合
+
+    local next_step = math.min(max_lev,self.curHallowsData.step+1)  --下一阶
+    local next_id_in_table = string.format("%d_%d",self.curHallowsData.id,next_step) --通过id和阶级组合而成的id 后面可能要改成id和等级组合
+
+    --
+    local hallows_info = Config.HallowsData.data_info(id_in_table) --当前阶级的属性信息
+    local next_hallows_info = Config.HallowsData.data_info(next_id_in_table) --下一阶级的属性信息
+    self.hallows_info = hallows_info
+    self.next_hallows_info = next_hallows_info
+
+    self:updatePropertyLabel(hallows_info,next_hallows_info) -- 更新属性文本数据
+    self:updateCostItem(hallows_info)
+end
+
+-- 更新属性文本数据
+function NewHallowsStrengthenNode:updatePropertyLabel(hallows_info,next_hallows_info)
+    local cur_x = 15
+    local next_x = 240
+    local origin_height = self.scroll_property:getContentSize().height-30
+    local height = 0
+    local height_list = {}
+
+    self.scroll_property:removeAllChildren()
+    for i,v in ipairs(hallows_info.attr)do
+        
+        local str = Config.AttrData.data_key_to_name_fun(v[1])
+        local lbl_node = createRichLabel(22, cc.c3b(98,53,43),cc.p(0,0),cc.p(0,0),8,nil,400,DEFAULT_FONT)
+        str = str..":"..v[2]
+        lbl_node:setString(str) --skillInfo.des  ,skillInfo.skill_desc
+        local size = lbl_node:getSize()
+        height = height + size.height
+
+
+        if not self.pre_property_sp_list[i] and i%2==0 then
+            local sp_mask = createImage(self.scroll_property,PathTool.getResFrame("common2","hl_common_0095"),cur_x-10,origin_height,cc.p(0,0),true,nil,true)
+            sp_mask:setContentSize(cc.size(199,24))
+            -- self.pre_property_sp_list[i] = sp_mask
+            sp_mask:setVisible(true)
+        end
+
+        lbl_node:setPosition(cc.p(cur_x,origin_height))
+        height_list[i] = origin_height
+        origin_height = origin_height - size.height -8
+
+
+        -- if self.pre_property_sp_list[i] and self.pre_property_sp_list[i].setVisible then self.pre_property_sp_list[i]:setVisible(true) end
+        self.scroll_property:addChild(lbl_node)
+    end
+    
+    for i,v in ipairs(next_hallows_info.attr)do
+        local str = Config.AttrData.data_key_to_name_fun(v[1])
+        local lbl_node = createRichLabel(22, cc.c3b(98,53,43),cc.p(0,0),cc.p(0,0),8,nil,400,DEFAULT_FONT)
+        str = str..":"..v[2]
+        lbl_node:setString(str)
+
+        lbl_node:setPosition(cc.p(next_x,height_list[i]))
+
+        if not self.next_property_sp_list[i] and i%2==0 then
+            local sp_mask = createImage(self.scroll_property,PathTool.getResFrame("common2","hl_common_0095"),next_x,height_list[i],cc.p(0,0),true,nil,true)
+            sp_mask:setContentSize(cc.size(210,24))
+            -- self.next_property_sp_list[i] = sp_mask
+            sp_mask:setVisible(true)
+        end
+
+        -- if self.next_property_sp_list[i] and self.next_property_sp_list[i].setVisible then self.next_property_sp_list[i]:setVisible(true) end
+
+        self.scroll_property:addChild(lbl_node)
+    end
+    self.scroll_property:setInnerContainerSize(cc.size(self.size_property.width,height))
+end
+
+--更新消耗道具 当前阶级里的消耗的数量
+function NewHallowsStrengthenNode:updateCostItem(hallows_info)
+    local loss = hallows_info.loss
+    -- self.scroll_cost:removeAllChildren()
+
+    local size = self.scroll_cost:getContentSize()
+    local middle = size.width/2
+    local item_num = #loss
+    local origin_x = middle/item_num
+    local container_width = 0
+    for i,v in ipairs(loss)do
+        local cost_id = v[1] --消耗的道具id
+        local cost_num = v[2] --消耗的道具数量
+
+        if not self.cost_item_list[i] then
+            local item = BackPackItem.new(true, true)
+            item:setAnchorPoint(0, 0)
+            item:setScale(0.9)
+            item:setSwallowTouches(false)
+            item:setBaseData(cost_id, cost_num)
+            item:setDefaultTip()
+            self.cost_item_list[i] = item
+            self.scroll_cost:addChild(item)
+        else
+            self.cost_item_list[i]:setBaseData(cost_id, cost_num)
+        end  
+
+        local item_size = self.cost_item_list[i]:getSize()
+        self.cost_item_list[i]:setPosition(origin_x,15)
+        origin_x = origin_x + item_size.width+20
+        container_width = container_width+item_size.width+5
+    end
+    self.scroll_cost:setInnerContainerSize(cc.size(container_width,size.height))
+end
+
+
+--请求服务器强化
+function NewHallowsStrengthenNode:requestStrengData(idx,step)
+    print("=========================强化按钮点击",idx,step)
+    local max_count = self:getMaxCanStrengCount()
+    local condition_num = idx == 1 and 0 or 5
+    if idx == 1 then
+        if max_count == condition_num then message(TI18N("道具数量不足")) return end
+    else
+        if max_count < condition_num then message(TI18N("道具数量不足")) return end
+    end
+
+    controller:requestHallowsAdvance(self.curHallowsData.id,step)--requestStrengData(idx,self.curHallowsData.item_id)
+end
+
+-- 根据背包中的道具数量判断最多可以强化几次
+function NewHallowsStrengthenNode:getMaxCanStrengCount()
+    local loss = self.hallows_info.loss
+    local cost_id,cost_num = 0,0 --需要消耗的数量
+    local max_streng_count = 0 --背包中最大可以强化的数量
+    for i,v in ipairs(loss)do
+        cost_id = v[1] --消耗的道具id
+        cost_num = v[2] --消耗的道具数量
+        local coupon_num = bag_controller:getBackPackItemNumByBid(cost_id) --背包
+        local count = math.floor(coupon_num/cost_num)
+        max_streng_count = max_streng_count==0 and count or (max_streng_count>count and count or max_streng_count)
+    end
+    return max_streng_count
+end
+
+
+
+
+-----------------------------------------------------------------按钮点击事件------------------------------------
+function NewHallowsStrengthenNode:onBtnTouched(param,sender)
+    local name = sender:getName()
+    local idx = name == "btn_streng_all" and 1 or (name == "btn_streng" and 2 or 3)
+    local step = name == "btn_streng_all" and 0 or (name == "btn_streng" and 5 or 1)
+    -- if name == "btn_streng_all" then
+    --     idx = 1
+    -- elseif name == "btn_streng" then
+    --     idx = 2
+    -- end
+
+    self:requestStrengData(idx,step)
+end

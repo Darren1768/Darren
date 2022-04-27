@@ -1,0 +1,85 @@
+-- -- --------------------------------------------------------------------
+-- -- 这里填写简要说明(必填),
+-- --
+-- -- @description:
+-- --     好友协议和逻辑控制层
+-- -- --------------------------------------------------------------------
+OrganizeController = OrganizeController or BaseClass(BaseController)
+
+function OrganizeController:config()
+    self.pri_list = {}            --私聊聊天条数
+    self.model = OrganizeModel.New(self)
+    self.dispather = EventManager:getInstance()
+end
+
+function OrganizeController:getModel()
+    return self.model
+end
+
+
+
+function OrganizeController:registerEvents()
+    -- if self.login_success == nil then
+    --     self.login_success = self.dispather:Bind(EventId.ROLE_CREATE_SUCCESS, self, function ()
+    --         self:friendList()
+    --         -- self:getBlackList()
+            
+    --         GlobalTimeTicket:getInstance():add(function()
+    --             self:updateFriendTishi()
+    --         end, 1, 1) 
+    --     end)
+    -- end
+
+    -- EventManager:getInstance():Bind(FriendEvent.REQUEST_LIST,self,function()
+    --         self:friendList()
+    --         self:getBlackList()
+    --     end)
+    
+end
+
+function OrganizeController:registerProtocals()
+    -- self:RegisterProtocal(13300, "friendListHandler")       --好友列表
+   
+end
+
+
+
+
+-- --好友体力领取 赠送 code: 0 赠送 ，1领取
+-- function OrganizeController:sender_13316(code, rid, srv_id)
+--     local protocal = {}
+--     protocal.rid = rid
+--     protocal.srv_id = srv_id
+--     protocal.code = code
+--     self:SendProtocal(13316, protocal)
+   
+-- end
+
+-- function OrganizeController:strengthHandler(data)
+--     if data.code == 1 then
+--         self.model:setFriendPresentCount(data.present_count)
+--         self.model:setFriendDrawCount(data.draw_count)
+
+--         local vo = self.model:updateVo(data.srv_id,data.rid,"is_draw",data.is_draw)
+--         local vo = self.model:updateVo(data.srv_id,data.rid,"is_present",data.is_present)
+
+--        EventManager:getInstance():Fire(FriendEvent.STRENGTH_UPDATE, {list={vo}})
+--        EventManager:getInstance():Fire(FriendEvent.Update_Red_Point)
+--     end
+--     message(data.msg)
+-- end
+
+--竖版好友主界面
+function OrganizeController:openOrganizeTeamWindow(bool,index)
+    if bool == true then 
+        if not self.organize_window  then
+            self.organize_window = OrganizeTeamMainWindow.New()
+        end
+        self.organize_window:open(index)
+    else
+        if self.organize_window then 
+            self.organize_window:close()
+            self.organize_window = nil
+        end
+    end
+end

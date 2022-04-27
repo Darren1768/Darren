@@ -1,0 +1,1 @@
+GhostdomEvent = GhostdomEvent or {}

@@ -1,0 +1,75 @@
+-- --------------------------------------------------------------------
+-- 竖版好友列表
+-- 
+-- @description:
+--      这里填写详细说明,主要填写该模块的功能简要
+-- --------------------------------------------------------------------
+OrganizeGetTeamPanel = class("OrganizeGetTeamPanel", function()
+    return ccui.Widget:create()
+end)
+
+local model = OrganizeController:getInstance():getModel()
+
+function OrganizeGetTeamPanel:ctor() 
+    self:config()
+    self:layoutUI()
+end
+function OrganizeGetTeamPanel:config()
+    self.ctrl = OrganizeController:getInstance()
+    -- self.size = cc.size(720,1065)
+    self:setContentSize(self.size)
+    self.item_list = {}
+    self.is_del = false
+end
+function OrganizeGetTeamPanel:layoutUI()
+    local csbPath = PathTool.getTargetCSB("organizeteam/organizeteam_getteam_panel")
+    self.root_wnd = createCSBNote(csbPath)
+    self:setPosition(cc.p(-10,-56))
+    self:addChild(self.root_wnd)
+    
+    -- self.main_panel = self.root_wnd:getChildByName("main_panel")
+    
+end
+
+
+
+--事件
+function OrganizeGetTeamPanel:registerEvents()
+    -- self.btn_del:addTouchEventListener(function(sender, event_type) 
+    --     if event_type == ccui.TouchEventType.ended then
+    --         playCommonButtonSound()
+    --         self.ctrl:openFriendManagerWindow(true)
+    --     end
+    -- end)
+    
+end
+
+function OrganizeGetTeamPanel:addToParent(status)
+    self:setVisible(status)
+    self:setVisible(status)
+
+    self:handleDynamicEvent(status)
+
+  
+end
+
+function OrganizeGetTeamPanel:handleDynamicEvent(status)
+    if not status then
+         EventManager:getInstance():UnBind(self)
+    else
+        EventManager:getInstance():Bind(TaskEvent.UpdateFeatList,self, function()
+                    self:updateFeatList()
+        end)
+    end
+end
+
+function OrganizeGetTeamPanel:DeleteMe()
+    self:handleDynamicEvent(false)
+    if self.item_scrollview then
+        self.item_scrollview:DeleteMe()
+        self.item_scrollview = nil
+    end
+end
+
+
+

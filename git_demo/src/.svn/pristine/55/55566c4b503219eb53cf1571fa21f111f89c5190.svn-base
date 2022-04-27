@@ -1,0 +1,1 @@
+ExplorationTrialEvent = ExplorationTrialEvent or {}

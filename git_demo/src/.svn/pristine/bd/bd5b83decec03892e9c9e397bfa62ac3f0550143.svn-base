@@ -1,0 +1,143 @@
+-- 红点提醒系统
+
+GlobalReminder = GlobalReminder or BaseClass()
+
+function GlobalReminder:getInstance()
+    if not self.data then 
+        self.data = {}
+        self.fire_cache = {}
+    end
+    return self
+end
+
+function GlobalReminder:__delete()
+    self.data = {}
+    self.fire_cache = {}
+end
+
+--绑定红点,只考虑显示与否，不考虑数量
+--@sprite 红点sprite
+--@event_str 事件string,不可为''
+--@parent_event_str 父组事件string,可为''
+--event_str与sprite一一对应 ，必须顺序绑定
+function GlobalReminder:Bind(sprite,event_str,parent_event_str)
+    if not sprite or event_str == "" then
+        error("GlobalReminder:Bind error!")
+    end
+
+    local group = self:GetGroup(parent_event_str)
+    if group then
+        group[event_str] = group[event_str] or {}
+        group[event_str]['icon'] = sprite
+        group[event_str]['parent'] = group
+        group[event_str]['event_str'] = event_str
+        if self.fire_cache[event_str] then
+            self:Fire(event_str,self.fire_cache[event_str])
+        end
+    else
+        if not parent_event_str  then
+            --此时event_str就是父节点
+            self.data[event_str] = {}
+            self.data[event_str]['icon'] = sprite
+            self.data[event_str]['parent'] = nil
+            self.data[event_str]['event_str'] = event_str
+            
+            if self.fire_cache[event_str] then
+                self:Fire(event_str,self.fire_cache[event_str])
+            end
+        else
+            --没有绑定父节点
+            error("GlobalReminder:Bind parent_event_str error!")
+        end
+    end
+end
+
+function GlobalReminder:Fire(event_str,bool,group)
+    local v = self:GetGroup(event_str)
+    if not v then
+        return
+    end
+    --找到了
+
+    if v['icon'] then
+        v['icon']:setVisible(bool)
+        self.fire_cache[event_str] = bool
+    end
+
+    local parent = v['parent']
+    while parent do
+        -- 父节点判断是否所有的子节点状态相同
+        local child_status = nil
+        for i, v in pairs(parent) do
+            if i~='icon' and i~='parent' and i~='event_str' then
+                if child_status == nil then
+                    child_status = v['icon']:isVisible()
+                elseif child_status ~= v['icon']:isVisible() then
+                    --有不同，父节点直接显示红点
+                    child_status = true
+                    break
+                end
+            end
+        end
+        if child_status == parent['icon']:isVisible() then
+            --不需要改变，就退出
+            break
+        else
+            parent['icon']:setVisible(child_status)
+            self.fire_cache[parent['event_str']] = child_status
+        end
+        parent = parent['parent']
+    end
+
+    
+end
+
+function GlobalReminder:UnBind(group_name,group)
+    if not group_name then
+        return true
+    end
+    local data = group or self.data
+    if data[group_name] then
+        data[group_name] = nil
+        return true
+    end
+
+    for i, v in pairs(data) do
+        if i~='icon' and i~='parent' and i~='event_str' and self:UnBind(group_name, v) then
+            return true
+        end
+    end
+
+    return false
+end
+
+
+function GlobalReminder:GetGroup(group_name,group)
+    if not group_name or group_name == '' then
+        return nil
+    end
+    local data = group or self.data
+    if data[group_name] then
+        return data[group_name]
+    end
+    for i, v in pairs(data) do
+        if i~='icon' and i~='parent' and i~='event_str' then
+            local data = self:GetGroup(group_name, v)
+            if data then
+                return data
+            end
+        end
+    end
+
+    return nil
+end
+
+-- 清除
+function GlobalReminder:DeleteMe()
+	if self.data ~= nil then
+		self.data = nil
+        self.fire_cache = nil
+	end
+end
+
+

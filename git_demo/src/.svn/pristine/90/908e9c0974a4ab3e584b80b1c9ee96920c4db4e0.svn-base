@@ -1,0 +1,4 @@
+
+OrganizeEvent = OrganizeEvent or {}
+
+-- OrganizeEvent.REQUEST_LIST = "request_friend_list"

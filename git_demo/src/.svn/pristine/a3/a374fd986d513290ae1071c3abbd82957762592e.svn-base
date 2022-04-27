@@ -1,0 +1,482 @@
+--
+-- Date: 
+--
+BattleBorderSpineRenderer = BattleBorderSpineRenderer or BaseClass()
+local size = cc.Director:getInstance():getVisibleSize()
+local table_insert = table.insert
+local table_remove = table.remove
+
+--@ spine_scale2 仅模型的缩放比例 (替换大资源时间段用) 
+function BattleBorderSpineRenderer:__init(screen_pos, spine_name,anima_name, scale, career, group, spine_type, spine_scale2)
+	print("=============spine_name=======anima_name============",spine_name,anima_name,spine_type)
+	local spine_scale =1
+	self.scale = scale or spine_scale or 1
+    self.spine_scale2 = spine_scale2 or 1
+	self.is_ScaleX = 1
+	self.spine_type = spine_type
+	self.active = true
+	self.id = autoId()
+	self.screen_pos = screen_pos
+
+	self.is_in_action = false
+	self.cache_act_list = {}
+	-- 根节点
+	self.root = cc.NodeGrid:create()
+	self.root:setCascadeOpacityEnabled(true)
+	self.root:setPosition(screen_pos)
+	self.root:setAnchorPoint(0.5, 0.5)
+
+	-- 模型节点
+	self.spine_root = ccui.Widget:create()
+	self.spine_root:setCascadeOpacityEnabled(true)
+	self.spine_root:setAnchorPoint(0.5, 0.5)
+    self.spine_root:setScale(self.spine_scale2)
+
+	-- 血条节点
+	self.hp_root = ccui.Widget:create()
+	self.hp_root:setCascadeOpacityEnabled(true)
+
+	
+	self.career = career
+	self.height = 0
+	self.isRun = false
+	self.is_call_ready = false
+	self.body_spine_name = spine_name		-- 当前资源名
+	self.base_action_name = anima_name		-- 初始化动作名
+	self.group = group
+	self.dir = 2
+	self.role_num = 0
+	self.ui_hp_width = nil
+	self.ui_boss_width = nil
+	self.tiem_scale = 2
+
+
+	if spine_name ~= nil and self.spine_type ~= BattleObjectType.Elfin then
+		self:removeBody()
+        self.spine = createArmature(spine_name, anima_name)
+		self.spine:setAnchorPoint(0.5, 0)
+		self.spine:setAnimation(0, anima_name, true)
+		self.spine_root:addChild(self.spine)
+		if self.spine_type == BattleObjectType.Hallows then
+			self.spine:setLocalZOrder(1)
+		end
+	end
+	self.root:addChild(self.spine_root, 2)
+	self.root:addChild(self.hp_root,3)
+	
+	self.root:setScale(self.scale)
+	self.role_height = 120 * self.scale       -- 身高180
+	self.is_init = false
+end
+
+function BattleBorderSpineRenderer:showSpineModel(visible)
+	self.spine_root:setVisible(visible)
+	self.hp_root:setVisible(visible)
+	self.top_effect_root:setVisible(visible)
+	self.bottom_effect_root:setVisible(visible)
+end
+
+function BattleBorderSpineRenderer:hideSpineModel()
+	-- self.spine_root:setVisible(visible)
+
+	self.spine_root:runAction(cc.FadeOut:create(0.1))
+	self.hp_root:setVisible(false)
+	self.top_effect_root:setVisible(false)
+	self.bottom_effect_root:setVisible(false)
+end
+function BattleBorderSpineRenderer:setVisible(visible)
+	self.root:setVisible(visible)
+end
+
+
+function BattleBorderSpineRenderer:updateNormalHpUI(parent,width,height,group)
+	if parent then
+		local scale = 1
+		if self.ui_hp_width then
+			scale = width / self.ui_hp_width
+		end
+
+		local res = PathTool.getResFrame("battle", "battle_hp")
+		if BattleController:getInstance():getModel():changeGroup(group) == BattleGroupTypeConf.TYPE_GROUP_ENEMY and BattleController:getInstance():getIsNoramalBattle() then
+			res = PathTool.getResFrame("battle", "battle_enemy_bg")
+		end
+		local frame_res = PathTool.getResFrame("battle", "battle_hp_bg")
+		local hp_frame = createScale9Sprite(frame_res, 0, 1, LOADTEXT_TYPE_PLIST, parent)
+		hp_frame:setCapInsets(cc.rect(3, 4, 1, 1))
+		hp_frame:setContentSize(cc.size(61, 8))
+		self.ui_hp = ccui.LoadingBar:create()
+		self.ui_hp:setCascadeOpacityEnabled(true)
+		self.ui_hp:setScale9Enabled(true)
+		self.ui_hp:setScaleX(scale)
+		self.ui_hp:setAnchorPoint(cc.p(0, 0.5))
+		self.ui_hp:setPosition(-30,1)
+		self.ui_hp:setContentSize(cc.size(width,height))
+		self.ui_hp:setCapInsets(cc.rect(2, 3, 1, 1))
+		self.ui_hp:loadTexture(res, LOADTEXT_TYPE_PLIST)
+		parent:addChild(self.ui_hp,3)
+		
+		self.ui_hp2 = cc.ProgressTimer:create(createSprite(PathTool.getResFrame("battle", "battle_injury_hp"), 0, 0, nil, cc.p(0.5, 0.5), LOADTEXT_TYPE_PLIST))
+		self.ui_hp2:setPosition(-30,1)
+		self.ui_hp2:setOpacity(255)
+		self.ui_hp2:setPercentage(100)
+		self.ui_hp2:setScaleX(scale)
+		self.ui_hp2:setType(cc.PROGRESS_TIMER_TYPE_BAR)
+		self.ui_hp2:setBarChangeRate(cc.p(1, 0))
+		self.ui_hp2:setAnchorPoint(cc.p(0,0.5))
+		self.ui_hp2:setMidpoint(cc.p(0, 0))
+		parent:addChild(self.ui_hp2,2)
+
+		if BattleController:getInstance():getIsNoramalBattle() then
+			self.ui_hp:setScale(scale * -1)
+			self.ui_hp:setPosition(30, 1)
+			self.ui_hp2:setScaleX(scale * -1)
+			self.ui_hp2:setPosition(30, 1)
+		end
+		self.ui_hp:setName("hp_bar")
+	end
+end
+
+--设置血量
+function BattleBorderSpineRenderer:setHpPercent(percent, is_init)
+
+end
+
+function BattleBorderSpineRenderer:showHpRoot(bool)
+	if bool then
+		if not tolua.isnull(self.hp_root) then
+			self.hp_root:setVisible(true)
+		end
+		if not tolua.isnull(self.shadow) then
+			self.shadow:setVisible(true)
+		end
+		
+	else
+		if not tolua.isnull(self.hp_root) then
+			self.hp_root:setVisible(false)
+		end
+		if not tolua.isnull(self.shadow) then
+			self.shadow:setVisible(false)
+		end
+		
+	end
+end
+
+function BattleBorderSpineRenderer:setPosByGrid(grid_pos)
+	local pos = gridPosToScreenPos(grid_pos)
+	if not tolua.isnull(self.root) then
+		self.root:setPosition(pos)
+	end
+end
+
+function BattleBorderSpineRenderer:getPosition()
+	return cc.p(self.root:getPosition())
+end
+
+function BattleBorderSpineRenderer:doRun()
+	if self.isRun then return end
+	self.isRun = true
+	self:playActionOnce(PlayerAction.run)
+end
+
+function BattleBorderSpineRenderer:doEnter(is_normal_battle)
+	local action_name = "enter" 
+	self.base_action_name = action_name
+
+	if self.body_spine_name ~= nil and  self.body_spine_name ~= " " then
+		
+		print("------------------self.body_spine_name-------------------",self.body_spine_name,_time)
+	
+		self:removeBody()
+		self.spine = self:createSpine(self.body_spine_name, self.base_action_name,false)
+		if not tolua.isnull(self.spine) then
+			self.spine_root:addChild(self.spine)
+		end
+		if self.spine_type == BattleObjectType.Hallows then
+			self.spine:setLocalZOrder(1)
+		end
+		local function animationCompleteFunc(event)
+			if event.animation == action_name then 
+				self.spine:setAnimation(0, PlayerAction.battle_stand, true)
+				BattleController:getInstance():getModel():addReadySum()
+			end 
+		end
+		self.spine:registerSpineEventHandler(animationCompleteFunc, sp.EventType.ANIMATION_COMPLETE)
+
+	
+	end
+
+
+
+end
+
+function BattleBorderSpineRenderer:doStand(is_normal_battle)
+	if not self.isRun then
+		return
+	end
+	self.isRun = false
+	self:playActionOnce(PlayerAction.battle_stand)
+	if not is_normal_battle then
+		BattleController:getInstance():getModel():addReadySum()
+	else
+		BattleController:getInstance():getNormalModel():addReadyNum()
+	end
+end
+
+--- BattleBorderSpineRenderer:playActionOnce 改变模型或者动作
+-- @param action_name 动作名
+-- @param body_spine  模型资源名
+function BattleBorderSpineRenderer:playActionOnce(action_name, body_spine)
+	print("===================改变模型或者动作===========playActionOnce====================================",action_name)
+	-- 这里应该有特殊判断,如果有坐骑的话,动作应该切换成 PlayerAction.sit
+	action_name = action_name or PlayerAction.battle_stand --or   
+	self.base_action_name = action_name
+	self:_createSpineByName(action_name, body_spine or self.body_spine_name)
+end
+
+--[[	创建骨骼部分
+	@desc 非角色类的模型,如果资源id一样不创建,角色类的模型,
+]]
+function BattleBorderSpineRenderer:_createSpineByName(action_name, body_spine)
+	if body_spine ~= nil and body_spine ~= " " then
+		self:createBody(body_spine, action_name)
+	end
+end
+
+function BattleBorderSpineRenderer:createBody(spine_name, action)
+	self:removeBody()
+	self.body_spine_name = spine_name
+	self.body_action_name = action
+	self.spine = self:createSpine(self.body_spine_name, self.body_action_name,true)
+	if not tolua.isnull(self.spine) then
+		self.spine_root:addChild(self.spine)
+	end
+	if self.spine_type == BattleObjectType.Hallows then
+		self.spine:setLocalZOrder(1)
+	end
+end
+
+--统一创建模型了,方便做管理
+function BattleBorderSpineRenderer:createSpine(spine_name,action_name,is_loop)
+	if action_name == "stand" then 
+		is_loop=true
+	end 
+	print("===========-统一创建模型了,方便做管理==========----------------------------------=============",spine_name,action_name,is_loop)
+	local spine = createArmature(spine_name,action_name)
+	if not tolua.isnull(spine) then
+		spine:setAnimation(0, action_name, is_loop)
+		spine:setToSetupPose()
+	end
+	return  spine
+end
+
+function BattleBorderSpineRenderer:createEncircleEffect(spine_name)
+	if spine_name == nil or spine_name == "" then return end
+	if self.encircle_effect_path == spine_name then return end
+	if tolua.isnull(self.spine_root) then return end
+
+	self.encircle_effect_path = spine_name
+	if self.encircle_effect then
+		self.encircle_effect:removeFromParent()
+		self.encircle_effect = nil
+	end
+	self.encircle_effect = createSpineByName(spine_name) 
+	self.encircle_effect:setAnimation(0, PlayerAction.action, true)
+	self.spine_root:addChild(self.encircle_effect, 2)
+    if self.spine_scale2 < 1 then
+        self.encircle_effect:setScale(1/self.spine_scale2)
+    end
+end
+
+function BattleBorderSpineRenderer:removeBody()
+	if not tolua.isnull(self.spine) then
+		self.spine:setVisible(false)
+		self.spine:clearTracks()
+		self.spine:removeFromParent()
+	end
+	self.spine = nil
+	self.body_action_name = nil
+	self.spine_body_name = nil
+end
+
+function BattleBorderSpineRenderer:addToLayer(layer, zOrder)
+	if tolua.isnull(layer) or tolua.isnull(self.root) then return end
+	local size = cc.Director:getInstance():getWinSize()
+	if zOrder == nil then
+		local screen_pos = cc.p(self.root:getPosition())
+		layer:addChild(self.root, size.height - screen_pos.y)
+	else
+		layer:addChild(self.root, zOrder)
+	end
+end
+
+function BattleBorderSpineRenderer:reverse(rev)
+	if tolua.isnull(self.spine_root) then return end
+	rev = rev or - 1
+	if self.rev_value == rev then return end
+	self.rev_value = rev
+	self.spine_root:setScaleX(rev * self.spine_scale2)
+
+	-- 如果是精灵的话,因为本身已经反转了
+	if self.elfin_list and next(self.elfin_list) ~= nil then
+		for k,object in pairs(self.elfin_list) do
+    		object.cd_time_txt:setScaleX(rev)
+    		object.lock_txt:setScaleX(rev)
+		end
+	end
+end
+
+--scale 放大倍数
+--time1,2 放大和缩回所用时间，单位秒数
+function BattleBorderSpineRenderer:setScale(scale, time1, time2, time3)
+	-- body
+	local scale_act = cc.ScaleTo:create(time1 / 2, scale)
+	local delay = cc.DelayTime:create(time2)
+	local scale_back = cc.ScaleTo:create(time3 / 2, self.scale)
+	self:runAction(cc.Sequence:create(scale_act, delay, scale_back))
+end
+
+function BattleBorderSpineRenderer:release(bool, type)
+	local time = (type == 0) and 0.1 or 0.5
+	local fadeout
+	if bool then
+		fadeout = cc.Sequence:create(cc.CallFunc:create(function()
+			if self.spine then
+				self.spine:runAction(cc.FadeOut:create(time))
+			end
+		end),cc.DelayTime:create(time))
+	end
+
+	if not tolua.isnull(self.root) then
+		self.root:runAction(cc.Sequence:create(fadeout,cc.CallFunc:create(function()
+			if self.spine then
+				self.spine:setVisible(false)
+				self.spine:clearTracks()
+				self.spine:removeFromParent()
+			end
+			self.spine_root:setVisible(false)
+			self.spine_root:removeAllChildren()
+			self.root:setVisible(false)
+			if self.root:getParent() then
+				self.root:removeFromParent()
+			end
+			self.root:removeAllChildren()
+		end)))
+	end
+end
+
+function BattleBorderSpineRenderer:realrelease(bool)
+	if bool then
+		if not tolua.isnull(self.spine_root) then
+			self.spine_root:runAction(cc.FadeOut:create(0.5))
+		end
+	end
+end
+
+function BattleBorderSpineRenderer:playSkillDeath()
+	self.root:setVisible(false)
+end
+
+-- 设灰度
+function BattleBorderSpineRenderer:setBlack(enable)
+	if not BattleController:getInstance():isInFight() then return end
+	if self.is_die then return end
+	local color1 = color1 or cc.c3b(128, 128, 128)
+	local color2 = color2 or cc.c3b(255, 255, 255)
+	if enable then
+		self.black_type = "setBlack"
+		for _, v in pairs(self.spine_root:getChildren()) do
+			v:setColor(color1)
+		end
+	else
+		self.black_type = nil
+		for _, v in pairs(self.spine_root:getChildren()) do
+			v:setColor(color2)
+		end
+	end	
+end
+
+
+
+--用于选择目标的特效播放
+function BattleBorderSpineRenderer:showTargetEffect(enable)
+end
+
+function BattleBorderSpineRenderer:getSpineName()
+	return self.spine_name
+end
+
+function BattleBorderSpineRenderer:addChild(...)
+	if not tolua.isnull(self.spine_root) and self.spine_root then
+		self.spine_root:addChild(...)
+	end
+end
+
+function BattleBorderSpineRenderer:setActionName(action_name, action_res)
+	self.action_name = action_name
+	self.action_res = (action_res == nil) and action_name or action_res;
+end
+
+function BattleBorderSpineRenderer:getActionName()
+	return self.action_name
+end 
+
+function BattleBorderSpineRenderer:getActionRes()
+	return self.action_res
+end
+
+--==============================--
+--desc:播放动作的统一入口
+--@act:
+--@return 
+--==============================--
+function BattleBorderSpineRenderer:runAction(act)
+	if act == nil then return end
+	print("-----------BattleBorderSpineRenderer:runAction------------------------",act )
+	if not tolua.isnull(self.root) then
+		self.root:runAction(act) 
+	end
+end
+
+function BattleBorderSpineRenderer:__delete()
+	for i,v in ipairs(self.passive_skill_list) do
+		doStopAllActions(v)
+	end
+	self.passive_skill_list = nil
+	for i,v in ipairs(self.passive_skill_pool) do
+		doStopAllActions(v)
+	end
+	self.passive_skill_pool = nil
+	doStopAllActions(self.root)
+
+	if  not tolua.isnull(self.shadow) then
+		self.shadow:removeFromParent()
+		self.shadow = nil
+	end
+	if not tolua.isnull(self.role_effect) then
+		self.role_effect:removeFromParent()
+		self.role_effect = nil
+	end
+	if not tolua.isnull(self.boss_effect) then
+		self.boss_effect:removeFromParent()
+		self.boss_effect = nil
+	end
+	if not tolua.isnull(self.spine) then
+		self.spine:setVisible(false)
+		self.spine:clearTracks()
+		self.spine:removeFromParent()
+	end
+   
+	self.spine = nil
+	self.ui_hp = nil
+	self.ui_hp2 = nil
+	self.buff_list_item = nil
+	if not tolua.isnull(self.spine_root) then
+		self.spine_root:removeAllChildren()
+	end
+	if not tolua.isnull(self.root) then
+		self.root:removeAllChildren()
+	end
+	if self.root:getParent() then
+		self.root:removeFromParent()
+	end
+end

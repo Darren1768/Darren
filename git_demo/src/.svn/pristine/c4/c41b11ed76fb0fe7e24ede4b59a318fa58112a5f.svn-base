@@ -1,0 +1,28 @@
+RedEvent = RedEvent or {}
+--每个红点都要单独标记
+
+--主城主icon
+RedEvent.main_maincity = "main_maincity"
+RedEvent.main_parnter = "main_parnter"
+RedEvent.main_backpack = "main_backpack"
+RedEvent.main_battle = "main_battle"
+RedEvent.main_trail = "main_trail"
+RedEvent.main_union = "main_union"
+RedEvent.main_artifact = "main_artifact"
+
+--伙伴界面tab
+RedEvent.partner_parnter_tab = "partner_parnter_tab"
+RedEvent.partner_art_tab = "partner_art_tab"
+RedEvent.partner_elif_tab = "partner_elif_tab"
+RedEvent.partner_artifact_tab = "partner_artifact_tab"
+
+--精灵界面tab
+RedEvent.elif_hatch_tab = "elif_hatch_tab"
+RedEvent.elif_recovery_tab = "elif_recovery_tab"
+RedEvent.elif_call_tab = "elif_call_tab"
+
+--精灵召唤界面tab
+RedEvent.elif_call_pool = "elif_call_pool"
+RedEvent.elif_call_btn = "elif_call_btn"
+
+

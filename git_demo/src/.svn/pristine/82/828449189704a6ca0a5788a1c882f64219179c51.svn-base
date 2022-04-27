@@ -1,0 +1,415 @@
+LeagueExploreConst = LeagueExploreConst or {}
+
+
+LeagueExploreConst.resourse_data = {
+	[1] = {
+		id=1
+		,res_id='explore_bigbg_1'
+		,layer_sum=1
+		,name='资源点'
+		,width=1440
+		,height=1280
+		,building_list={
+	    	{bid=1 ,name='妖' ,res='3' ,dun_id=0 ,x=120 ,y=1080 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+			{bid=2 ,name='妖' ,res='3' ,dun_id=0 ,x=180 ,y=1020 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=3 ,name='妖' ,res='3' ,dun_id=0 ,x=360 ,y=1000 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=4 ,name='妖' ,res='3' ,dun_id=0 ,x=160 ,y=960 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=5 ,name='妖' ,res='3' ,dun_id=0 ,x=250 ,y=900 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=6 ,name='妖' ,res='3' ,dun_id=0 ,x=400 ,y=880 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+
+	    	{bid=7 ,name='人' ,res='3' ,dun_id=0 ,x=300 ,y=600 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=8 ,name='人' ,res='3' ,dun_id=0 ,x=400 ,y=550 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+
+	    	{bid=9 ,name='神' ,res='3' ,dun_id=0 ,x=770 ,y=250 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=10 ,name='神' ,res='3' ,dun_id=0 ,x=870 ,y=200 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+
+	    	{bid=11 ,name='魔' ,res='3' ,dun_id=0 ,x=1100 ,y=250 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+
+	    	{bid=12 ,name='佛' ,res='3' ,dun_id=0 ,x=170 ,y=200 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+
+	    	{bid=13 ,name='灵' ,res='3' ,dun_id=0 ,x=970 ,y=1080 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=14 ,name='灵' ,res='3' ,dun_id=0 ,x=1200 ,y=1020 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=15 ,name='灵' ,res='3' ,dun_id=0 ,x=1050 ,y=1000 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=16 ,name='灵' ,res='3' ,dun_id=0 ,x=1200 ,y=960 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=17 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=960 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=18 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=19 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=20 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=21 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=22 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=23 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=24 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=25 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=26 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=27 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=28 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=29 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=30 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=31 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=32 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=33 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=34 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=35 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=36 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=37 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=38 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=39 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=40 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+	    	{bid=41 ,name='灵' ,res='3' ,dun_id=0 ,x=1350 ,y=500 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+
+		}
+	},
+
+
+	[2] = {
+		id=2
+		,res_id='explore_bigbg_3'
+		,layer_sum=1
+		,name='布阵'
+		,width=1068
+		,height=641
+		,building_list={-- type 1 最大，依次减小
+	    	{bid=1 ,name='' ,res='3' ,dun_id=0 ,x=564-74,y=600 -280 ,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+
+			{bid=2 ,name='' ,res='3' ,dun_id=0 ,x=484-66 ,y=660 -274,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+			{bid=3 ,name='' ,res='3' ,dun_id=0 ,x=644-66,y=660-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+			{bid=4 ,name='' ,res='3' ,dun_id=0 ,x=404-66 ,y=596-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+			{bid=5 ,name='' ,res='3' ,dun_id=0 ,x=724-66 ,y=596 -274,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+			{bid=6 ,name='' ,res='3' ,dun_id=0 ,x=564-66 ,y=480-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+
+			{bid=7 ,name='' ,res='3' ,dun_id=0 ,x=440-60,y=770-274,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=8 ,name='' ,res='3' ,dun_id=0 ,x=674-60 ,y=770-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=9 ,name='' ,res='3' ,dun_id=0 ,x=394 -60,y=724-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=10 ,name='' ,res='3' ,dun_id=0 ,x=720-60 ,y=720-274  ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=11 ,name='' ,res='3' ,dun_id=0 ,x=354 -60,y=670-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=12 ,name='' ,res='3' ,dun_id=0 ,x=760-60 ,y=670-274  ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=13 ,name='' ,res='3' ,dun_id=0 ,x=300-60 ,y=620-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=14 ,name='' ,res='3' ,dun_id=0 ,x=814 -60,y=620-274  ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=13 ,name='' ,res='3' ,dun_id=0 ,x=356-60 ,y=520-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=14 ,name='' ,res='3' ,dun_id=0 ,x=756-60 ,y=520-274  ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=15 ,name='' ,res='3' ,dun_id=0 ,x=400 -60,y=460-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=16 ,name='' ,res='3' ,dun_id=0 ,x=716-60 ,y=460 -274 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+
+			--左1
+			{bid=17 ,name='' ,res='3' ,dun_id=0 ,x=350-60,y=795 -274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=18 ,name='' ,res='3' ,dun_id=0 ,x=308-60 ,y=795 -274,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=19 ,name='' ,res='3' ,dun_id=0 ,x=266 -60,y=795  -274,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=20 ,name='' ,res='3' ,dun_id=0 ,x=224-60 ,y=795 -274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=21 ,name='' ,res='3' ,dun_id=0 ,x=182-60 ,y=795 -274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左2
+			{bid=22 ,name='' ,res='3' ,dun_id=0 ,x=308-54 ,y=745-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=23 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=745-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=24 ,name='' ,res='3' ,dun_id=0 ,x=224 -54,y=745-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=25 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=745 -274,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=26 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=745-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			--左3
+			{bid=27 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=695-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=28 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=695 -274,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=29 ,name='' ,res='3' ,dun_id=0 ,x=182 -54,y=695-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=30 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=695-274 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=31 ,name='' ,res='3' ,dun_id=0 ,x=98 -54,y=695 -274,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左4
+			{bid=32 ,name='' ,res='3' ,dun_id=0 ,x=250-54 ,y=585-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=33 ,name='' ,res='3' ,dun_id=0 ,x=208 -54,y=585-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=34 ,name='' ,res='3' ,dun_id=0 ,x=166 -54,y=585-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=35 ,name='' ,res='3' ,dun_id=0 ,x=124-54 ,y=585-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=36 ,name='' ,res='3' ,dun_id=0 ,x=82 -54,y=585 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左5
+			{bid=37 ,name='' ,res='3' ,dun_id=0 ,x=308 -54,y=485-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=38 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=485 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=39 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=485-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=40 ,name='' ,res='3' ,dun_id=0 ,x=182 -54,y=485 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=41 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=485 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左6
+			{bid=32 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=425 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=33 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=425-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=34 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=425-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=35 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=425-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=36 ,name='' ,res='3' ,dun_id=0 ,x=98-54 ,y=425-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+
+
+			--右1
+			{bid=37 ,name='' ,res='3' ,dun_id=0 ,x=778 -60,y=765 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=38 ,name='' ,res='3' ,dun_id=0 ,x=820 -60,y=765 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=39 ,name='' ,res='3' ,dun_id=0 ,x=862-60,y=765 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=40 ,name='' ,res='3' ,dun_id=0 ,x=904-60 ,y=765 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=41 ,name='' ,res='3' ,dun_id=0 ,x=946 -60,y=765 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--右2
+			{bid=42 ,name='' ,res='3' ,dun_id=0 ,x=820-60 ,y=715 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=43 ,name='' ,res='3' ,dun_id=0 ,x=862-60 ,y=715-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=44 ,name='' ,res='3' ,dun_id=0 ,x=904 -60,y=715-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=45 ,name='' ,res='3' ,dun_id=0 ,x=946-60 ,y=715-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=46 ,name='' ,res='3' ,dun_id=0 ,x=988-60 ,y=715-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			--右3
+			{bid=47 ,name='' ,res='3' ,dun_id=0 ,x=862-60 ,y=665-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=48 ,name='' ,res='3' ,dun_id=0 ,x=904-60 ,y=665 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=49 ,name='' ,res='3' ,dun_id=0 ,x=946-60 ,y=665-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=50 ,name='' ,res='3' ,dun_id=0 ,x=988 -60,y=665-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=51 ,name='' ,res='3' ,dun_id=0 ,x=1030-60 ,y=665-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+		
+			--右4
+			{bid=52 ,name='' ,res='3' ,dun_id=0 ,x=876 -60,y=585-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=53 ,name='' ,res='3' ,dun_id=0 ,x=918-60 ,y=585 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=54 ,name='' ,res='3' ,dun_id=0 ,x=960-60 ,y=585 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=55 ,name='' ,res='3' ,dun_id=0 ,x=1002 -60,y=585 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=56 ,name='' ,res='3' ,dun_id=0 ,x=1042-60 ,y=585-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+		
+			--右5
+			{bid=57 ,name='' ,res='3' ,dun_id=0 ,x=820-60 ,y=485-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=58 ,name='' ,res='3' ,dun_id=0 ,x=860 -60,y=485-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=59 ,name='' ,res='3' ,dun_id=0 ,x=904-60 ,y=485-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=60 ,name='' ,res='3' ,dun_id=0 ,x=946 -60,y=485-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=61 ,name='' ,res='3' ,dun_id=0 ,x=988-60 ,y=485-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+		
+			--右6
+			{bid=62 ,name='' ,res='3' ,dun_id=0 ,x=860 -60,y=425 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=63 ,name='' ,res='3' ,dun_id=0 ,x=904-60 ,y=425 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=64 ,name='' ,res='3' ,dun_id=0 ,x=946-60 ,y=425 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=65 ,name='' ,res='3' ,dun_id=0 ,x=988-60 ,y=425 -244,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=66 ,name='' ,res='3' ,dun_id=0 ,x=1030-60 ,y=425-244 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+		}
+	},
+
+	
+	[3] = {
+		id=3
+		,res_id='explore_bigbg_2'
+		,layer_sum=1
+		,name='战斗结果'
+		,width=1080
+		,height=1280
+		,building_list={-- type 1 最大，依次减小
+	    	{bid=1 ,name='' ,res='3' ,dun_id=0 ,x=564 -70 ,y=910 -24,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+
+			{bid=2 ,name='' ,res='3' ,dun_id=0 ,x=484 -60 ,y=970 -24 ,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+	    	{bid=3 ,name='' ,res='3' ,dun_id=0 ,x=644 -60 ,y=970 -24 ,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+	    	{bid=4 ,name='' ,res='3' ,dun_id=0 ,x=404 -60 ,y=906  -24,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+	    	{bid=5 ,name='' ,res='3' ,dun_id=0 ,x=724 -60 ,y=906 -24 ,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+	    	{bid=6 ,name='' ,res='3' ,dun_id=0 ,x=564 -60 ,y=790 -24 ,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+
+			{bid=7 ,name='' ,res='3' ,dun_id=0 ,x=440 -54 ,y=1080 -24,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=8 ,name='' ,res='3' ,dun_id=0 ,x=674-54 ,y=1080-24 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=9 ,name='' ,res='3' ,dun_id=0 ,x=394 -54,y=1034-24,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=10 ,name='' ,res='3' ,dun_id=0 ,x=720 -54,y=1030-24 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=11 ,name='' ,res='3' ,dun_id=0 ,x=354-54 ,y=980-24,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=12 ,name='' ,res='3' ,dun_id=0 ,x=760-54 ,y=980 -24,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=13 ,name='' ,res='3' ,dun_id=0 ,x=300-54 ,y=930-24,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=14 ,name='' ,res='3' ,dun_id=0 ,x=814-54 ,y=930 -24,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=13 ,name='' ,res='3' ,dun_id=0 ,x=356-54 ,y=830-24,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=14 ,name='' ,res='3' ,dun_id=0 ,x=756 -54,y=830-24 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=15 ,name='' ,res='3' ,dun_id=0 ,x=400-54 ,y=770-24,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=16 ,name='' ,res='3' ,dun_id=0 ,x=716-54 ,y=770 -24,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+
+			--左1
+			{bid=17 ,name='' ,res='3' ,dun_id=0 ,x=350-54 ,y=1105-30 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=18 ,name='' ,res='3' ,dun_id=0 ,x=308-54 ,y=1105-30  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=19 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=1105-30  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=20 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=1105-30  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=21 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=1105-30  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左2
+			{bid=22 ,name='' ,res='3' ,dun_id=0 ,x=308-54 ,y=1055-30  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=23 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=1055-30  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=24 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=1055-30  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=25 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=1055-30  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=26 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=1055-30  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			--左3
+			{bid=27 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=28 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=29 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=30 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=31 ,name='' ,res='3' ,dun_id=0 ,x=98-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左4
+			{bid=32 ,name='' ,res='3' ,dun_id=0 ,x=250-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=33 ,name='' ,res='3' ,dun_id=0 ,x=208-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=34 ,name='' ,res='3' ,dun_id=0 ,x=166-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=35 ,name='' ,res='3' ,dun_id=0 ,x=124-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=36 ,name='' ,res='3' ,dun_id=0 ,x=82-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左5
+			{bid=37 ,name='' ,res='3' ,dun_id=0 ,x=308-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=38 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=39 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=40 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=41 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左6
+			{bid=32 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=33 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=34 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=35 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=36 ,name='' ,res='3' ,dun_id=0 ,x=98-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+
+
+			--右1
+			{bid=37 ,name='' ,res='3' ,dun_id=0 ,x=778-54 ,y=1075 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=38 ,name='' ,res='3' ,dun_id=0 ,x=820-54 ,y=1075 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=39 ,name='' ,res='3' ,dun_id=0 ,x=862 -54,y=1075 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=40 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=1075 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=41 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=1075 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--右2
+			{bid=42 ,name='' ,res='3' ,dun_id=0 ,x=820-54 ,y=1025 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=43 ,name='' ,res='3' ,dun_id=0 ,x=862-54 ,y=1025 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=44 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=1025 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=45 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=1025 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=46 ,name='' ,res='3' ,dun_id=0 ,x=988-54 ,y=1025 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			--右3
+			{bid=47 ,name='' ,res='3' ,dun_id=0 ,x=862-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=48 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=49 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=50 ,name='' ,res='3' ,dun_id=0 ,x=988-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=51 ,name='' ,res='3' ,dun_id=0 ,x=1030-54 ,y=975 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+            --右4
+			{bid=52 ,name='' ,res='3' ,dun_id=0 ,x=876-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=53 ,name='' ,res='3' ,dun_id=0 ,x=918-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=54 ,name='' ,res='3' ,dun_id=0 ,x=960-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=55 ,name='' ,res='3' ,dun_id=0 ,x=1002-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=56 ,name='' ,res='3' ,dun_id=0 ,x=1042-54 ,y=895 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--右5
+			{bid=57 ,name='' ,res='3' ,dun_id=0 ,x=820-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=58 ,name='' ,res='3' ,dun_id=0 ,x=860-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=59 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=60 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=61 ,name='' ,res='3' ,dun_id=0 ,x=988-54 ,y=795 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--右6
+			{bid=62 ,name='' ,res='3' ,dun_id=0 ,x=860-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=63 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=64 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=65 ,name='' ,res='3' ,dun_id=0 ,x=988-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=66 ,name='' ,res='3' ,dun_id=0 ,x=1030-54 ,y=735 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+
+		}
+	},
+
+
+		
+	[4] = {
+		id=3
+		,res_id='explore_bigbg_2'
+		,layer_sum=1
+		,name='战斗结果B'
+		,width=1080
+		,height=1280
+		,building_list={-- type 1 最大，依次减小
+	    	{bid=1 ,name='' ,res='3' ,dun_id=0 ,x=564 -70 ,y=910 -594,name_x=0 ,name_y=0 ,dir=0 ,type=1 ,layer=1},
+
+			{bid=2 ,name='' ,res='3' ,dun_id=0 ,x=484 -60 ,y=970 -594 ,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+	    	{bid=3 ,name='' ,res='3' ,dun_id=0 ,x=644 -60 ,y=970 -594,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+	    	{bid=4 ,name='' ,res='3' ,dun_id=0 ,x=404 -60 ,y=906  -594,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+	    	{bid=5 ,name='' ,res='3' ,dun_id=0 ,x=724 -60 ,y=906 -594,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+	    	{bid=6 ,name='' ,res='3' ,dun_id=0 ,x=564 -60 ,y=790 -594,name_x=0 ,name_y=0 ,dir=0 ,type=2 ,layer=1}, 
+
+			{bid=7 ,name='' ,res='3' ,dun_id=0 ,x=440 -54 ,y=1080 -594,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=8 ,name='' ,res='3' ,dun_id=0 ,x=674-54 ,y=1080-594 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=9 ,name='' ,res='3' ,dun_id=0 ,x=394 -54,y=1034-594,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=10 ,name='' ,res='3' ,dun_id=0 ,x=720 -54,y=1030-594 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=11 ,name='' ,res='3' ,dun_id=0 ,x=354-54 ,y=980-594,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=12 ,name='' ,res='3' ,dun_id=0 ,x=760-54 ,y=980 -594,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=13 ,name='' ,res='3' ,dun_id=0 ,x=300-54 ,y=930-594,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=14 ,name='' ,res='3' ,dun_id=0 ,x=814-54 ,y=930 -594,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=13 ,name='' ,res='3' ,dun_id=0 ,x=356-54 ,y=830-594,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=14 ,name='' ,res='3' ,dun_id=0 ,x=756 -54,y=830-594 ,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=15 ,name='' ,res='3' ,dun_id=0 ,x=400-54 ,y=770-594,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+			{bid=16 ,name='' ,res='3' ,dun_id=0 ,x=716-54 ,y=770 -594,name_x=0 ,name_y=0 ,dir=0 ,type=3 ,layer=1}, 
+
+			--左1
+			{bid=17 ,name='' ,res='3' ,dun_id=0 ,x=350-54 ,y=555-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=18 ,name='' ,res='3' ,dun_id=0 ,x=308-54 ,y=555 -46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=19 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=555 -46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=20 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=555-46  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=21 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=555-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左2
+			{bid=22 ,name='' ,res='3' ,dun_id=0 ,x=308-54 ,y=505 -46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=23 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=505 -46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=24 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=505 -46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=25 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=505-46  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=26 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=505-46  ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			--左3
+			{bid=27 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=375+36 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=28 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=375+36 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=29 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=375 +36,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=30 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=375+36 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=31 ,name='' ,res='3' ,dun_id=0 ,x=98-54 ,y=375 +36,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左4
+			{bid=32 ,name='' ,res='3' ,dun_id=0 ,x=250-54 ,y=325 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=33 ,name='' ,res='3' ,dun_id=0 ,x=208-54 ,y=325 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=34 ,name='' ,res='3' ,dun_id=0 ,x=166-54 ,y=325 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=35 ,name='' ,res='3' ,dun_id=0 ,x=124-54 ,y=325 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=36 ,name='' ,res='3' ,dun_id=0 ,x=82-54 ,y=325,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左5
+			{bid=37 ,name='' ,res='3' ,dun_id=0 ,x=308-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=38 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=39 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=40 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=41 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--左6
+			{bid=32 ,name='' ,res='3' ,dun_id=0 ,x=266-54 ,y=165,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=33 ,name='' ,res='3' ,dun_id=0 ,x=224-54 ,y=165 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=34 ,name='' ,res='3' ,dun_id=0 ,x=182-54 ,y=165 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=35 ,name='' ,res='3' ,dun_id=0 ,x=140-54 ,y=165 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=36 ,name='' ,res='3' ,dun_id=0 ,x=98-54 ,y=165 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+
+
+			--右1
+			{bid=37 ,name='' ,res='3' ,dun_id=0 ,x=778-54 ,y=555-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=38 ,name='' ,res='3' ,dun_id=0 ,x=820-54 ,y=555-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=39 ,name='' ,res='3' ,dun_id=0 ,x=862 -54,y=555-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=40 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=555-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=41 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=555-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--右2
+			{bid=42 ,name='' ,res='3' ,dun_id=0 ,x=820-54 ,y=505-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=43 ,name='' ,res='3' ,dun_id=0 ,x=862-54 ,y=505-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=44 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=505-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=45 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=505-46 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=46 ,name='' ,res='3' ,dun_id=0 ,x=988-54 ,y=505 -46,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			--右3
+			{bid=47 ,name='' ,res='3' ,dun_id=0 ,x=862-54 ,y=375+36 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=48 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=375+36 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=49 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=375+36 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=50 ,name='' ,res='3' ,dun_id=0 ,x=988-54 ,y=375+36 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=51 ,name='' ,res='3' ,dun_id=0 ,x=1030-54 ,y=375+36 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+            --右4
+			{bid=52 ,name='' ,res='3' ,dun_id=0 ,x=876-54 ,y=325 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=53 ,name='' ,res='3' ,dun_id=0 ,x=918-54 ,y=325 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=54 ,name='' ,res='3' ,dun_id=0 ,x=960-54 ,y=325 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=55 ,name='' ,res='3' ,dun_id=0 ,x=1002-54 ,y=325 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=56 ,name='' ,res='3' ,dun_id=0 ,x=1042-54 ,y=325 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--右5
+			{bid=57 ,name='' ,res='3' ,dun_id=0 ,x=820-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=58 ,name='' ,res='3' ,dun_id=0 ,x=860-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=59 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=60 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=61 ,name='' ,res='3' ,dun_id=0 ,x=988-54 ,y=225 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+			--右6
+			{bid=62 ,name='' ,res='3' ,dun_id=0 ,x=860-54 ,y=165 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=63 ,name='' ,res='3' ,dun_id=0 ,x=904-54 ,y=165 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=64 ,name='' ,res='3' ,dun_id=0 ,x=946-54 ,y=165 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=65 ,name='' ,res='3' ,dun_id=0 ,x=988-54 ,y=165 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+			{bid=66 ,name='' ,res='3' ,dun_id=0 ,x=1030-54 ,y=165 ,name_x=0 ,name_y=0 ,dir=0 ,type=4 ,layer=1}, 
+
+
+		}
+	},
+}

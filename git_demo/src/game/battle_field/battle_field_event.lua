@@ -1,0 +1,1 @@
+BattleFieldEvent = BattleFieldEvent or {}

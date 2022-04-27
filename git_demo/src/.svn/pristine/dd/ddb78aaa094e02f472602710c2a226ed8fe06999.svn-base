@@ -1,0 +1,66 @@
+-- --------------------------------------------------------------------
+-- 这里填写简要说明(必填),
+--
+-- @description:
+--      转盘活动
+-- --------------------------------------------------------------------
+BattleBorderWarModel = BattleBorderWarModel or BaseClass()
+
+function BattleBorderWarModel:__init(ctrl)
+    self.ctrl = ctrl
+    self:config()
+end
+
+function BattleBorderWarModel:config()
+	self.all_object = {}
+
+end
+
+
+
+
+--创建战斗人物
+--@param data:战斗人物列表
+function BattleBorderWarModel:createBattleRole(data)
+	data ={}
+	data.objects ={}
+	for i=1,20 do 
+		data.objects[i].index =i
+	end 
+
+	--创建角色
+	self.roleCnt=0
+	local _render = RenderMgr:getInstance()
+	for i, v in ipairs(data.objects or {}) do
+		_render:doNextFrame(function() 
+			self:addBattleRole(v,#data.objects)
+		end)
+	end
+
+end
+
+
+--添加/复活角色
+--param data:角色信息数据
+function BattleBorderWarModel:addBattleRole(data,count)
+
+	    local screen_pos =cc.p(100,100)
+		local  spine_name = "H103030"
+		local  anima_name = "stand"
+		local role = BattleBorderSpineRenderer.New(screen_pos,spine_name,anima_name)
+		
+		-- if next(self.all_object or {}) ~= nil and self.all_object then
+		if self.all_object then
+			self.all_object[data.index] = role
+		end
+		self.roleCnt=self.roleCnt+1 
+		if count and count ==self.roleCnt  and self.battle_scene then
+			-- self.battle_scene:addRoleEnterSpine(self.all_object)
+
+		end
+
+end
+
+
+function BattleBorderWarModel:__delete()
+end
