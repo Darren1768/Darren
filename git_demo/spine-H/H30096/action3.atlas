@@ -1,0 +1,20 @@
+
+action3.png
+size: 377,150
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+J0000
+  rotate: true
+  xy: 2, 2
+  size: 146, 185
+  orig: 515, 515
+  offset: 166, 243
+  index: -1
+J0090
+  rotate: false
+  xy: 189, 16
+  size: 186, 132
+  orig: 515, 515
+  offset: 145, 255
+  index: -1

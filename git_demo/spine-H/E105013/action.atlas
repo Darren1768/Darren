@@ -1,0 +1,249 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/h_38
+  rotate: true
+  xy: 1592, 402
+  size: 793, 329
+  orig: 930, 620
+  offset: 137, 120
+  index: -1
+PNG/h_40
+  rotate: false
+  xy: 797, 37
+  size: 793, 368
+  orig: 930, 620
+  offset: 137, 120
+  index: -1
+PNG/h_42
+  rotate: false
+  xy: 2, 2
+  size: 793, 389
+  orig: 930, 620
+  offset: 137, 120
+  index: -1
+PNG/h_48
+  rotate: true
+  xy: 1592, 1197
+  size: 793, 443
+  orig: 930, 620
+  offset: 137, 114
+  index: -1
+PNG/h_50
+  rotate: false
+  xy: 797, 934
+  size: 793, 525
+  orig: 930, 620
+  offset: 137, 93
+  index: -1
+PNG/h_56
+  rotate: false
+  xy: 2, 1455
+  size: 793, 535
+  orig: 930, 620
+  offset: 137, 85
+  index: -1
+PNG/h_62
+  rotate: false
+  xy: 2, 922
+  size: 793, 531
+  orig: 930, 620
+  offset: 137, 89
+  index: -1
+PNG/h_64
+  rotate: false
+  xy: 797, 1461
+  size: 793, 529
+  orig: 930, 620
+  offset: 137, 91
+  index: -1
+PNG/h_68
+  rotate: false
+  xy: 2, 393
+  size: 793, 527
+  orig: 930, 620
+  offset: 137, 93
+  index: -1
+PNG/h_70
+  rotate: false
+  xy: 797, 407
+  size: 793, 525
+  orig: 930, 620
+  offset: 137, 95
+  index: -1
+PNG/lunzi_08
+  rotate: false
+  xy: 1592, 139
+  size: 261, 261
+  orig: 363, 363
+  offset: 49, 51
+  index: -1
+
+action2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/h_36
+  rotate: true
+  xy: 1592, 1251
+  size: 793, 320
+  orig: 930, 620
+  offset: 137, 120
+  index: -1
+PNG/h_52
+  rotate: false
+  xy: 797, 1018
+  size: 793, 506
+  orig: 930, 620
+  offset: 137, 85
+  index: -1
+PNG/h_54
+  rotate: false
+  xy: 2, 2
+  size: 793, 489
+  orig: 930, 620
+  offset: 137, 83
+  index: -1
+PNG/h_58
+  rotate: false
+  xy: 2, 1524
+  size: 793, 520
+  orig: 930, 620
+  offset: 137, 86
+  index: -1
+PNG/h_60
+  rotate: false
+  xy: 797, 518
+  size: 793, 498
+  orig: 930, 620
+  offset: 137, 88
+  index: -1
+PNG/h_66
+  rotate: false
+  xy: 2, 493
+  size: 793, 508
+  orig: 930, 620
+  offset: 137, 92
+  index: -1
+PNG/h_72
+  rotate: false
+  xy: 2, 1003
+  size: 793, 519
+  orig: 930, 620
+  offset: 137, 96
+  index: -1
+PNG/h_74
+  rotate: false
+  xy: 797, 1526
+  size: 793, 518
+  orig: 930, 620
+  offset: 137, 97
+  index: -1
+PNG/h_78
+  rotate: false
+  xy: 797, 26
+  size: 791, 490
+  orig: 930, 620
+  offset: 139, 100
+  index: -1
+PNG/h_80
+  rotate: true
+  xy: 1592, 578
+  size: 671, 234
+  orig: 930, 620
+  offset: 259, 102
+  index: -1
+PNG/lunzi_00
+  rotate: false
+  xy: 1592, 315
+  size: 258, 261
+  orig: 363, 363
+  offset: 51, 51
+  index: -1
+PNG/lunzi_18
+  rotate: true
+  xy: 1590, 51
+  size: 262, 259
+  orig: 363, 363
+  offset: 52, 52
+  index: -1
+
+action3.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/h_44
+  rotate: false
+  xy: 2, 498
+  size: 793, 482
+  orig: 930, 620
+  offset: 137, 120
+  index: -1
+PNG/h_46
+  rotate: false
+  xy: 797, 518
+  size: 793, 462
+  orig: 930, 620
+  offset: 137, 113
+  index: -1
+PNG/h_76
+  rotate: false
+  xy: 2, 7
+  size: 781, 489
+  orig: 930, 620
+  offset: 149, 98
+  index: -1
+PNG/lunzi_02
+  rotate: true
+  xy: 1592, 462
+  size: 255, 263
+  orig: 363, 363
+  offset: 53, 49
+  index: -1
+PNG/lunzi_04
+  rotate: false
+  xy: 1592, 719
+  size: 259, 261
+  orig: 363, 363
+  offset: 55, 51
+  index: -1
+PNG/lunzi_06
+  rotate: true
+  xy: 797, 261
+  size: 255, 263
+  orig: 363, 363
+  offset: 54, 51
+  index: -1
+PNG/lunzi_10
+  rotate: true
+  xy: 1062, 259
+  size: 257, 261
+  orig: 363, 363
+  offset: 55, 51
+  index: -1
+PNG/lunzi_12
+  rotate: true
+  xy: 785, 4
+  size: 255, 261
+  orig: 363, 363
+  offset: 55, 53
+  index: -1
+PNG/lunzi_14
+  rotate: false
+  xy: 1048, 2
+  size: 259, 255
+  orig: 363, 363
+  offset: 49, 54
+  index: -1
+PNG/lunzi_16
+  rotate: true
+  xy: 1325, 260
+  size: 256, 261
+  orig: 363, 363
+  offset: 54, 49
+  index: -1

@@ -1,0 +1,104 @@
+
+action5.png
+size: 944,578
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action50000
+  rotate: false
+  xy: 358, 0
+  size: 196, 156
+  orig: 490, 490
+  offset: 152, 243
+  index: -1
+action50001
+  rotate: true
+  xy: 648, 381
+  size: 197, 155
+  orig: 490, 490
+  offset: 159, 241
+  index: -1
+action50002
+  rotate: true
+  xy: 502, 375
+  size: 203, 144
+  orig: 490, 490
+  offset: 155, 255
+  index: -1
+action50003
+  rotate: false
+  xy: 0, 337
+  size: 197, 241
+  orig: 490, 490
+  offset: 156, 244
+  index: -1
+action50004
+  rotate: false
+  xy: 0, 97
+  size: 193, 238
+  orig: 490, 490
+  offset: 155, 241
+  index: -1
+action50005
+  rotate: true
+  xy: 195, 114
+  size: 221, 161
+  orig: 490, 490
+  offset: 159, 239
+  index: -1
+action50006
+  rotate: true
+  xy: 508, 172
+  size: 201, 148
+  orig: 490, 490
+  offset: 153, 234
+  index: -1
+action50007
+  rotate: true
+  xy: 805, 382
+  size: 196, 138
+  orig: 490, 490
+  offset: 152, 243
+  index: -1
+action50008
+  rotate: true
+  xy: 199, 357
+  size: 221, 144
+  orig: 490, 490
+  offset: 131, 240
+  index: -1
+action50009
+  rotate: true
+  xy: 345, 363
+  size: 215, 155
+  orig: 490, 490
+  offset: 142, 239
+  index: -1
+action50010
+  rotate: true
+  xy: 358, 158
+  size: 203, 148
+  orig: 490, 490
+  offset: 154, 249
+  index: -1
+action50011
+  rotate: false
+  xy: 750, 225
+  size: 194, 154
+  orig: 490, 490
+  offset: 157, 242
+  index: -1
+action50012
+  rotate: false
+  xy: 750, 68
+  size: 193, 155
+  orig: 490, 490
+  offset: 156, 241
+  index: -1
+action50013
+  rotate: false
+  xy: 556, 9
+  size: 192, 161
+  orig: 490, 490
+  offset: 158, 234
+  index: -1

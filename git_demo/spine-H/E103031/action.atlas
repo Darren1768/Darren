@@ -1,0 +1,90 @@
+
+action.png
+size: 867,787
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+role_action1_dg/role_action1_dg_00000
+  rotate: true
+  xy: 746, 434
+  size: 351, 91
+  orig: 370, 170
+  offset: 0, 79
+  index: -1
+role_action1_dg/role_action1_dg_00001
+  rotate: false
+  xy: 374, 299
+  size: 344, 170
+  orig: 370, 170
+  offset: 26, 0
+  index: -1
+role_action1_dg/role_action1_dg_00002
+  rotate: false
+  xy: 2, 615
+  size: 370, 170
+  orig: 370, 170
+  offset: 0, 0
+  index: -1
+role_action1_dg/role_action1_dg_00011
+  rotate: false
+  xy: 2, 446
+  size: 370, 167
+  orig: 370, 170
+  offset: 0, 0
+  index: -1
+role_action1_dg/role_action1_dg_00012
+  rotate: false
+  xy: 374, 622
+  size: 370, 163
+  orig: 370, 170
+  offset: 0, 0
+  index: -1
+role_action1_dg/role_action1_dg_00013
+  rotate: false
+  xy: 2, 285
+  size: 370, 159
+  orig: 370, 170
+  offset: 0, 0
+  index: -1
+role_action1_dg/role_action1_dg_00014
+  rotate: false
+  xy: 374, 471
+  size: 370, 149
+  orig: 370, 170
+  offset: 0, 0
+  index: -1
+role_action1_dg/role_action1_dg_00015
+  rotate: false
+  xy: 2, 138
+  size: 370, 145
+  orig: 370, 170
+  offset: 0, 0
+  index: -1
+role_action1_dg/role_action1_dg_00016
+  rotate: false
+  xy: 374, 14
+  size: 365, 139
+  orig: 370, 170
+  offset: 0, 0
+  index: -1
+role_action1_dg/role_action1_dg_00017
+  rotate: false
+  xy: 374, 155
+  size: 362, 142
+  orig: 370, 170
+  offset: 0, 0
+  index: -1
+role_action1_dg/role_action1_dg_00018
+  rotate: false
+  xy: 2, 2
+  size: 347, 134
+  orig: 370, 170
+  offset: 7, 3
+  index: -1
+role_action1_dg/role_action1_dg_00019
+  rotate: true
+  xy: 741, 105
+  size: 327, 124
+  orig: 370, 170
+  offset: 18, 8
+  index: -1

@@ -1,0 +1,62 @@
+
+run.png
+size: 974,124
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+run0060
+  rotate: false
+  xy: 270, 3
+  size: 121, 121
+  orig: 515, 515
+  offset: 202, 252
+  index: -1
+run0063
+  rotate: false
+  xy: 744, 5
+  size: 113, 119
+  orig: 515, 515
+  offset: 205, 259
+  index: -1
+run0066
+  rotate: false
+  xy: 511, 2
+  size: 114, 122
+  orig: 515, 515
+  offset: 205, 252
+  index: -1
+run0069
+  rotate: false
+  xy: 627, 7
+  size: 115, 117
+  orig: 515, 515
+  offset: 205, 252
+  index: -1
+run0072
+  rotate: true
+  xy: 859, 11
+  size: 113, 115
+  orig: 515, 515
+  offset: 206, 257
+  index: -1
+run0075
+  rotate: true
+  xy: 393, 0
+  size: 124, 116
+  orig: 515, 515
+  offset: 196, 260
+  index: -1
+run0078
+  rotate: false
+  xy: 0, 9
+  size: 134, 115
+  orig: 515, 515
+  offset: 188, 257
+  index: -1
+run0081
+  rotate: false
+  xy: 136, 8
+  size: 132, 116
+  orig: 515, 515
+  offset: 194, 253
+  index: -1

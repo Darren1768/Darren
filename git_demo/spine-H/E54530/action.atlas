@@ -1,0 +1,20 @@
+
+action.png
+size: 63,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liuxing_0000
+  rotate: false
+  xy: 58, 14
+  size: 4, 77
+  orig: 100, 100
+  offset: 48, 4
+  index: -1
+xing_0018
+  rotate: false
+  xy: 1, 1
+  size: 55, 90
+  orig: 90, 100
+  offset: 13, 7
+  index: -1

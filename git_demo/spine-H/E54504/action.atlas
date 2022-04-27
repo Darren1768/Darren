@@ -1,0 +1,34 @@
+
+action.png
+size: 88,57
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud_a
+  rotate: false
+  xy: 0, 9
+  size: 49, 48
+  orig: 52, 50
+  offset: 1, 1
+  index: -1
+cloud_b
+  rotate: false
+  xy: 51, 22
+  size: 37, 35
+  orig: 40, 37
+  offset: 1, 1
+  index: -1
+send
+  rotate: false
+  xy: 0, 0
+  size: 9, 7
+  orig: 9, 7
+  offset: 0, 0
+  index: -1
+send2
+  rotate: true
+  xy: 51, 9
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1

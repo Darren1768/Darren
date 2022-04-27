@@ -1,0 +1,160 @@
+
+show.png
+size: 989,991
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+penyan_0000
+  rotate: true
+  xy: 576, 36
+  size: 69, 32
+  orig: 720, 720
+  offset: 323, 445
+  index: -1
+penyan_0001
+  rotate: true
+  xy: 517, 0
+  size: 105, 57
+  orig: 720, 720
+  offset: 291, 446
+  index: -1
+penyan_0002
+  rotate: false
+  xy: 621, 60
+  size: 127, 64
+  orig: 720, 720
+  offset: 274, 447
+  index: -1
+penyan_0003
+  rotate: true
+  xy: 267, 328
+  size: 138, 63
+  orig: 720, 720
+  offset: 265, 455
+  index: -1
+penyan_0004
+  rotate: false
+  xy: 621, 126
+  size: 148, 78
+  orig: 720, 720
+  offset: 256, 447
+  index: -1
+penyan_0005
+  rotate: false
+  xy: 359, 33
+  size: 156, 72
+  orig: 720, 720
+  offset: 254, 458
+  index: -1
+penyan_0006
+  rotate: false
+  xy: 771, 141
+  size: 153, 63
+  orig: 720, 720
+  offset: 248, 470
+  index: -1
+show0000
+  rotate: true
+  xy: 630, 731
+  size: 260, 359
+  orig: 655, 655
+  offset: 187, 95
+  index: -1
+show0001
+  rotate: true
+  xy: 269, 468
+  size: 260, 359
+  orig: 655, 655
+  offset: 187, 95
+  index: -1
+show0002
+  rotate: true
+  xy: 621, 206
+  size: 259, 359
+  orig: 655, 655
+  offset: 187, 95
+  index: -1
+show0003
+  rotate: true
+  xy: 269, 730
+  size: 261, 359
+  orig: 655, 655
+  offset: 185, 95
+  index: -1
+show0004
+  rotate: true
+  xy: 0, 11
+  size: 263, 357
+  orig: 655, 655
+  offset: 183, 95
+  index: -1
+show0005
+  rotate: false
+  xy: 0, 634
+  size: 267, 357
+  orig: 655, 655
+  offset: 184, 95
+  index: -1
+show0006
+  rotate: false
+  xy: 0, 276
+  size: 265, 356
+  orig: 655, 655
+  offset: 185, 95
+  index: -1
+show0007
+  rotate: true
+  xy: 630, 467
+  size: 262, 358
+  orig: 655, 655
+  offset: 186, 95
+  index: -1
+show0008
+  rotate: false
+  xy: 359, 107
+  size: 260, 359
+  orig: 655, 655
+  offset: 187, 95
+  index: -1
+tuyan_0001
+  rotate: false
+  xy: 771, 128
+  size: 13, 11
+  orig: 720, 720
+  offset: 376, 464
+  index: -1
+tuyan_0002
+  rotate: false
+  xy: 267, 308
+  size: 20, 18
+  orig: 720, 720
+  offset: 374, 461
+  index: -1
+tuyan_0003
+  rotate: false
+  xy: 926, 182
+  size: 24, 22
+  orig: 720, 720
+  offset: 374, 459
+  index: -1
+tuyan_0004
+  rotate: true
+  xy: 332, 438
+  size: 28, 25
+  orig: 720, 720
+  offset: 374, 457
+  index: -1
+tuyan_0005
+  rotate: true
+  xy: 359, 0
+  size: 31, 30
+  orig: 720, 720
+  offset: 374, 454
+  index: -1
+tuyan_0006
+  rotate: true
+  xy: 576, 0
+  size: 34, 35
+  orig: 720, 720
+  offset: 374, 452
+  index: -1

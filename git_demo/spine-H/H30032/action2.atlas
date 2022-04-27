@@ -1,0 +1,76 @@
+
+action2.png
+size: 644,241
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+J0000
+  rotate: true
+  xy: 140, 2
+  size: 106, 135
+  orig: 515, 515
+  offset: 204, 262
+  index: -1
+J0071
+  rotate: true
+  xy: 276, 116
+  size: 123, 134
+  orig: 515, 515
+  offset: 172, 269
+  index: -1
+J0072
+  rotate: true
+  xy: 138, 110
+  size: 129, 136
+  orig: 515, 515
+  offset: 154, 273
+  index: -1
+J0073
+  rotate: false
+  xy: 2, 104
+  size: 134, 135
+  orig: 515, 515
+  offset: 162, 282
+  index: -1
+J0074
+  rotate: true
+  xy: 412, 3
+  size: 114, 123
+  orig: 515, 515
+  offset: 169, 304
+  index: -1
+J0075
+  rotate: false
+  xy: 412, 119
+  size: 125, 120
+  orig: 515, 515
+  offset: 172, 311
+  index: -1
+J0076
+  rotate: false
+  xy: 2, 5
+  size: 136, 97
+  orig: 515, 515
+  offset: 213, 320
+  index: -1
+J0077
+  rotate: false
+  xy: 537, 11
+  size: 105, 106
+  orig: 515, 515
+  offset: 220, 313
+  index: -1
+J0078
+  rotate: false
+  xy: 539, 123
+  size: 97, 116
+  orig: 515, 515
+  offset: 213, 302
+  index: -1
+J0079
+  rotate: true
+  xy: 277, 3
+  size: 111, 126
+  orig: 515, 515
+  offset: 202, 286
+  index: -1

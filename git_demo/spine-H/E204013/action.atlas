@@ -1,0 +1,151 @@
+
+action.png
+size: 942,992
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dg_00
+  rotate: false
+  xy: 2, 688
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_02
+  rotate: false
+  xy: 384, 688
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_04
+  rotate: true
+  xy: 2, 306
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_06
+  rotate: false
+  xy: 2, 2
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_08
+  rotate: true
+  xy: 306, 306
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_10
+  rotate: false
+  xy: 384, 2
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_12
+  rotate: true
+  xy: 610, 306
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+fd
+  rotate: false
+  xy: 766, 939
+  size: 174, 51
+  orig: 174, 51
+  offset: 0, 0
+  index: -1
+
+action2.png
+size: 914,992
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dg_14
+  rotate: false
+  xy: 2, 688
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_16
+  rotate: false
+  xy: 384, 688
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_18
+  rotate: true
+  xy: 2, 306
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_20
+  rotate: false
+  xy: 2, 2
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_22
+  rotate: true
+  xy: 306, 306
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_24
+  rotate: false
+  xy: 384, 2
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_26
+  rotate: true
+  xy: 610, 306
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+
+action3.png
+size: 766,610
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dg_28
+  rotate: false
+  xy: 2, 306
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_30
+  rotate: false
+  xy: 2, 2
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_32
+  rotate: false
+  xy: 384, 306
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1
+dg_34
+  rotate: false
+  xy: 384, 2
+  size: 380, 302
+  orig: 380, 302
+  offset: 0, 0
+  index: -1

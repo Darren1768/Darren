@@ -1,0 +1,62 @@
+
+action.png
+size: 366,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud_A
+  rotate: true
+  xy: 0, 0
+  size: 92, 41
+  orig: 92, 41
+  offset: 0, 0
+  index: -1
+cloud_B
+  rotate: false
+  xy: 259, 46
+  size: 103, 46
+  orig: 103, 46
+  offset: 0, 0
+  index: -1
+cloud_C
+  rotate: true
+  xy: 106, 14
+  size: 78, 37
+  orig: 78, 37
+  offset: 0, 0
+  index: -1
+cloud_D
+  rotate: true
+  xy: 219, 32
+  size: 60, 38
+  orig: 60, 38
+  offset: 0, 0
+  index: -1
+cloud_E
+  rotate: false
+  xy: 259, 11
+  size: 50, 33
+  orig: 50, 33
+  offset: 0, 0
+  index: -1
+cloud_F
+  rotate: true
+  xy: 43, 3
+  size: 89, 61
+  orig: 89, 61
+  offset: 0, 0
+  index: -1
+cloud_G
+  rotate: false
+  xy: 311, 13
+  size: 55, 31
+  orig: 55, 31
+  offset: 0, 0
+  index: -1
+cloud_H
+  rotate: false
+  xy: 145, 20
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1

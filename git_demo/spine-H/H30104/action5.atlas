@@ -1,0 +1,62 @@
+
+action5.png
+size: 747,348
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+J0110
+  rotate: false
+  xy: 194, 171
+  size: 190, 177
+  orig: 720, 720
+  offset: 222, 355
+  index: -1
+J0111
+  rotate: false
+  xy: 0, 165
+  size: 192, 183
+  orig: 720, 720
+  offset: 217, 352
+  index: -1
+J0112
+  rotate: true
+  xy: 386, 0
+  size: 181, 177
+  orig: 720, 720
+  offset: 220, 353
+  index: -1
+J0113
+  rotate: false
+  xy: 386, 183
+  size: 197, 165
+  orig: 720, 720
+  offset: 230, 354
+  index: -1
+J0114
+  rotate: false
+  xy: 0, 0
+  size: 157, 163
+  orig: 720, 720
+  offset: 242, 354
+  index: -1
+J0115
+  rotate: false
+  xy: 159, 2
+  size: 159, 161
+  orig: 720, 720
+  offset: 246, 353
+  index: -1
+J0116
+  rotate: true
+  xy: 585, 181
+  size: 167, 162
+  orig: 720, 720
+  offset: 242, 355
+  index: -1
+J0117
+  rotate: false
+  xy: 565, 17
+  size: 175, 162
+  orig: 720, 720
+  offset: 234, 355
+  index: -1

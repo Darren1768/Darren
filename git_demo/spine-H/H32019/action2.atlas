@@ -1,0 +1,139 @@
+
+action2.png
+size: 963,556
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di__00000
+  rotate: true
+  xy: 713, 2
+  size: 146, 86
+  orig: 380, 380
+  offset: 101, 58
+  index: -1
+di__00001
+  rotate: true
+  xy: 713, 150
+  size: 166, 96
+  orig: 380, 380
+  offset: 90, 57
+  index: -1
+di__00002
+  rotate: false
+  xy: 713, 421
+  size: 239, 133
+  orig: 380, 380
+  offset: 53, 41
+  index: -1
+di__00003
+  rotate: false
+  xy: 703, 318
+  size: 150, 101
+  orig: 380, 380
+  offset: 99, 56
+  index: -1
+di__00004
+  rotate: true
+  xy: 855, 269
+  size: 150, 99
+  orig: 380, 380
+  offset: 99, 56
+  index: -1
+di__00005
+  rotate: false
+  xy: 811, 176
+  size: 150, 91
+  orig: 380, 380
+  offset: 99, 56
+  index: -1
+di__00006
+  rotate: false
+  xy: 811, 83
+  size: 150, 91
+  orig: 380, 380
+  offset: 99, 56
+  index: -1
+fenghuang_00002
+  rotate: false
+  xy: 543, 23
+  size: 168, 249
+  orig: 380, 380
+  offset: 57, 40
+  index: -1
+fenghuang_00003
+  rotate: true
+  xy: 2, 10
+  size: 184, 204
+  orig: 380, 380
+  offset: 82, 84
+  index: -1
+fenghuang_00004
+  rotate: false
+  xy: 305, 5
+  size: 236, 209
+  orig: 380, 380
+  offset: 64, 79
+  index: -1
+fenghuang_00005
+  rotate: false
+  xy: 581, 347
+  size: 120, 207
+  orig: 380, 380
+  offset: 146, 83
+  index: -1
+lizi_00004
+  rotate: false
+  xy: 382, 267
+  size: 115, 287
+  orig: 380, 380
+  offset: 98, 93
+  index: -1
+luoxuan_00002
+  rotate: false
+  xy: 208, 4
+  size: 95, 202
+  orig: 380, 380
+  offset: 112, 12
+  index: -1
+luoxuan_00003
+  rotate: false
+  xy: 286, 264
+  size: 94, 290
+  orig: 380, 380
+  offset: 112, 14
+  index: -1
+luoxuan_00004
+  rotate: false
+  xy: 190, 208
+  size: 94, 346
+  orig: 380, 380
+  offset: 112, 14
+  index: -1
+luoxuan_00005
+  rotate: false
+  xy: 2, 196
+  size: 92, 358
+  orig: 380, 380
+  offset: 113, 22
+  index: -1
+luoxuan_00006
+  rotate: false
+  xy: 96, 204
+  size: 92, 350
+  orig: 380, 380
+  offset: 113, 30
+  index: -1
+luoxuan_00008
+  rotate: false
+  xy: 499, 274
+  size: 80, 280
+  orig: 380, 380
+  offset: 118, 100
+  index: -1
+xian_00004
+  rotate: true
+  xy: 286, 216
+  size: 46, 118
+  orig: 380, 380
+  offset: 143, 95
+  index: -1

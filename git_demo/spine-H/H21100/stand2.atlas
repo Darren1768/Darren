@@ -1,0 +1,153 @@
+
+stand2.png
+size: 358,153
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 0, 34
+  size: 97, 119
+  orig: 720, 720
+  offset: 308, 302
+  index: -1
+3_0000
+  rotate: true
+  xy: 160, 34
+  size: 54, 50
+  orig: 720, 720
+  offset: 330, 355
+  index: -1
+3_0001
+  rotate: false
+  xy: 268, 46
+  size: 54, 48
+  orig: 720, 720
+  offset: 330, 358
+  index: -1
+3_0002
+  rotate: false
+  xy: 99, 90
+  size: 54, 63
+  orig: 720, 720
+  offset: 330, 344
+  index: -1
+3_0003
+  rotate: false
+  xy: 155, 90
+  size: 53, 63
+  orig: 720, 720
+  offset: 331, 345
+  index: -1
+3_0004
+  rotate: true
+  xy: 99, 34
+  size: 54, 59
+  orig: 720, 720
+  offset: 331, 347
+  index: -1
+3_0005
+  rotate: false
+  xy: 210, 95
+  size: 55, 58
+  orig: 720, 720
+  offset: 330, 349
+  index: -1
+3_0006
+  rotate: false
+  xy: 267, 96
+  size: 55, 57
+  orig: 720, 720
+  offset: 330, 351
+  index: -1
+3_0007
+  rotate: false
+  xy: 212, 38
+  size: 54, 55
+  orig: 720, 720
+  offset: 330, 353
+  index: -1
+a_0000
+  rotate: false
+  xy: 324, 72
+  size: 31, 38
+  orig: 720, 720
+  offset: 349, 344
+  index: -1
+a_0001
+  rotate: true
+  xy: 43, 0
+  size: 32, 40
+  orig: 720, 720
+  offset: 349, 342
+  index: -1
+a_0002
+  rotate: true
+  xy: 154, 2
+  size: 30, 41
+  orig: 720, 720
+  offset: 351, 341
+  index: -1
+a_0003
+  rotate: false
+  xy: 324, 112
+  size: 31, 41
+  orig: 720, 720
+  offset: 350, 341
+  index: -1
+a_0004
+  rotate: true
+  xy: 0, 0
+  size: 32, 41
+  orig: 720, 720
+  offset: 349, 341
+  index: -1
+a_0005
+  rotate: true
+  xy: 85, 0
+  size: 32, 35
+  orig: 720, 720
+  offset: 349, 341
+  index: -1
+a_0006
+  rotate: true
+  xy: 122, 0
+  size: 32, 30
+  orig: 720, 720
+  offset: 349, 341
+  index: -1
+a_0007
+  rotate: false
+  xy: 333, 39
+  size: 25, 31
+  orig: 720, 720
+  offset: 349, 342
+  index: -1
+a_0008
+  rotate: false
+  xy: 242, 3
+  size: 26, 33
+  orig: 720, 720
+  offset: 349, 343
+  index: -1
+a_0009
+  rotate: false
+  xy: 212, 0
+  size: 28, 36
+  orig: 720, 720
+  offset: 349, 343
+  index: -1
+a_0010
+  rotate: false
+  xy: 302, 7
+  size: 29, 37
+  orig: 720, 720
+  offset: 349, 344
+  index: -1
+a_0011
+  rotate: false
+  xy: 270, 7
+  size: 30, 37
+  orig: 720, 720
+  offset: 349, 345
+  index: -1

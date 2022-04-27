@@ -1,0 +1,62 @@
+
+E70011.png
+size: 483,218
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 428, 58
+  size: 75, 35
+  orig: 75, 35
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 374, 8
+  size: 75, 35
+  orig: 75, 35
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 330, 9
+  size: 42, 48
+  orig: 42, 48
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 387, 45
+  size: 39, 88
+  orig: 39, 88
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 0, 0
+  size: 218, 328
+  orig: 218, 328
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 438, 150
+  size: 68, 45
+  orig: 68, 45
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 330, 135
+  size: 106, 83
+  orig: 106, 83
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 330, 59
+  size: 55, 74
+  orig: 55, 74
+  offset: 0, 0
+  index: -1

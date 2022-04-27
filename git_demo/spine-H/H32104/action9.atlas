@@ -1,0 +1,69 @@
+
+action9.png
+size: 510,566
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+J0000
+  rotate: true
+  xy: 0, 0
+  size: 141, 185
+  orig: 720, 720
+  offset: 255, 347
+  index: -1
+J0131
+  rotate: true
+  xy: 355, 354
+  size: 212, 155
+  orig: 720, 720
+  offset: 285, 345
+  index: -1
+J0132
+  rotate: true
+  xy: 187, 2
+  size: 169, 128
+  orig: 720, 720
+  offset: 258, 350
+  index: -1
+J0133
+  rotate: true
+  xy: 340, 72
+  size: 126, 130
+  orig: 720, 720
+  offset: 294, 341
+  index: -1
+J0134
+  rotate: false
+  xy: 165, 173
+  size: 173, 177
+  orig: 720, 720
+  offset: 266, 352
+  index: -1
+J0135
+  rotate: false
+  xy: 340, 200
+  size: 154, 152
+  orig: 720, 720
+  offset: 255, 354
+  index: -1
+J0136
+  rotate: false
+  xy: 185, 365
+  size: 168, 201
+  orig: 720, 720
+  offset: 253, 356
+  index: -1
+J0137
+  rotate: false
+  xy: 0, 143
+  size: 163, 207
+  orig: 720, 720
+  offset: 244, 354
+  index: -1
+J0138
+  rotate: false
+  xy: 0, 352
+  size: 183, 214
+  orig: 720, 720
+  offset: 231, 349
+  index: -1

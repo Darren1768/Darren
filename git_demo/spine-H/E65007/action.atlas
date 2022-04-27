@@ -1,0 +1,97 @@
+
+action.png
+size: 583,233
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Hand_up
+  rotate: true
+  xy: 538, 173
+  size: 60, 45
+  orig: 60, 45
+  offset: 0, 0
+  index: -1
+R_ear
+  rotate: false
+  xy: 410, 86
+  size: 78, 84
+  orig: 78, 84
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 206, 4
+  size: 120, 37
+  orig: 120, 37
+  offset: 0, 0
+  index: -1
+bowknot
+  rotate: false
+  xy: 410, 13
+  size: 72, 71
+  orig: 72, 71
+  offset: 0, 0
+  index: -1
+ear_fur
+  rotate: false
+  xy: 484, 37
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+eye_close
+  rotate: false
+  xy: 410, 172
+  size: 126, 61
+  orig: 126, 61
+  offset: 0, 0
+  index: -1
+eyebrow
+  rotate: true
+  xy: 553, 63
+  size: 108, 17
+  orig: 108, 17
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 0, 6
+  size: 204, 227
+  orig: 204, 227
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 206, 43
+  size: 202, 190
+  orig: 202, 190
+  offset: 0, 0
+  index: -1
+left_ear
+  rotate: true
+  xy: 490, 74
+  size: 96, 61
+  orig: 96, 61
+  offset: 0, 0
+  index: -1
+lower_arm
+  rotate: true
+  xy: 328, 6
+  size: 35, 57
+  orig: 35, 57
+  offset: 0, 0
+  index: -1
+mouth_a
+  rotate: true
+  xy: 484, 0
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+mouth_b
+  rotate: true
+  xy: 387, 13
+  size: 28, 13
+  orig: 28, 13
+  offset: 0, 0
+  index: -1

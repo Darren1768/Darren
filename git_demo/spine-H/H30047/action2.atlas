@@ -1,0 +1,90 @@
+
+action2.png
+size: 358,550
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+J0000
+  rotate: true
+  xy: 125, 106
+  size: 113, 117
+  orig: 530, 530
+  offset: 200, 262
+  index: -1
+J0071
+  rotate: false
+  xy: 2, 143
+  size: 121, 128
+  orig: 530, 530
+  offset: 197, 269
+  index: -1
+J0072
+  rotate: true
+  xy: 131, 330
+  size: 97, 124
+  orig: 530, 530
+  offset: 200, 285
+  index: -1
+J0073
+  rotate: false
+  xy: 2, 23
+  size: 116, 118
+  orig: 530, 530
+  offset: 212, 293
+  index: -1
+J0074
+  rotate: true
+  xy: 246, 214
+  size: 114, 110
+  orig: 530, 530
+  offset: 227, 302
+  index: -1
+J0075
+  rotate: true
+  xy: 244, 107
+  size: 105, 112
+  orig: 530, 530
+  offset: 226, 303
+  index: -1
+J0076
+  rotate: true
+  xy: 120, 3
+  size: 101, 117
+  orig: 530, 530
+  offset: 225, 301
+  index: -1
+J0077
+  rotate: true
+  xy: 126, 221
+  size: 107, 118
+  orig: 530, 530
+  offset: 216, 302
+  index: -1
+J0078
+  rotate: false
+  xy: 131, 429
+  size: 132, 119
+  orig: 530, 530
+  offset: 194, 304
+  index: -1
+J0079
+  rotate: true
+  xy: 2, 273
+  size: 137, 122
+  orig: 530, 530
+  offset: 195, 306
+  index: -1
+J0080
+  rotate: false
+  xy: 2, 412
+  size: 127, 136
+  orig: 530, 530
+  offset: 193, 263
+  index: -1
+J0081
+  rotate: true
+  xy: 239, 2
+  size: 102, 117
+  orig: 530, 530
+  offset: 218, 262
+  index: -1

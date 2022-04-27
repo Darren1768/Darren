@@ -1,0 +1,146 @@
+
+action.png
+size: 600,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+e_0
+  rotate: true
+  xy: 577, 120
+  size: 32, 23
+  orig: 32, 23
+  offset: 0, 0
+  index: -1
+e_1
+  rotate: true
+  xy: 577, 94
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+e_10
+  rotate: true
+  xy: 419, 1
+  size: 45, 86
+  orig: 45, 86
+  offset: 0, 0
+  index: -1
+e_11
+  rotate: false
+  xy: 186, 0
+  size: 72, 81
+  orig: 72, 81
+  offset: 0, 0
+  index: -1
+e_12
+  rotate: false
+  xy: 454, 51
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+e_13
+  rotate: true
+  xy: 355, 0
+  size: 46, 62
+  orig: 46, 62
+  offset: 0, 0
+  index: -1
+e_14
+  rotate: false
+  xy: 507, 5
+  size: 33, 58
+  orig: 33, 58
+  offset: 0, 0
+  index: -1
+e_15
+  rotate: true
+  xy: 260, 2
+  size: 35, 78
+  orig: 35, 78
+  offset: 0, 0
+  index: -1
+e_16
+  rotate: false
+  xy: 0, 12
+  size: 123, 62
+  orig: 123, 62
+  offset: 0, 0
+  index: -1
+e_17
+  rotate: false
+  xy: 541, 154
+  size: 48, 118
+  orig: 48, 118
+  offset: 0, 0
+  index: -1
+e_18
+  rotate: false
+  xy: 486, 151
+  size: 53, 121
+  orig: 53, 121
+  offset: 0, 0
+  index: -1
+e_19
+  rotate: false
+  xy: 362, 90
+  size: 122, 182
+  orig: 122, 182
+  offset: 0, 0
+  index: -1
+e_20
+  rotate: false
+  xy: 0, 76
+  size: 184, 196
+  orig: 184, 196
+  offset: 0, 0
+  index: -1
+e_3
+  rotate: true
+  xy: 542, 1
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+e_5
+  rotate: false
+  xy: 542, 27
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+e_6
+  rotate: false
+  xy: 125, 4
+  size: 50, 70
+  orig: 50, 70
+  offset: 0, 0
+  index: -1
+e_7
+  rotate: false
+  xy: 486, 65
+  size: 87, 84
+  orig: 87, 84
+  offset: 0, 0
+  index: -1
+e_8
+  rotate: false
+  xy: 186, 83
+  size: 174, 189
+  orig: 174, 189
+  offset: 0, 0
+  index: -1
+e_9
+  rotate: true
+  xy: 260, 39
+  size: 42, 93
+  orig: 42, 93
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 362, 48
+  size: 90, 40
+  orig: 128, 56
+  offset: 19, 7
+  index: -1
