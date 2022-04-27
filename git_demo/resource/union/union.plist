@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>hl_union_0001.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{162,46}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{162,46}}</string>
+                <key>sourceSize</key>
+                <string>{162,46}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>union.png</string>
+            <key>size</key>
+            <string>{164,48}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:3db672f0173c941a62200983a6af9028:6d5d99dbe5ba63c899ca551ae75cff7c:40aeb159153565c6175c810a5a25a1d3$</string>
+            <key>textureFileName</key>
+            <string>union.png</string>
+        </dict>
+    </dict>
+</plist>
